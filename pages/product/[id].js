@@ -11,7 +11,7 @@ export default function ProductPage({id}) {
   return (
     <>
       <Head>
-        <title>Sản phẩm : {data.products[idProduct]['title']}</title>
+        <title>Sản phẩm {data.products[idProduct]['title']}</title>
         <meta
           name="description"
           content="Nhà cung cấp bánh trung thu tại Sài Gòn || Since 1991."

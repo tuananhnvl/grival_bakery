@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Button from "@/components/compo-styles/Button";
 import ButtonLink from "@/components/compo-styles/ButtonLink";
 import CartIcon from "@/components/icons/CartIcon";
-import {memo,useContext,useCallback } from "react";
+import {useContext } from "react";
 import {CartContext} from "@/components/CartContext";
 import Image from "next/image";
 import data from '.././pages/data/fakedata.json'
@@ -28,12 +28,6 @@ const ColumnsWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   gap: 40px;
-  img{
-    max-width: 50%;
-    max-height: 200px;
-    display: block;
-    margin: 0 auto;
-  }
   div:nth-child(1) {
     order: 2;
   }
@@ -41,9 +35,6 @@ const ColumnsWrapper = styled.div`
     grid-template-columns: 1.1fr 0.9fr;
     div:nth-child(1) {
       order: 0;
-    }
-    img{
-      max-width: 100%;
     }
   }
 `;
@@ -61,13 +52,10 @@ const WrapperImage = styled.div`
   width:200px;
   height:200px;
   overflow:hidden;
-  img {
-    width:auto;-
-    height:100%;
-  }
+
 `
 const ButtonContext = (id) => {
-  const { cartProducts,addProduct,checkPort } = useContext(CartContext);
+  const { addProduct } = useContext(CartContext);
 //  console.log('ButtonContext',id)
   const addToCart = () => {
     addProduct(Number(id.id))
@@ -90,7 +78,7 @@ const Product = ({ product}) => {
   return (
     <Column>
       <WrapperImage>
-        <Image src={product.thumbnail} alt="Bánh trung thu n trứng" width={500} height={200} />
+        <Image src={product.thumbnail} alt="Bánh trung thu n trứng" width={200} height={200} />
       </WrapperImage>
       <Title>{product.title}</Title>
       <Desc>{product.description}</Desc>

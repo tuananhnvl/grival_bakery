@@ -1,5 +1,4 @@
 /* import  { Html, Head, Main, NextScript } from 'next/document'
-import { ServerStyleSheet } from 'styled-components'
 export default function Document() {
   return (
     <Html lang="vi">
@@ -11,6 +10,7 @@ export default function Document() {
     </Html>
   )
 } */
+
 
 import Document,{ Html, Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
@@ -45,9 +45,11 @@ export default class MyDocument extends Document {
     return (
       <Html lang="vi">
         <Head/>
+         
+
         <body>
-          <Main />
         
+          <Main />
           <NextScript />
         </body>
       </Html>

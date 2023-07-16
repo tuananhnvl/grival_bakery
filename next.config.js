@@ -9,6 +9,9 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  experimental: {
+    nextScriptWorkers: true,
+  },
   images: {
     unoptimized: true,
     remotePatterns: [

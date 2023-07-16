@@ -20,10 +20,7 @@ const WhiteBox = styled(Link)`
   justify-content: center;
   border-radius: 10px;
   overflow:hidden;
-  img{
-    max-width: 100%;
-    height:auto;
-  }
+
 `;
 
 const Title = styled(Link)`
@@ -66,8 +63,7 @@ export default function ProductBox({id,title,thumbnail,price,lazy}) {
   return (
     <ProductWrapper>
       <WhiteBox href={'/product/'+ id}>
-          <Image src={thumbnail} alt="" width={500} height={300} priority={lazy}/>
- 
+          <Image src={thumbnail} alt="" width={200} height={100} priority={lazy}/>
       </WhiteBox>
       <ProductInfoBox>
         <Title href={'/product/'+ id}>{title}</Title>

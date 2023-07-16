@@ -5,7 +5,7 @@ import ViewPopup from '@/components/ViewPopup'
 import ToolPopup from '@/components/ToolPopup'
 export default function Popupchat() {
     const { data: session } = useSession()
-    console.log(session)
+    console.log(`[[Popupchat]]`,session)
     if(session) {
         return (
             <div className={styles.warper}>

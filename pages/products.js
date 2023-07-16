@@ -1,13 +1,9 @@
 import Header from "@/components/Header";
 import Head from "next/head";
-import styled from "styled-components";
 import Center from "@/components/compo-styles/Center";
-
-
 import Title from "@/components/compo-styles/Title";
-
 import dynamic from "next/dynamic";
-import { Suspense } from "react";
+
 
 export default function ProductsPage() {
   console.log('[[ProductsPage]]')
