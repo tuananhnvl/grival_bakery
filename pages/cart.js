@@ -4,18 +4,15 @@ import Center from "@/components/compo-styles/Center";
 import Button from "@/components/compo-styles/Button";
 import { useContext, useEffect, useState } from "react";
 import { CartContext } from "@/components/CartContext";
-import axios from "axios";
 import Table from "@/components/compo-styles/Table";
 import Input from "@/components/Input";
 import data from './data/fakedata.json'
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useSession, signOut, signIn } from "next-auth/react"
-
-
-import { app, db, storage } from '../firebase.config.js';
+import {  db } from '../firebase.config.js';
 import { collection, addDoc, onSnapshot } from 'firebase/firestore';
-import handle from "./api/cart";
+
 
 
 
