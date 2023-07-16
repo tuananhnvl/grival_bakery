@@ -2,8 +2,7 @@ import Header from "@/components/Header";
 import Head from "next/head";
 import styled from "styled-components";
 import Center from "@/components/compo-styles/Center";
-import {mongooseConnect} from "@/lib/mongoose";
-import {Product} from "@/models/Product";
+
 
 import Title from "@/components/compo-styles/Title";
 

@@ -4,10 +4,9 @@
     "private": true,
 
     "scripts": {
-        "dev": "node server.js",
+        "dev": "next dev",
         "build": "next build",
-        "start": "NODE_ENV=production node server.js",
-        "export" : "next export"
+        "start": "next start"
       },
     "dependencies": {
         "@auth/firebase-adapter": "^1.0.0",

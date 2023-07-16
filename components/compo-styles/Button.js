@@ -1,5 +1,4 @@
 import styled, {css} from "styled-components";
-import {primary} from "@/lib/colors";
 
 export const ButtonStyle = css`
   border:0;
@@ -37,16 +36,7 @@ export const ButtonStyle = css`
     color: #000;
     border: 1px solid #000;
   `}
-  ${props => props.primary && !props.outline && css`
-    background-color: ${primary};
-    border: 1px solid ${primary};
-    color:#fff;
-  `}
-  ${props => props.primary && props.outline && css`
-    background-color: transparent;
-    border: 1px solid ${primary};
-    color:${primary};
-  `}
+
   ${props => props.size === 'l' && css`
     font-size:1.2rem;
     padding: 10px 20px;

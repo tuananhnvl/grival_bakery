@@ -1,18 +1,8 @@
 
 import Header from "@/components/Header";
-import Title from "@/components/compo-styles/Title";
-import {mongooseConnect} from "@/lib/mongoose";
-import {Product} from "@/models/Product";
 
-import WhiteBox from "@/components/compo-styles/WhiteBox";
-import ProductImages from "@/components/ProductImages";
-import Button from "@/components/compo-styles/Button";
-import CartIcon from "@/components/icons/CartIcon";
-import {useContext} from "react";
-import {CartContext} from "@/components/CartContext";
-import {Suspense} from 'react'
 import ProductDetail from "@/components/ProductDetail";
-import dynamic from "next/dynamic";
+
 import Head from 'next/head'
 import data from '.././data/fakedata.json'
 export default function ProductPage({id}) {

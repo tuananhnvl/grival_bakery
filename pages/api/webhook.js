@@ -1,4 +1,4 @@
-import {mongooseConnect} from "@/lib/mongoose";
+
 const stripe = require('stripe')(process.env.STRIPE_SK);
 import {buffer} from 'micro';
 import {Order} from "@/models/Order";

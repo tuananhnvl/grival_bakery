@@ -1,12 +1,10 @@
 import Header from "@/components/Header";
 import Head from 'next/head';
 //import Featured from "@/components/Featured";
-import {Product} from "@/models/Product";
-import {mongooseConnect} from "@/lib/mongoose";
-import NewProducts from "@/components/NewProducts";
+
 
 import dynamic from "next/dynamic";
-import { Suspense } from "react";
+
 export default function HomePage() {
  const Featured = dynamic(() => import("@/components/Featured"),{
   ssr : false,
