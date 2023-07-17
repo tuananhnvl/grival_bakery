@@ -2422,6 +2422,11 @@
   "resolved" "https://registry.npmjs.org/grapheme-splitter/-/grapheme-splitter-1.0.4.tgz"
   "version" "1.0.4"
 
+"gsap@^3.12.2":
+  "integrity" "sha512-EkYnpG8qHgYBFAwsgsGEqvT1WUidX0tt/ijepx7z8EUJHElykg91RvW1XbkT59T0gZzzszOpjQv7SE41XuIXyQ=="
+  "resolved" "https://registry.npmjs.org/gsap/-/gsap-3.12.2.tgz"
+  "version" "3.12.2"
+
 "gtoken@^6.1.0":
   "integrity" "sha512-4ccGpzz7YAr7lxrT2neugmXQ3hP9ho2gcaityLVkiUecAiwiy60Ii8gRbZeOsXV19fYaRjgBSshs8kXw+NKCPQ=="
   "resolved" "https://registry.npmjs.org/gtoken/-/gtoken-6.1.2.tgz"
