@@ -4,12 +4,17 @@ import Head from 'next/head';
 
 
 import dynamic from "next/dynamic";
-
+import {useEffect} from 'react'
 export default function HomePage() {
  const Featured = dynamic(() => import("@/components/Featured"),{
   ssr : false,
   loading: () => <div>Loading...</div>
  });
+
+
+
+
+
   return (
     <>
       <Head>
