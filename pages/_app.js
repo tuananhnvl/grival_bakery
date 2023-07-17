@@ -4,7 +4,7 @@ import {CartContextProvider} from "@/components/CartContext";
 import { SessionProvider } from "next-auth/react"
 import Popupchat from '@/components/Popupchat.js'
 import ZaloPlugin from '@/components/ZaloPlugin.js'
-import { DefaultSeo } from 'next-seo'
+
 
 export default function App({
   Component,
