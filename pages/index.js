@@ -7,31 +7,19 @@ import { useEffect } from 'react'
 import Image from "next/image";
 import LogoBrodrad from '@/public/logo-brodard.png'
 
+import BanhNhanMan from '@/components/bakery/BanhNhanMan'
+import BanhNhanNgot from '@/components/bakery/BanhNhanNgot'
+import BanhChay from '@/components/bakery/BanhChay'
+import BanhMini from '@/components/bakery/BanhMini'
+import Combo from '@/components/bakery/Combo'
+
+
 
 const imagesc = require.context('@/public/asset-trungthu', true);
 const imageList = imagesc.keys().map(image => imagesc(image));
 
 export default function HomePage() {
-  const BanhNhanMan = dynamic(() => import("@/components/bakery/BanhNhanMan"), {
-    ssr: true,
-    loading: () => <div>Loading...</div>
-  });
-  const BanhNhanNgot = dynamic(() => import("@/components/bakery/BanhNhanNgot"), {
-    ssr: true,
-    loading: () => <div>Loading...</div>
-  });
-  const BanhChay = dynamic(() => import("@/components/bakery/BanhChay"), {
-    ssr: true,
-    loading: () => <div>Loading...</div>
-  });
-  const BanhMini = dynamic(() => import("@/components/bakery/BanhMini"), {
-    ssr: true,
-    loading: () => <div>Loading...</div>
-  });
-  const Combo = dynamic(() => import("@/components/bakery/Combo"), {
-    ssr: true,
-    loading: () => <div>Loading...</div>
-  });
+
   console.log(imageList.length)
 
 
@@ -60,7 +48,7 @@ export default function HomePage() {
             <Image
               src={LogoBrodrad}
               alt="Logo Brodrad"
-
+              priority={true}
               quality={100}
             />
           </div>
@@ -75,12 +63,14 @@ export default function HomePage() {
             <Image
               src={imageList[1]}
               alt="Gallery Brodrad"
+              priority={true}
             //style={{objectFit: "cover"}}         
             />
           </div>
           <div className={styles.sampleImg}>
             <Image
               src={imageList[4]}
+              priority={true}
               alt="Gallery Brodrad"
 
             />
@@ -88,6 +78,7 @@ export default function HomePage() {
           <div className={styles.sampleImg}>
             <Image
               src={imageList[2]}
+              priority={true}
               alt="Gallery Brodrad"
 
             />
@@ -95,6 +86,7 @@ export default function HomePage() {
           <div className={styles.sampleImg}>
             <Image
               src={imageList[3]}
+              priority={true}
               alt="Gallery Brodrad"
 
             />
@@ -103,6 +95,7 @@ export default function HomePage() {
         <div className={styles.infobrodard}>
           <Image
             src={LogoBrodrad}
+            
             alt="Logo Brodrad"
 
             quality={100}
@@ -145,7 +138,7 @@ export default function HomePage() {
               <div className={styles.infobanhle}>
                 <div>
                   <Image
-                    src={'/asset-trungthu/1.png'}
+                    src={'/asset-trungthu/hop/1.png'}
                     alt="Singla Cake Brodrad"
                     width={420}
                     height={420}

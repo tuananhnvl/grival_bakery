@@ -7,3 +7,18 @@ body{
     margin: 0 auto;
     background-color: antiquewhite;
 }
+@font-face {
+    font-family: "Jose";
+    src: url("/fonts/JosefinSans-Light.ttf");   
+}
+@font-face {
+    font-family: "Play";
+    src: url("/fonts/PlayfairDisplay-Regular.ttf");   
+}
+p {
+    font-family: "Jose";
+    font-weight:200;
+}
+h1,h2,h3,h4,h5 {
+    font-family: "Play";
+}

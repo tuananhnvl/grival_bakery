@@ -1,4 +1,5 @@
 import {createGlobalStyle} from "styled-components";
+import localFont from 'next/font/local'
 import { useState,useEffect } from "react";
 import {CartContextProvider} from "@/components/CartContext";
 import { SessionProvider } from "next-auth/react"
@@ -13,7 +14,7 @@ export default function App({
   pageProps: { session, ...pageProps },
 }) {
 
-
+  
    useEffect(() => {
         const lenisScroll = new Lenis({
           lerp: 0.1
@@ -39,12 +40,13 @@ export default function App({
   return (
     <SessionProvider session={session}>
         <CartContextProvider>
-          <Head>
+        <Head>
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           </Head>
           <Component {...pageProps} />
           <Popupchat />
           <ZaloPlugin/>
+         
         </CartContextProvider>
     </SessionProvider>
   )

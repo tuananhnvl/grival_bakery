@@ -12,6 +12,9 @@ const nextConfig = {
   experimental: {
     nextScriptWorkers: true,
   },
+  fontLoaders: [ 
+    { loader: "@next/font/google", options: { subsets: ["latin"] } },
+  ],
   images: {
     unoptimized: true,
     remotePatterns: [
