@@ -4,47 +4,47 @@ import {CartContextProvider} from "@/components/CartContext";
 import { SessionProvider } from "next-auth/react"
 import Popupchat from '@/components/Popupchat.js'
 import ZaloPlugin from '@/components/ZaloPlugin.js'
-
+import Head from 'next/head'
+import Lenis from '@studio-freight/lenis'
+import '@/styles/app.css'
 
 export default function App({
   Component,
   pageProps: { session, ...pageProps },
 }) {
 
-/*   useEffect( () => {
-    (
-      async () => {
-          const LocomotiveScroll = (await import('locomotive-scroll')).default
-          const locomotiveScroll = new LocomotiveScroll();
-      }
-    )()
-  }, []) */
-   useEffect(() => {
-        let scroll;
-        import("locomotive-scroll").then((locomotiveModule) => {
-            scroll = new locomotiveModule.default({
-                el: document.querySelector("[data-scroll-container]"),
-                smooth: true,
-                smoothMobile: false,
-                resetNativeScroll: true
-            });
-        });
 
-        // `useEffect`'s cleanup phase
+   useEffect(() => {
+        const lenisScroll = new Lenis({
+          lerp: 0.1
+        })
+
+    
+        lenisScroll.on('scroll', () => {
+          console.log('scroll')
+       
+        })
+
+        function raf(time) {
+          lenisScroll.raf(time)
+          requestAnimationFrame(raf)
+        }
+        
+        requestAnimationFrame(raf)
         return () => {
-            if (scroll) scroll.destroy();
+          lenisScroll.destroy();
         }
     });
 
   return (
     <SessionProvider session={session}>
-       <CartContextProvider>
-       <main className="main" data-scroll-container>
+        <CartContextProvider>
+          <Head>
+            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          </Head>
           <Component {...pageProps} />
           <Popupchat />
           <ZaloPlugin/>
-       </main>
-         
         </CartContextProvider>
     </SessionProvider>
   )

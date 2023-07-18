@@ -7,6 +7,8 @@ import BarsIcon from "@/components/icons/Bars";
 
 const StyledHeader = styled.header`
   background-color: #222;
+  position:fixed;
+  width:100vw;
 `;
 const Logo = styled(Link)`
   color:#fff;

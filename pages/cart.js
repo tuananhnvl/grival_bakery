@@ -265,14 +265,14 @@ export default function CartPage({ ip }) {
                     </tr>
                   </thead>
                   <tbody>
-                    {products.map((itemid) => {
+                 {/*    {products.map((itemid) => {
 
                       return (
                         <tr key={itemid}>
                           <td>{itemid}</td>
                           <td>
                             <ProductImageBox>
-                              <Image src={data.products[itemid].thumbnail} width={500} height={300} alt="" />
+                              <Image src={'/asset-trungthu/1.png'} width={500} height={300} alt="" />
                             </ProductImageBox>
                           </td>
                           <td>{data.products[itemid].title}</td>
@@ -293,7 +293,7 @@ export default function CartPage({ ip }) {
                       );
 
 
-                    })}
+                    })} */}
                     <tr>
                       <td></td>
                       <td></td>
