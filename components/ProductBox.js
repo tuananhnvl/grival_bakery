@@ -59,7 +59,7 @@ const Price = styled.div`
 
 export default function ProductBox({id,title,thumbnail,price,lazy}) {
   const {addProduct} = useContext(CartContext);
-  console.log('re-render^^')
+  //console.log('re-render^^')
   return (
     <ProductWrapper>
       <WhiteBox href={'/product/'+ id}>

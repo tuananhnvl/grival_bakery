@@ -102,34 +102,33 @@ export default function HomePage() {
           />
           <div className={styles.infotext}>
             <p style={{ textAlign: 'center' }}>HƠN 70 NĂM HÀNH TRÌNH THƯƠNG HIỆU VIỆT</p>
-            <p>Xuất hiện tại Sài Gòn lần đầu tiên vào năm 1948, trải qua hơn 70 năm tồn tại và phát triển, Brodard đã trở thành một thương hiệu bánh uy tín và được đông đảo nhiều thế hệ yêu thích. Kế thừa công nghệ Pháp tiên tiến, cùng sự thấu hiểu thị hiếu, khẩu vị người tiêu dùng Việt, các sản phẩm của Brodard không chỉ đảm bảo hương vị thơm ngon tuyệt hảo mà còn có hình thức tinh tế sáng tạo, bắt nhịp xu hướng thời đại.</p>
-            <p>Đội ngũ nhân viên Brodard, với sứ mệnh và nhiệt tâm chân thành, luôn khát khao mang đến cho người tiêu dùng một thương hiệu Việt chất lượng cao, giữ vững tinh hoa truyền thống nhưng đồng thời cũng liên tục cải tiến, tìm kiếm những ý tưởng mới mẻ.</p>
-            <p>Chất lượng bánh Brodard luôn là yếu tố được coi trọng hàng đầu: không dùng phụ gia, đường hóa học và đảm bảo quy định an toàn vệ sinh thực phẩm. Bên cạnh chất lượng bánh đã gắn liền với thương hiệu, Brodard chăm chút cho hình thức bánh với nhiều mẫu mã đa dạng.</p>
+            <p style={{ textAlign: 'center' }}>Xuất hiện tại Sài Gòn lần đầu tiên vào năm 1948, trải qua hơn 70 năm tồn tại và phát triển, Brodard đã trở thành một thương hiệu bánh uy tín và được đông đảo nhiều thế hệ yêu thích. Kế thừa công nghệ Pháp tiên tiến, cùng sự thấu hiểu thị hiếu, khẩu vị người tiêu dùng Việt, các sản phẩm của Brodard không chỉ đảm bảo hương vị thơm ngon tuyệt hảo mà còn có hình thức tinh tế sáng tạo, bắt nhịp xu hướng thời đại.</p>
+            <p style={{ textAlign: 'center' }}>Đội ngũ nhân viên Brodard, với sứ mệnh và nhiệt tâm chân thành, luôn khát khao mang đến cho người tiêu dùng một thương hiệu Việt chất lượng cao, giữ vững tinh hoa truyền thống nhưng đồng thời cũng liên tục cải tiến, tìm kiếm những ý tưởng mới mẻ.</p>
+            <p style={{ textAlign: 'center' }}>Chất lượng bánh Brodard luôn là yếu tố được coi trọng hàng đầu: không dùng phụ gia, đường hóa học và đảm bảo quy định an toàn vệ sinh thực phẩm. Bên cạnh chất lượng bánh đã gắn liền với thương hiệu, Brodard chăm chút cho hình thức bánh với nhiều mẫu mã đa dạng.</p>
           </div>
         </div>
         <div className={`maxWidth ${styles.listbox}`}>
           <h2>Hộp quà tặng trung thu</h2>
           <div className='listboxitem'>
             <div className='boxitem2'>
-              <Image width={420} height={420} src={imageList[1]} alt="Box 5 cai" />
-              <h3>Hộp Combo 1</h3>
-              <p>625.000VND</p>
+              <Image width={420} height={420} src={'/asset-trungthu/loaihop/41.png'} alt="Box 5 cai" />
+              <h3>Hộp Combo 4 Bánh</h3>
+              <p>000.000VND</p>
             </div>
             <div className='boxitem'>
-              <Image width={420} height={420} src={imageList[1]} alt="Box 5 cai" />
-              <h3>Hộp Combo 1</h3>
-              <p>625.000VND</p>
+              <Image width={420} height={420} src={'/asset-trungthu/loaihop/61.png'} alt="Box 5 cai" />
+              <h3>Hộp Combo 6 Bánh</h3>
+              <p>000.000VND</p>
             </div>
             <div className='boxitem'>
-              <Image width={420} height={420} src={imageList[1]} alt="Box 5 cai" />
-              <h3>Hộp Combo 1</h3>
-              <p>625.000VND</p>
+              <Image width={420} height={420} src={'/asset-trungthu/loaihop/v1.png'} alt="Box 5 cai" />
+              <h3>Hộp Combo VIP</h3>
+              <p>000.000VND</p>
             </div>
           </div>
         </div>
         <div className={`maxWidth ${styles.listbanhle}`}>
-          <div >
-            <div style={{ display: 'flex', width: '100%', backgroundColor: 'blue' }}>
+        <div style={{ display: 'flex', width: '100%'}}>
               <div className={styles.contentbanhle}>
                 <h2>các vị bánh trung thu</h2>
                 <p>Với sự kết hợp giữa những nguyên liệu tinh tuý nhất, những chiếc bánh độc bản, Hộp quà BRODARD VIP là món quà đầy tâm tình độc nhất dành cho kính khách</p>
@@ -153,7 +152,6 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-          </div>
           <div className={styles.infobanhle}>
             <BanhNhanMan/>
             <BanhNhanNgot/>

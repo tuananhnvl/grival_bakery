@@ -1,0 +1,115 @@
+
+'use-client'
+
+import {useContext, useState} from "react";
+import {CartContext} from "@/components/CartContext";
+import BarsIcon from "@/components/icons/Bars";
+import Image from "next/image";
+import { NavSpace, Logo, WarpperNav,MenuItem,InfoCompany,NavLink,LeftInfo,RightInfo,InfoLink,NavButton,SvgBox } from "@/components/compo-styles/HeaderStyle.js";
+
+const iconVariants = {
+  opened: {
+    rotate: 135,
+  },
+  closed: {
+    rotate: 0,
+  },
+};
+const warpperNav = {
+  opened: {
+    delay:0.2,
+    right: 0,
+    transition: { duration: 1 ,ease:[0.39, 0.1, 0.35, 0.97]}
+  },
+  closed: {
+    right: '-100%',
+    transition: { duration: 0.5 ,ease:[0.39, 0.1, 0.35, 0.97]}
+  },
+};
+
+const menuItem = {
+  opened: {
+    
+    transition: {
+    
+      when: "beforeChildren",
+      staggerChildren: 0.3,
+    },
+  },
+  closed: {
+   
+  },
+};
+const linkVariants = {
+  opened: {
+    
+    opacity: 1,
+    y: 0,
+  },
+  closed: {
+    opacity: 0.5,
+    y: -10,
+  },
+};
+
+export default function Header() {
+  console.log('Header')
+ const {cartProducts} = useContext(CartContext);
+ const [navIsOpen, setNavIsOpen] = useState(false);
+  const [mobileNavActive,setMobileNavActive] = useState(false);
+
+
+  return (
+    <NavSpace>
+      <Logo href={'/'}>
+        <Image src="logo-brodard.png" alt="Logo Brodrad" width={220} height={50} />
+      </Logo>
+      <WarpperNav 
+        initial={false}
+        variants={warpperNav}
+        animate={navIsOpen ? "opened" : "closed"}
+       
+      >
+          <MenuItem variants={menuItem}>
+            <NavLink  variants={linkVariants} href={'/'}>Home</NavLink>
+            <NavLink  variants={linkVariants} href={'/products'}>All products</NavLink>
+            <NavLink  variants={linkVariants} href={'/contact'}>Contact</NavLink>
+            <NavLink  variants={linkVariants} href={'/account'}>Account</NavLink>
+            <NavLink  variants={linkVariants} href={'/cart'}>Cart ({cartProducts.length})</NavLink>
+          </MenuItem>
+          <InfoCompany>
+            <LeftInfo>
+              <p>ALL RIGHTS RESERVED</p>
+            </LeftInfo>
+            <RightInfo>
+              <InfoLink href={'/'}><p>Zalo</p></InfoLink>
+              <InfoLink href={'/'}><p>Facebook</p></InfoLink>
+              <InfoLink href={'/'}><p>Phone</p></InfoLink>
+            </RightInfo>
+          </InfoCompany>
+      </WarpperNav>
+      <NavButton onClick={() => setMobileNavActive(prev => !prev)}>
+       
+        <SvgBox
+          variants={iconVariants}
+          animate={navIsOpen ? "opened" : "closed"}
+          whileHover={{ scale: 1.9 }}
+          onClick={() => setNavIsOpen(!navIsOpen)}
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 4C11.4477 4 11 4.44772 11 5V11H5C4.44772 11 4 11.4477 4 12C4 12.5523 4.44772 13 5 13H11V19C11 19.5523 11.4477 20 12 20C12.5523 20 13 19.5523 13 19V13H19C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11H13V5C13 4.44772 12.5523 4 12 4Z"
+              fill="#fff"
+            />
+          </svg>
+        </SvgBox>
+      </NavButton>
+  </NavSpace>
+  );
+}
