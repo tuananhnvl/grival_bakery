@@ -10,18 +10,86 @@ body{
 @font-face {
     font-family: "Jose";
     src: url("/fonts/JosefinSans-Light.ttf");   
+    font-display: swap;
 }
 @font-face {
     font-family: "Play";
     src: url("/fonts/PlayfairDisplay-Regular.ttf");   
+    font-display: swap;
 }
-p {
+p,a,button,span {
     font-family: "Jose";
     font-weight:200;
 }
 h1,h2,h3,h4,h5 {
     font-family: "Play";
 }
+ 
+table {
+    border-collapse: collapse;
+  }
+table, td, th {
+    border: 1px solid gray;
+  }
+
+
 div {
-    border:1px solid rgba(128, 128, 128, 0.376);
+    border: 1px solid gray;
 }
+  /* GRID */
+  :root {
+    --numColDes: 12;
+    --numColPad: 7;
+    --numColMob: 4;
+    --marginOnDes : 15vw;
+    --marginOnPad : 10vw;
+    --marginOnMod : 5vw;
+
+/*  calc width */
+    --widthDesCol: calc(calc(100vw - var(--marginOnDes)) / var(--numColDes));
+}
+@media(max-width: 868px) {
+    .grid-system-12 {
+        width: calc(100vw - var(--marginOnPad)) !important; 
+        grid-template-columns: repeat(var(--numColPad), 1fr)!important; 
+    }
+}
+@media(max-width: 567px) {
+    .grid-system-12 {
+        width: calc(100vw - var(--marginOnMod)) !important; 
+        grid-template-columns: repeat(var(--numColMob), 1fr)!important; 
+    }
+}
+.display-grid-demo {
+    position:fixed;
+    width:100vw;
+    height:100vh;
+    z-index:100;
+    pointer-events:none;
+}
+.grid-system-12 {
+    margin:0 auto;
+    /* ////////////// */
+    display:grid;
+    width: calc(100vw - var(--marginOnDes)); 
+    grid-template-columns: repeat(var(--numColDes), 1fr);
+    gap:10px;
+    /* ////////////// */
+}
+.size_column_width {
+    background:#add8e647;
+
+    width: calc(calc(calc(calc(100% - 15vw) / var(--numColDes)) ));
+    height:500px;
+    position:absolute;
+    grid-column-start: 4;
+    grid-row:1;
+  
+}
+.grid-system-12 span.col {
+    background:rgba(225,225,225,0.042);
+    height: 100vh;
+
+    grid-row:1;
+}
+ 

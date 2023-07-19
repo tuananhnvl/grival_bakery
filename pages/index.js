@@ -49,6 +49,7 @@ export default function HomePage() {
               src={LogoBrodrad}
               alt="Logo Brodrad"
               priority={true}
+              width={0} height={0} style={{ width: '100%', height: 'auto' }} 
               quality={100}
             />
           </div>
@@ -64,7 +65,7 @@ export default function HomePage() {
               src={imageList[1]}
               alt="Gallery Brodrad"
               priority={true}
-            //style={{objectFit: "cover"}}         
+              width={0} height={0} style={{ width: '100%', height: 'auto' }}       
             />
           </div>
           <div className={styles.sampleImg}>
@@ -72,7 +73,7 @@ export default function HomePage() {
               src={imageList[4]}
               priority={true}
               alt="Gallery Brodrad"
-
+              width={0} height={0} style={{ width: '100%', height: 'auto' }} 
             />
           </div>
           <div className={styles.sampleImg}>
@@ -80,7 +81,7 @@ export default function HomePage() {
               src={imageList[2]}
               priority={true}
               alt="Gallery Brodrad"
-
+              width={0} height={0} style={{ width: '100%', height: 'auto' }} 
             />
           </div>
           <div className={styles.sampleImg}>
@@ -88,7 +89,7 @@ export default function HomePage() {
               src={imageList[3]}
               priority={true}
               alt="Gallery Brodrad"
-
+              width={0} height={0} style={{ width: '100%', height: 'auto' }} 
             />
           </div>
         </div>
@@ -107,23 +108,26 @@ export default function HomePage() {
             <p style={{ textAlign: 'center' }}>Chất lượng bánh Brodard luôn là yếu tố được coi trọng hàng đầu: không dùng phụ gia, đường hóa học và đảm bảo quy định an toàn vệ sinh thực phẩm. Bên cạnh chất lượng bánh đã gắn liền với thương hiệu, Brodard chăm chút cho hình thức bánh với nhiều mẫu mã đa dạng.</p>
           </div>
         </div>
-        <div className={`maxWidth ${styles.listbox}`}>
+        <div className={` ${styles.listbox}`}>
           <h2>Hộp quà tặng trung thu</h2>
-          <div className='listboxitem'>
-            <div className='boxitem2'>
-              <Image width={420} height={420} src={'/asset-trungthu/loaihop/41.png'} alt="Box 5 cai" />
-              <h3>Hộp Combo 4 Bánh</h3>
-              <p>000.000VND</p>
+          <div className='grid-system-12'>
+            <div className='boxitem' >
+              <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} src={'/asset-trungthu/loaihop/41.png'} alt="Box 5 cai"  />
+              <h3>Hộp 4 Bánh</h3>
+              <p>625.000VND</p>
+              <button>Mua</button>
             </div>
             <div className='boxitem'>
-              <Image width={420} height={420} src={'/asset-trungthu/loaihop/61.png'} alt="Box 5 cai" />
-              <h3>Hộp Combo 6 Bánh</h3>
-              <p>000.000VND</p>
+              <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} src={'/asset-trungthu/loaihop/60.png'} alt="Box 5 cai" />
+              <h3>Hộp 6 Bánh</h3>
+              <p>625.000VND</p>
+              <button>Mua</button>
             </div>
             <div className='boxitem'>
-              <Image width={420} height={420} src={'/asset-trungthu/loaihop/v1.png'} alt="Box 5 cai" />
-              <h3>Hộp Combo VIP</h3>
-              <p>000.000VND</p>
+              <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} src={'/asset-trungthu/loaihop/v1.png'} alt="Box 5 cai" />
+              <h3>Hộp VIP</h3>
+              <p>625.000VND</p>
+              <button>Mua</button>
             </div>
           </div>
         </div>
@@ -137,17 +141,14 @@ export default function HomePage() {
               <div className={styles.infobanhle}>
                 <div>
                   <Image
-                    src={'/asset-trungthu/hop/1.png'}
+                    src={imageList[12]}
                     alt="Singla Cake Brodrad"
-                    width={420}
-                    height={420}
-
+                    width={0} height={0} style={{ width: '100%', height: 'auto' }} 
                   />
                   <Image
                     src={imageList[2]}
                     alt="Singla Cake Brodrad"
-                    width={420}
-                    height={420}
+                    width={0} height={0} style={{ width: '100%', height: 'auto' }} 
                   />
                 </div>
               </div>

@@ -6,7 +6,7 @@ import { app,db, storage } from '../firebase.config.js';
 import { collection, addDoc ,getDocs} from 'firebase/firestore';
 
 import { CartContext } from "@/components/CartContext";
-
+import FormatData from "@/components/utils/FormatData";
 export default function Profile() {
     const { data: session } = useSession()
     const { cartProducts} = useContext(CartContext);
@@ -43,6 +43,7 @@ export default function Profile() {
     if (session && session.user && session.user.email) {
         return (
             <div className={styles.container}>
+              <FormatData/>
              <h1 className="title">admin</h1>
                 <div className={styles.content}>
          

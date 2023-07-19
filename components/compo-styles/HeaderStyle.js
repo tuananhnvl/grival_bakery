@@ -7,7 +7,7 @@ export const Logo = styled.a`
  
 
   position: relative;
-  z-index: 3;
+  z-index: 10;
 `;
 export const NavSpace = styled.div`
   display: flex;
@@ -17,7 +17,7 @@ export const NavSpace = styled.div`
 `;
 export const WarpperNav = styled.nav`
 
- 
+z-index: 10;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -78,7 +78,7 @@ export const NavButton = styled.button`
   color: white;
   cursor: pointer;
   position: fixed;
-  z-index: 3;
+  z-index: 10;
   border-radius:50%;
   
 `;
@@ -92,7 +92,7 @@ export const MaskLock = styled.div`
   left:0;
   bottom:0;
   right:0;
-
+  z-index: 9;
 `;
 
 
