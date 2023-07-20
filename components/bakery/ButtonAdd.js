@@ -1,19 +1,26 @@
-'use-client'
+'use client';
 import React from 'react'
 import {useContext } from "react";
 import {CartContext} from "@/components/CartContext";
 
 export default function ButtonAdd({ id }) {
-    console.log('>> Add')
     const { addProduct } = useContext(CartContext);
     //  console.log('ButtonContext',id)
+    
     const addToCart = () => {
-        addProduct(Number(id.id))
         console.log(id)
+       // addProduct(id)
+       /*  if (id % 2 == 0){
+            let idd = id + 1
+            console.log("id là số chẵn");
+        }
+        else{
+            console.log("id là số lẽ");
+        } */
     };
     return (
         <>
-            <button  onClick={addToCart}>
+            <button onClick={addToCart}>
                 Mua
             </button>
         </>

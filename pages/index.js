@@ -1,4 +1,4 @@
-
+"use client";
 import Header from "@/components/Header";
 import Head from 'next/head';
 import styles from '../styles/Home.module.css'
@@ -19,7 +19,14 @@ const imagesc = require.context('@/public/asset-trungthu', true);
 const imageList = imagesc.keys().map(image => imagesc(image));
 
 export default function HomePage() {
-
+  let a = data.combo["thuongtrang"].value[0].value
+  //console.log(data.code)
+  //console.log(data.combo["thuongtrang"].value[0].value)
+  for (let i = 0; i < a.length; i++) {
+   // console.log(a[i])
+    console.log(data.code[a[i] - 1])
+    
+  }
   return (
     <>
       <Head>
@@ -103,27 +110,31 @@ export default function HomePage() {
             <p style={{ textAlign: 'center' }}>Chất lượng bánh Brodard luôn là yếu tố được coi trọng hàng đầu: không dùng phụ gia, đường hóa học và đảm bảo quy định an toàn vệ sinh thực phẩm. Bên cạnh chất lượng bánh đã gắn liền với thương hiệu, Brodard chăm chút cho hình thức bánh với nhiều mẫu mã đa dạng.</p>
           </div>
         </div>
-        <div className={` ${styles.listbox}`}>
-          <h2>Hộp quà tặng trung thu</h2>
-          <div className='grid-system-12'>
-            <div className='boxitem' >
-              <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} src={'/asset-trungthu/loaihop/41.png'} alt="Box 5 cai"  />
-              <h3>Hộp 4 Bánh</h3>
-              <p>625.000VND</p>
-              <button>Mua</button>
-            </div>
-            <div className='boxitem'>
-              <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} src={'/asset-trungthu/loaihop/60.png'} alt="Box 5 cai" />
-              <h3>Hộp 6 Bánh</h3>
-              <p>625.000VND</p>
-              <button>Mua</button>
-            </div>
-            <div className='boxitem'>
-              <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} src={'/asset-trungthu/loaihop/v1.png'} alt="Box 5 cai" />
-              <h3>Hộp VIP</h3>
-              <p>625.000VND</p>
-              <button>Mua</button>
-            </div>
+        <div className="maxWidth">
+          <h2>Các loại combo</h2>
+          <div>
+            <h3>Combo Đong Đầy</h3>
+            <ul>
+              <li>Set Đong Đầy 1</li>
+              <li>Set Đong Đầy 2</li>
+              <li>Set Đong Đầy 3</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Combo Thưởng Trăng</h3>
+            <ul>
+              <li>Set Thưởng Trăng 1</li>
+              <li>Set Thưởng Trăng 2</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Combo Đầu Mùa</h3>
+            <ul>
+              <li>Set Đầu Mùa 1</li>
+              <li>Set Đầu Mùa 2</li>
+              <li>Set Đầu Mùa 3</li>
+              <li>Set Đầu Mùa 4</li>
+            </ul>
           </div>
         </div>
         <div className={`maxWidth ${styles.listbanhle}`}>
@@ -154,6 +165,29 @@ export default function HomePage() {
             <BanhMini data={data.single[4].type5}/>
           </div>
           
+        </div>
+        <div className={` ${styles.listbox}`}>
+          <h2>Hộp quà tặng trung thu</h2>
+          <div className='grid-system-12'>
+            <div className='boxitem' >
+              <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} src={'/asset-trungthu/loaihop/41.png'} alt="Box 5 cai"  />
+              <h3>Hộp 4 Bánh</h3>
+              <p>625.000VND</p>
+              <button>Mua</button>
+            </div>
+            <div className='boxitem'>
+              <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} src={'/asset-trungthu/loaihop/60.png'} alt="Box 5 cai" />
+              <h3>Hộp 6 Bánh</h3>
+              <p>625.000VND</p>
+              <button>Mua</button>
+            </div>
+            <div className='boxitem'>
+              <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} src={'/asset-trungthu/loaihop/v1.png'} alt="Box 5 cai" />
+              <h3>Hộp VIP</h3>
+              <p>625.000VND</p>
+              <button>Mua</button>
+            </div>
+          </div>
         </div>
       </section>
 

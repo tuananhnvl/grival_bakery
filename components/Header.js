@@ -45,16 +45,16 @@ export default function Header() {
   return (
     <NavSpace ref={navSpaceRef}>
       <Logo href={'/'}>
-        <Image src="logo-brodard.png" alt="Logo Brodrad" width={220} height={50} />
+        <Image src="logo-brodard.png" alt="Logo Brodrad"   width={0} height={0} style={{ width: '100%', height: 'auto' }}  />
       </Logo>
       <MaskLock ref={maskLockRef} style={{pointerEvents:'none'}}/>
       <WarpperNav ref={warperNavRef} style={{right:"-100%"}}>
           <MenuItem >
-            <NavLink  href={'/'}>Home</NavLink>
-            <NavLink  href={'/products'}>All products</NavLink>
-            <NavLink  href={'/contact'}>Contact</NavLink>
-            <NavLink  href={'/account'}>Account</NavLink>
-            <NavLink  href={'/cart'}>Cart ({cartProducts.length})</NavLink>
+            <NavLink  href={'/'}>Trang chủ</NavLink>
+            <NavLink  href={'/products'}>Sản phẩm</NavLink>
+            <NavLink  href={'/contact'}>Liên hệ</NavLink>
+            <NavLink  href={'/policy'}>Chính sách và TT</NavLink>
+            <NavLink  href={'/cart'}>Giỏ hàng ({cartProducts.length})</NavLink>
           </MenuItem>
           <InfoCompany>
             <LeftInfo>

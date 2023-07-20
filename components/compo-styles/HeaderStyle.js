@@ -6,14 +6,17 @@ import styled from "styled-components";
 export const Logo = styled.a`
  
 
-  position: relative;
-  z-index: 10;
+position: relative;
+    z-index: 10;
+
+    margin: 42px 0 0 42px;
+    width: 240px;
 `;
 export const NavSpace = styled.div`
   display: flex;
   justify-content: space-between;
  
-  background:gray;
+  background:none;
 `;
 export const WarpperNav = styled.nav`
 
@@ -37,7 +40,7 @@ export const MenuItem = styled.div`
   flex-direction: column;
 `
 export const NavLink = styled.a`
-  font-size: 4.2rem;
+  font-size: 3.6rem;
   font-weight: 500;
   line-height: 1;
   font-family: "Play";

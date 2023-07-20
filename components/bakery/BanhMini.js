@@ -1,9 +1,8 @@
 import React from 'react'
-import { WrapperTable, TableBanhLeIndex,RowBanhLe,ThBanhLe } from './StylesComponent';import {useContext} from "react";
-import {CartContext} from "@/components/CartContext";
+import { WrapperTable, TableBanhLeIndex,RowBanhLe,ThBanhLe } from './StylesComponent';import ButtonAdd from './ButtonAdd';
 
 export default function BanhMini({data}) {
-    const {addProduct} = useContext(CartContext);
+
   return (
     <WrapperTable>
         <TableBanhLeIndex>

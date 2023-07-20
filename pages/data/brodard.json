@@ -735,5 +735,107 @@
             "type": "Bánh Mini",
             "typee": "Mini Mooncake with Egg Yolk"
         }
-    ]
+    ],
+    "combo":{
+        "thuongtrang" : {
+            "name" : "Combo Thưởng Trăng",
+            "value" : [
+                {
+                    "idc" : 1,
+                    "name" : "Set Thưởng Trăng 1",
+                    "namee" : "Moongazing 1",
+                    "price" : 1500000,
+                    "value" : [2,4,34,22]
+                },
+                {
+                    "idc" : 2,
+                    "name" : "Set Thưởng Trăng 2",
+                    "namee" : "Moongazing 2",
+                    "price" : 1640000,
+                    "value" : [2,4,34,22]
+                }
+            ]
+        },
+        "dongday" : {
+            "name" : "Combo Đong Đầy",
+            "value" : [
+                {
+                    "idc" : 1,
+                    "name" : "Set Đong Đầy – Nấm Xích Linh Chi",
+                    "namee" : "Wholesomeness (Dried Japan Red Reishi Mushroom Edition)",
+                    "price" : 3080000,
+                    "value" : [2,4,34,22]
+                },
+                {
+                    "idc" : 2,
+                    "name" : "Set Đong Đầy – Mật Ong",
+                    "namee" : "Wholesomeness (Honney Edition)",
+                    "price" : 3080000,
+                    "value" : [2,4,34,22]
+                },
+                {
+                    "idc" : 3,
+                    "name" : "Set Đong Đầy – Yến Sào",
+                    "namee" : "Wholesomeness (Pure Bird's Nest Edition)",
+                    "price" : 6600000,
+                    "value" : [2,4,34,22]
+                }
+            ]
+        },
+        "daumua" : {
+            "name" : "Combo Đầu Mùa",
+            "value" : [
+                {
+                    "idc" : 1,
+                    "name" : "Set Đầu Mùa 1",
+                    "namee" : "Moonrise 1",
+                    "price" : 860000,
+                    "value" : [2,4,34,22]
+                },
+                {
+                    "idc" : 2,
+                    "name" : "Set Đầu Mùa 2",
+                    "namee" : "Moonrise 2",
+                    "price" : 940000,
+                    "value" : [2,4,34,22]
+                },
+                {
+                    "idc" : 3,
+                    "name" : "Set Đầu Mùa 3",
+                    "namee" : "Moonrise 3",
+                    "price" : 970000,
+                    "value" : [2,4,34,22]
+                },
+                {
+                    "idc" : 4,
+                    "name" : "Set Đầu Mùa 4",
+                    "namee" : "Moonrise 4",
+                    "price" : 1210000,
+                    "value" : [2,4,34,22]
+                }
+            ]
+        }
+    },
+    "box" : {
+        "daumua" : {
+            "name" : "Mẫu Hộp 4 Bánh Đầu Mùa",
+            "des" : "Quý khách hàng có thể lựa chọn 4 bánh tuỳ thích hoặc lựa chọn 4 combo bánh trung thu `Đầu Mùa` để vào hộp này."
+        },
+        "dongday" : {
+            "name" : "Mẫu Hộp Bánh Đong Đầy",
+            "des" : "Hộp vuông sang trọng, hộp dành riêng cho combo VIP Mật ong, Yến Sào và Nấm xích linh chi."
+        },
+        "thuongtrang" : {
+            "name" : "Hộp Brodard 6 bánh THƯỞNG TRĂNG",
+            "des" : "Quý khách hàng có thể lựa chọn 6 bánh tuỳ thích hoặc lựa chọn 2 combo Thưởng Trăng."
+        },
+        "dasac" : {
+            "name" : "Mẫu hộp LAVA ĐA SẮC",
+            "des" : "Hộp dành riêng cho Combo Lava tan chảy. Hộp chứa 6 bánh nhỏ Lava"
+        },
+        "rucro" : {
+            "name" : "Mẫu hộp Rực Rỡ",
+            "des" : "Quý khách hàng có thể lựa chọn n bánh tuỳ thích."
+        }
+    }
 }

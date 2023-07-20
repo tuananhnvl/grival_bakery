@@ -121,20 +121,14 @@ grid-column-start: 2;
     text-align: left;
     text-transform: uppercase;
 }
-.infobanhle {
 
-    overflow: hidden;
-   
-}
-.imgbanhle {
-    height:500px;
-}
+
 .infobanhle  {
     width:50%;
     display: flex;
-    
+    overflow: hidden;
     flex-direction: row;
-
+    height: 300px;
     justify-content: space-around;
 }
 
