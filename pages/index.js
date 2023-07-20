@@ -8,22 +8,17 @@ import Image from "next/image";
 import LogoBrodrad from '@/public/logo-brodard.png'
 
 import BanhNhanMan from '@/components/bakery/BanhNhanMan'
+import BanhNhanNgotKo from '@/components/bakery/BanhNhanNgotKo'
 import BanhNhanNgot from '@/components/bakery/BanhNhanNgot'
 import BanhChay from '@/components/bakery/BanhChay'
 import BanhMini from '@/components/bakery/BanhMini'
 import Combo from '@/components/bakery/Combo'
-
-
+import data from '@/pages/data/brodard.json'
 
 const imagesc = require.context('@/public/asset-trungthu', true);
 const imageList = imagesc.keys().map(image => imagesc(image));
 
 export default function HomePage() {
-
-  console.log(imageList.length)
-
-
-
 
   return (
     <>
@@ -139,8 +134,7 @@ export default function HomePage() {
               </div>
               
               <div className={styles.infobanhle}>
-                <div>
-                  <Image
+              <Image
                     src={imageList[12]}
                     alt="Singla Cake Brodrad"
                     width={0} height={0} style={{ width: '100%', height: 'auto' }} 
@@ -150,15 +144,14 @@ export default function HomePage() {
                     alt="Singla Cake Brodrad"
                     width={0} height={0} style={{ width: '100%', height: 'auto' }} 
                   />
-                </div>
               </div>
             </div>
-          <div className={styles.infobanhle}>
-            <BanhNhanMan/>
-            <BanhNhanNgot/>
-            <BanhChay/>
-            <BanhMini/>
-           
+          <div className={styles.detailbanhle}>
+            <BanhNhanMan data={data.single[0].type1}/>
+            <BanhNhanNgot data={data.single[1].type2}/>
+            <BanhNhanNgotKo data={data.single[2].type3}/>
+            <BanhChay data={data.single[3].type4}/>
+            <BanhMini data={data.single[4].type5}/>
           </div>
           
         </div>

@@ -1,120 +1,49 @@
 import React from 'react'
+import { WrapperTable, TableBanhLeIndex,RowBanhLe,ThBanhLe } from './StylesComponent';import {useContext} from "react";
+import {CartContext} from "@/components/CartContext";
 
-export default function BanhMini() {
+export default function BanhMini({data}) {
+    const {addProduct} = useContext(CartContext);
   return (
-    <div>
-        <table>
+    <WrapperTable>
+        <TableBanhLeIndex>
+            <thead>
+                <tr>
+                    <ThBanhLe colSpan='8'>
+                        <p><strong>BÁNH {data.name} - {data.namee}</strong></p>
+                    </ThBanhLe>
+                </tr>
+            </thead>
             <tbody>
-            <tr>
-            <td colSpan='7'>
-                <p><strong>BÁNH NHỎ - MINI CAKE</strong></p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p></p>
-            </td>
-            <td>
-                <p><strong>TÊN BÁNH</strong></p>
-            </td>
-            <td>
-                <p><strong>MÃ BÁNH</strong></p>
-            </td>
-            <td>
-                <p><strong>TRỌNG LƯỢNG</strong></p>
-            </td>
-            <td colSpan='3'>
-                <p><strong>GIÁ</strong></p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>18</p>
-            </td>
-            <td>
-                <p>Bánh Lava Trứng Muối Tan Chảy</p>
-            </td>
-            <td>
-                <p><strong>LV</strong></p>
-            </td>
-            <td>
-                <p>48Gr</p>
-            </td>
-            <td colSpan='3'>
-                <p>120,000</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>19</p>
-            </td>
-            <td>
-                <p>Bánh Trung Thu Đậu Xanh (Hình Gấu)</p>
-            </td>
-            <td>
-                <p><strong>TN1</strong></p>
-            </td>
-            <td>
-                <p>100Gr</p>
-            </td>
-            <td colSpan='3'>
-                <p>50,000</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>20</p>
-            </td>
-            <td>
-                <p>Bánh Trung Thu Đậu Xanh (Hình Heo)</p>
-            </td>
-            <td>
-                <p><strong>TN2</strong></p>
-            </td>
-            <td>
-                <p>100Gr</p>
-            </td>
-            <td colSpan='3'>
-                <p>50,000</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>21</p>
-            </td>
-            <td>
-                <p>Bánh Trung Thu Đậu Xanh (Hình Mèo)</p>
-            </td>
-            <td>
-                <p><strong>TN3</strong></p>
-            </td>
-            <td>
-                <p>100Gr</p>
-            </td>
-            <td colSpan='3'>
-                <p>50,000</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
+                {(data.value).map(function(item, i){
+                        let u = 0
+                        if(i === 0) {
+                            u = 40
+                        }else{
+                            u = 100
+                        }
+                        return (
+                            <tr>
+                                <RowBanhLe width="5.420%" style={{textAlign:"center"}}>
+                                    <p>{item.idb}</p>
+                                </RowBanhLe>
+                                <RowBanhLe width="42.420%">
+                                    <p>{item.name}</p>
+                                </RowBanhLe>
+                                <RowBanhLe width="20.421%">
+                                    <p><strong>{item[u][0]}</strong></p>
+                                </RowBanhLe>
+                                <RowBanhLe>
+                                    <p>{new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(item[u][1]))}</p>
+                                </RowBanhLe>
+                                <RowBanhLe width="5.420420%">
+                                    <p></p>
+                                </RowBanhLe>
+                            </tr>
+                        )
+                    })}
             </tbody>
-        </table>
-    </div>
+        </TableBanhLeIndex>
+    </WrapperTable>
   )
 }

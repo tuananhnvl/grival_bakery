@@ -2,8 +2,8 @@ import React from 'react'
 import { WrapperTable, TableBanhLeIndex,RowBanhLe,ThBanhLe } from './StylesComponent';import {useContext} from "react";
 import {CartContext} from "@/components/CartContext";
 
-export default function BanhNhanNgot({data}) {
-
+export default function BanhNhanNgotKo({data}) {
+    console.log(data)
     const {addProduct} = useContext(CartContext);
   return (
     <WrapperTable>

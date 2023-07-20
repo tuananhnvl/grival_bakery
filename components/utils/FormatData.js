@@ -6,28 +6,74 @@ export default function FormatData() {
 
     function Check(data) {
         let c = 0
+        let arrRe = []
+        let xxx  = 0
+        let yyy = 0
+        let count = 0
         data.single.forEach((item,index) => {
-          //  console.log(index)
-            if(index === 0) {
-                c = 0
-            }else if(index === 1) {
-                c = 6
-            }else if(index === 2) {
-                c = 11
-            }
-            
+            console.log(item[`type${index+1}`].name)
+            let typeVal = item[`type${index+1}`].name
+            let typeeVal = item[`type${index+1}`].namee
+
             const type = Object.keys(item)[0];
             const value = item[type].value;
-          
+             
             value.forEach((obj, index) => {
-              obj.id = index + c;
+             
+              console.log(obj)
+            if(count > 35){
+
+                  if(count == 36) {
+                    yyy = 40
+                  }else{
+                    yyy = 100
+                  }
+                  count++
+                  arrRe.push({
+                    id:count,
+                    info: obj[yyy],
+                    name: obj['name'],
+                    namee: obj['namee'],
+                    type:typeVal,
+                    typee:typeeVal
+                }) 
+
+            }else{
+                for (let ii = 0; ii < 2; ii++) {
+                    count++
+                    if(ii == 0) {
+                        xxx = 200
+                    }else if(ii == 1) {
+                        xxx = 250
+                    }
+                  //  console.log(obj[code]);
+                  let r = obj[xxx]
+             
+                    arrRe.push({
+                        idb:count,
+                        info: r,
+                        name: obj['name'],
+                        namee: obj['namee'],
+                        type:typeVal,
+                        typee:typeeVal
+                    }) 
+                  }
+            }
+            
+            
             });
           });
-          
+        //console.log(arrRe)
+
+        var arrayToString = JSON.stringify(Object.assign({}, arrRe));  // convert array to string
+        var stringToJsonObject = JSON.parse(arrayToString);  // convert string to json object
+    
+        console.log(JSON.stringify(arrRe));
+
           // Printing the updated data
-          console.log(JSON.stringify(data, null, 2));
+        
     }
-    Check(data)
+  
     const typeW = `
     {
         "single":[
@@ -49,6 +95,7 @@ export default function FormatData() {
     }`
 
     useEffect(() => {
+        Check(data)
         const listItem = Array.prototype.slice.call(bodyRef.current.children)
         let arrayOutput = []
        /*  for (let i = 0; i < listItem.length; i++) {
@@ -87,6 +134,8 @@ export default function FormatData() {
              "200g":[listInfoChild[2].children[0].textContent ,Number((listInfoChild[3].children[0].textContent).replace(',', ''))],
              "250g":[listInfoChild[4].children[0].textContent ,Number((listInfoChild[5].children[0].textContent).replace(',', ''))]
          })
+
+      
      } 
 
     },[bodyRef])

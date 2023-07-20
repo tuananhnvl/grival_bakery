@@ -6,12 +6,12 @@ import { useContext, useEffect, useState } from "react";
 import { CartContext } from "@/components/CartContext";
 import Table from "@/components/compo-styles/Table";
 import Input from "@/components/Input";
-import data from './data/fakedata.json'
+import data from './data/brodard.json'
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useSession, signOut, signIn } from "next-auth/react"
-import {  db } from '../firebase.config.js';
-import { collection, addDoc, onSnapshot } from 'firebase/firestore';
+import { db } from '../firebase.config.js';
+import { collection, addDoc } from 'firebase/firestore';
 
 
 
@@ -190,8 +190,8 @@ export default function CartPage({ ip }) {
 
   for (const productId of cartProducts) {
 
-    const price = data.products.find(p => p.id === productId)?.price || 0;
-
+    const price = data.code.find(p => (p.idb) === productId)?.info[1] || 0;
+    console.log(price)
     total += price;
     //console.log(total)
   }
@@ -265,17 +265,17 @@ export default function CartPage({ ip }) {
                     </tr>
                   </thead>
                   <tbody>
-                 {/*    {products.map((itemid) => {
+                    {products.map((itemid) => {
 
                       return (
                         <tr key={itemid}>
                           <td>{itemid}</td>
                           <td>
                             <ProductImageBox>
-                              <Image src={'/asset-trungthu/1.png'} width={500} height={300} alt="" />
+                              <Image src={'/asset-trungthu/loaihop/41.png'} width={500} height={300} alt="" />
                             </ProductImageBox>
                           </td>
-                          <td>{data.products[itemid].title}</td>
+                          <td>{data.code[itemid + 1].name}</td>
                           <td>
                             <>
                               <Button
@@ -287,19 +287,20 @@ export default function CartPage({ ip }) {
                                 onClick={() => moreOfThisProduct(itemid)}>+</Button></>
                           </td>
                           <td>
-                            ${cartProducts.filter(id => id === itemid).length * data.products[itemid].price}
+                            <p>{ }</p>
+                            {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(cartProducts.filter(id => id === itemid).length * data.code[itemid].info[1]))}
                           </td>
                         </tr>
                       );
 
 
-                    })} */}
+                    })}
                     <tr>
                       <td></td>
                       <td></td>
                       <td></td>
                       <td>TOTAL:</td>
-                      <td>${total}</td>
+                      <td>{new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(total))}</td>
                     </tr>
                   </tbody>
                 </Table>

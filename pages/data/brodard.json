@@ -6,23 +6,25 @@
                 "namee": "Savory Mooncake with Egg Yolk",
                 "value": [
                     {
-                        "name": "Bánh trung thu Thập Cẩm (2 trứng)",
-                        "namee": null,
+                        "idb":1,
+                        "name": "Thập Cẩm 2 Trứng",
+                        "namee": "Assorted Delights 2 Yolks",
                         "200": [
                             "1B",
-                            180000
+                            200000
                         ],
                         "250": [
                             "1A",
-                            210000
+                            230000
                         ]
                     },
                     {
-                        "name": "Bánh trung thu Thập Cẩm Gà Quay (2 trứng)",
-                        "namee": null,
+                        "idb":2,
+                        "name": "Thập Cẩm Gà Quay 2 Trứng",
+                        "namee": "Roasted Chicken 2 Yolks",
                         "200": [
                             "3B",
-                            200000
+                            210000
                         ],
                         "250": [
                             "3A",
@@ -30,51 +32,66 @@
                         ]
                     },
                     {
-                        "name": "Bánh trung thu Gà Quay Jambon Bát Bửu (1 trứng)",
-                        "namee": null,
+                        "idb":3,
+                        "name": "Gà Quay Jambon Bát Bửu 1 Trứng",
+                        "namee": "Roasted Chicken & Eight Treasures Ham 1 Yolks",
                         "200": [
                             "7B",
-                            230000
-                        ],
-                        "250": [
-                            "7A",
-                            290000
-                        ]
-                    },
-                    {
-                        "name": "Bánh trung thu Tom Yum Hải Sản (2 trứng)",
-                        "namee": null,
-                        "200": [
-                            "9B",
-                            240000
-                        ],
-                        "250": [
-                            "9A",
-                            300000
-                        ]
-                    },
-                    {
-                        "name": "Bánh trung thu Bào Ngư Vi Cá (1 trứng)",
-                        "namee": null,
-                        "200": [
-                            "11B",
-                            380000
-                        ],
-                        "250": [
-                            "11A",
-                            470000
-                        ]
-                    },
-                    {
-                        "name": "Bánh trung thu Gà Quay Vi Cá (2 trứng)",
-                        "namee": null,
-                        "200": [
-                            "13B",
                             280000
                         ],
                         "250": [
+                            "7A",
+                            310000
+                        ]
+                    },
+                    {
+                        "idb":4,
+                        
+                        "name": "Tom Yum Hải Sản 2 Trứng",
+                        "namee": "Tom Yum Seafood 2 Yolks",
+                        "200": [
+                            "9B",
+                            290000
+                        ],
+                        "250": [
+                            "9A",
+                            320000
+                        ]
+                    },
+                    {"idb":5,
+                        "name": "Bào Ngư Vi Cá 1 Trứng",
+                        "namee": "Abalone & Shark Fin 1 Yolks",
+                        "200": [
+                            "11B",
+                            420000
+                        ],
+                        "250": [
+                            "11A",
+                            500000
+                        ]
+                    },
+                    {"idb":6,
+                        "name": "Gà Quay Vi Cá 2 Trứng",
+                        "namee": "Roasted Chicken & Shark Fin 2 Yolks",
+                        "200": [
+                            "13B",
+                            310000
+                        ],
+                        "250": [
                             "13A",
-                            360000
+                            380000
+                        ]
+                    },
+                    {"idb":7,
+                        "name": "Thập Cẩm Xốt Tôm Anh Đào 2 Trứng",
+                        "namee": "Assorted Delights with Sakura Shrimp Sauce 2 Yolks",
+                        "200": [
+                            "15B",
+                            300000
+                        ],
+                        "250": [
+                            "15A",
+                            330000
                         ]
                     }
                 ]
@@ -85,64 +102,64 @@
                 "name": "Nhân Ngọt, Có Trứng",
                 "namee": "Sweet Mooncake with Egg Yolk",
                 "value": [
-                    {
-                        "name": "Bánh trung thu Khoai Môn (2 trứng)",
-                        "namee": null,
+                    {"idb":8,
+                        "name": "Khoai Môn 2 Trứng",
+                        "namee": "Taro 2 Yolks",
                         "200": [
                             "42B",
-                            170000
+                            180000
                         ],
                         "250": [
                             "42A",
-                            190000
+                            200000
                         ]
                     },
-                    {
-                        "name": "Bánh trung thu Sầu Riêng 6 Ri (2 trứng)",
-                        "namee": null,
+                    {"idb":9,
+                        "name": "Sầu Riêng 6 Ri 2 Trứng",
+                        "namee": "6 Ri Durian 2 Yolks",
                         "200": [
                             "48B",
-                            170000
+                            180000
                         ],
                         "250": [
                             "48A",
-                            210000
+                            200000
                         ]
                     },
-                    {
-                        "name": "Bánh trung thu Hạt Sen Trà Xanh (2 trứng)",
-                        "namee": null,
+                    {"idb":10,
+                        "name": "Hạt Sen Trà Xanh 2 Trứng",
+                        "namee": "Green Tea & Lotus Seed 2 Yolks",
                         "200": [
                             "50B",
-                            180000
+                            210000
                         ],
                         "250": [
                             "50A",
-                            220000
+                            230000
                         ]
                     },
-                    {
-                        "name": "Bánh trung thu Đậu Xanh (2 trứng)",
-                        "namee": null,
+                    {"idb":11,
+                        "name": "Đậu Xanh 2 Trứng",
+                        "namee": "Mung Bean 2 Yolks",
                         "200": [
                             "52B",
-                            150000
+                            170000
                         ],
                         "250": [
                             "52A",
-                            180000
+                            190000
                         ]
                     },
-                    {
-                        "name": "Bánh trung thu Quế Hoa Kỉ Tử (2 trứng)",
-                        "namee": null,
+                    {"idb":12,
+                        "name": "Quế Hoa Kỉ Tử 2 Trứng",
+                        "namee": "Osmanthus Flowers, Wolfberries 2 Yolks",
                         "200": [
                             "58B",
-                            190000
+                            230000
                         ],
                         "250": [
                             "58A",
-                            230000
+                            250000
                         ]
                     }
                 ]
@@ -150,79 +167,55 @@
         },
         {
             "type3": {
-                "name": "Bánh Chay",
-                "namee": "Chay Mooncake with Egg Yolk",
+                "name": "Nhân Ngọt Không Trứng",
+                "namee": "Sweet Mooncake without Egg Yolk",
                 "value": [
-                    {
-                        "name": "Bánh trung thu Hạt Sen Trà Xanh Chay",
-                        "namee": null,
-                        "200": [
-                            "4B",
-                            170000
-                        ],
-                        "250": [
-                            "4A",
-                            210000
-                        ]
-                    },
-                    {
-                        "name": "Bánh trung thu Đậu Xanh Chay",
-                        "namee": null,
-                        "200": [
-                            "8B",
-                            140000
-                        ],
-                        "250": [
-                            "8A",
-                            170000
-                        ]
-                    },
-                    {
-                        "name": "Bánh trung thu Cà Phê Dừa",
-                        "namee": null,
+                    {"idb":13,
+                        "name": "Cà Phê Dừa",
+                        "namee": "Coffee Coconut",
                         "200": [
                             "10B",
-                            170000
+                            200000
                         ],
                         "250": [
                             "10A",
-                            210000
+                            220000
                         ]
                     },
-                    {
-                        "name": "Bánh trung thu Tiramisu Phô Mai",
-                        "namee": null,
+                    {"idb":14,
+                        "name": "Tiramisu",
+                        "namee": "Tiramisu",
                         "200": [
                             "12B",
-                            200000
+                            220000
                         ],
                         "250": [
                             "12A",
-                            250000
+                            270000
                         ]
                     },
-                    {
-                        "name": "Bánh trung thu Thanh Long Phô Mai",
-                        "namee": null,
-                        "200": [
-                            "14B",
-                            200000
-                        ],
-                        "250": [
-                            "14A",
-                            250000
-                        ]
-                    },
-                    {
-                        "name": "Bánh trung thu Đậu Biếc Phô Mai",
-                        "namee": null,
+                    {"idb":15,
+                        "name": "Đậu Biếc Phô Mai",
+                        "namee": "Butterfly Pea Flowers with Cheese",
                         "200": [
                             "16B",
-                            200000
+                            220000
                         ],
                         "250": [
                             "16A",
-                            250000
+                            270000
+                        ]
+                    },
+                    {"idb":16,
+                        "name": "Hạnh Nhân Phô Mai Việt Quất Hoa Kỳ",
+                        "namee": "Almond Cheese US Bluberry",
+                        "200": [
+                            "24B",
+                            220000
+                        ],
+                        "250": [
+                            "24A",
+                            270000
                         ]
                     }
                 ]
@@ -230,48 +223,517 @@
         },
         {
             "type4": {
+                "name": "Bánh Chay",
+                "namee": "Chay Mooncake with Egg Yolk",
+                "value": [
+                    {"idb":17,
+                        "name": "Hạt Sen Trà Xanh Chay",
+                        "namee": "Vegetarian Green Tea & Lotus Seed",
+                        "200": [
+                            "4B",
+                            180000
+                        ],
+                        "250": [
+                            "4A",
+                            200000
+                        ]
+                    },
+                    {"idb":18,
+                        "name": "Đậu Xanh Chay",
+                        "namee": "Vegetarian Mung Bean",
+                        "200": [
+                            "8B",
+                            160000
+                        ],
+                        "250": [
+                            "8A",
+                            180000
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type5": {
                 "name": "Bánh Mini",
                 "namee": "Mini Mooncake with Egg Yolk",
                 "value": [
-                    {
+                    {"idb":19,
                         "name": "Bánh Lava Trứng Muối Tan Chảy",
-                        "namee": null,
+                        "namee": "Salted Egg Yolk Lava Cake",
                         "40": [
                             "LV",
-                            120000
+                            130000
                         ]
                     },
-                    {
-                        "name": "Bánh Trung Thu Đậu Xanh (Hình Gấu)",
-                        "namee": null,
+                    {"idb":20,
+                        "name": "Đậu Xanh Chay - Hình Gấu",
+                        "namee": "Vegetarian Mung Bean - Bear Shape",
                         "100": [
                             "TN1",
-                            50000
+                            60000
                         ]
                     },
-                    {
-                        "name": "Bánh Trung Thu Đậu Xanh (Hình Heo)",
-                        "namee": null,
+                    {"idb":21,
+                        "name": "Đậu Xanh Chay - Hình Heo",
+                        "namee": "Vegetarian Mung Bean - Pig Shape",
                         "100": [
                             "TN2",
-                            50000
+                            60000
                         ]
                     },
-                    {
-                        "name": "Bánh Trung Thu Đậu Xanh (Hình Mèo)",
-                        "namee": null,
+                    {"idb":22,
+                        "name": "Đậu Xanh Chay - Hình Mèo",
+                        "namee": "Vegetarian Mung Bean - Cat Shape",
                         "100": [
                             "TN3",
-                            50000
+                            60000
                         ]
                     }
                 ]
             }
         }
     ],
-    "code" : [
+    "code": [
         {
-         "1":1
+            "idb": 1,
+            "info": [
+                "1B",
+                200000
+            ],
+            "name": "Thập Cẩm 2 Trứng",
+            "namee": "Assorted Delights 2 Yolks",
+            "type": "Nhân Mặn, Có Trứng",
+            "typee": "Savory Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 2,
+            "info": [
+                "1A",
+                230000
+            ],
+            "name": "Thập Cẩm 2 Trứng",
+            "namee": "Assorted Delights 2 Yolks",
+            "type": "Nhân Mặn, Có Trứng",
+            "typee": "Savory Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 3,
+            "info": [
+                "3B",
+                210000
+            ],
+            "name": "Thập Cẩm Gà Quay 2 Trứng",
+            "namee": "Roasted Chicken 2 Yolks",
+            "type": "Nhân Mặn, Có Trứng",
+            "typee": "Savory Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 4,
+            "info": [
+                "3A",
+                240000
+            ],
+            "name": "Thập Cẩm Gà Quay 2 Trứng",
+            "namee": "Roasted Chicken 2 Yolks",
+            "type": "Nhân Mặn, Có Trứng",
+            "typee": "Savory Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 5,
+            "info": [
+                "7B",
+                280000
+            ],
+            "name": "Gà Quay Jambon Bát Bửu 1 Trứng",
+            "namee": "Roasted Chicken & Eight Treasures Ham 1 Yolks",
+            "type": "Nhân Mặn, Có Trứng",
+            "typee": "Savory Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 6,
+            "info": [
+                "7A",
+                310000
+            ],
+            "name": "Gà Quay Jambon Bát Bửu 1 Trứng",
+            "namee": "Roasted Chicken & Eight Treasures Ham 1 Yolks",
+            "type": "Nhân Mặn, Có Trứng",
+            "typee": "Savory Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 7,
+            "info": [
+                "9B",
+                290000
+            ],
+            "name": "Tom Yum Hải Sản 2 Trứng",
+            "namee": "Tom Yum Seafood 2 Yolks",
+            "type": "Nhân Mặn, Có Trứng",
+            "typee": "Savory Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 8,
+            "info": [
+                "9A",
+                320000
+            ],
+            "name": "Tom Yum Hải Sản 2 Trứng",
+            "namee": "Tom Yum Seafood 2 Yolks",
+            "type": "Nhân Mặn, Có Trứng",
+            "typee": "Savory Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 9,
+            "info": [
+                "11B",
+                420000
+            ],
+            "name": "Bào Ngư Vi Cá 1 Trứng",
+            "namee": "Abalone & Shark Fin 1 Yolks",
+            "type": "Nhân Mặn, Có Trứng",
+            "typee": "Savory Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 10,
+            "info": [
+                "11A",
+                500000
+            ],
+            "name": "Bào Ngư Vi Cá 1 Trứng",
+            "namee": "Abalone & Shark Fin 1 Yolks",
+            "type": "Nhân Mặn, Có Trứng",
+            "typee": "Savory Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 11,
+            "info": [
+                "13B",
+                310000
+            ],
+            "name": "Gà Quay Vi Cá 2 Trứng",
+            "namee": "Roasted Chicken & Shark Fin 2 Yolks",
+            "type": "Nhân Mặn, Có Trứng",
+            "typee": "Savory Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 12,
+            "info": [
+                "13A",
+                380000
+            ],
+            "name": "Gà Quay Vi Cá 2 Trứng",
+            "namee": "Roasted Chicken & Shark Fin 2 Yolks",
+            "type": "Nhân Mặn, Có Trứng",
+            "typee": "Savory Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 13,
+            "info": [
+                "15B",
+                300000
+            ],
+            "name": "Thập Cẩm Xốt Tôm Anh Đào 2 Trứng",
+            "namee": "Assorted Delights with Sakura Shrimp Sauce 2 Yolks",
+            "type": "Nhân Mặn, Có Trứng",
+            "typee": "Savory Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 14,
+            "info": [
+                "15A",
+                330000
+            ],
+            "name": "Thập Cẩm Xốt Tôm Anh Đào 2 Trứng",
+            "namee": "Assorted Delights with Sakura Shrimp Sauce 2 Yolks",
+            "type": "Nhân Mặn, Có Trứng",
+            "typee": "Savory Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 15,
+            "info": [
+                "42B",
+                180000
+            ],
+            "name": "Khoai Môn 2 Trứng",
+            "namee": "Taro 2 Yolks",
+            "type": "Nhân Ngọt, Có Trứng",
+            "typee": "Sweet Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 16,
+            "info": [
+                "42A",
+                200000
+            ],
+            "name": "Khoai Môn 2 Trứng",
+            "namee": "Taro 2 Yolks",
+            "type": "Nhân Ngọt, Có Trứng",
+            "typee": "Sweet Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 17,
+            "info": [
+                "48B",
+                180000
+            ],
+            "name": "Sầu Riêng 6 Ri 2 Trứng",
+            "namee": "6 Ri Durian 2 Yolks",
+            "type": "Nhân Ngọt, Có Trứng",
+            "typee": "Sweet Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 18,
+            "info": [
+                "48A",
+                200000
+            ],
+            "name": "Sầu Riêng 6 Ri 2 Trứng",
+            "namee": "6 Ri Durian 2 Yolks",
+            "type": "Nhân Ngọt, Có Trứng",
+            "typee": "Sweet Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 19,
+            "info": [
+                "50B",
+                210000
+            ],
+            "name": "Hạt Sen Trà Xanh 2 Trứng",
+            "namee": "Green Tea & Lotus Seed 2 Yolks",
+            "type": "Nhân Ngọt, Có Trứng",
+            "typee": "Sweet Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 20,
+            "info": [
+                "50A",
+                230000
+            ],
+            "name": "Hạt Sen Trà Xanh 2 Trứng",
+            "namee": "Green Tea & Lotus Seed 2 Yolks",
+            "type": "Nhân Ngọt, Có Trứng",
+            "typee": "Sweet Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 21,
+            "info": [
+                "52B",
+                170000
+            ],
+            "name": "Đậu Xanh 2 Trứng",
+            "namee": "Mung Bean 2 Yolks",
+            "type": "Nhân Ngọt, Có Trứng",
+            "typee": "Sweet Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 22,
+            "info": [
+                "52A",
+                190000
+            ],
+            "name": "Đậu Xanh 2 Trứng",
+            "namee": "Mung Bean 2 Yolks",
+            "type": "Nhân Ngọt, Có Trứng",
+            "typee": "Sweet Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 23,
+            "info": [
+                "58B",
+                230000
+            ],
+            "name": "Quế Hoa Kỉ Tử 2 Trứng",
+            "namee": "Osmanthus Flowers, Wolfberries 2 Yolks",
+            "type": "Nhân Ngọt, Có Trứng",
+            "typee": "Sweet Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 24,
+            "info": [
+                "58A",
+                250000
+            ],
+            "name": "Quế Hoa Kỉ Tử 2 Trứng",
+            "namee": "Osmanthus Flowers, Wolfberries 2 Yolks",
+            "type": "Nhân Ngọt, Có Trứng",
+            "typee": "Sweet Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 25,
+            "info": [
+                "10B",
+                200000
+            ],
+            "name": "Cà Phê Dừa",
+            "namee": "Coffee Coconut",
+            "type": "Nhân Ngọt Không Trứng",
+            "typee": "Sweet Mooncake without Egg Yolk"
+        },
+        {
+            "idb": 26,
+            "info": [
+                "10A",
+                220000
+            ],
+            "name": "Cà Phê Dừa",
+            "namee": "Coffee Coconut",
+            "type": "Nhân Ngọt Không Trứng",
+            "typee": "Sweet Mooncake without Egg Yolk"
+        },
+        {
+            "idb": 27,
+            "info": [
+                "12B",
+                220000
+            ],
+            "name": "Tiramisu",
+            "namee": "Tiramisu",
+            "type": "Nhân Ngọt Không Trứng",
+            "typee": "Sweet Mooncake without Egg Yolk"
+        },
+        {
+            "idb": 28,
+            "info": [
+                "12A",
+                270000
+            ],
+            "name": "Tiramisu",
+            "namee": "Tiramisu",
+            "type": "Nhân Ngọt Không Trứng",
+            "typee": "Sweet Mooncake without Egg Yolk"
+        },
+        {
+            "idb": 29,
+            "info": [
+                "16B",
+                220000
+            ],
+            "name": "Đậu Biếc Phô Mai",
+            "namee": "Butterfly Pea Flowers with Cheese",
+            "type": "Nhân Ngọt Không Trứng",
+            "typee": "Sweet Mooncake without Egg Yolk"
+        },
+        {
+            "idb": 30,
+            "info": [
+                "16A",
+                270000
+            ],
+            "name": "Đậu Biếc Phô Mai",
+            "namee": "Butterfly Pea Flowers with Cheese",
+            "type": "Nhân Ngọt Không Trứng",
+            "typee": "Sweet Mooncake without Egg Yolk"
+        },
+        {
+            "idb": 31,
+            "info": [
+                "24B",
+                220000
+            ],
+            "name": "Hạnh Nhân Phô Mai Việt Quất Hoa Kỳ",
+            "namee": "Almond Cheese US Bluberry",
+            "type": "Nhân Ngọt Không Trứng",
+            "typee": "Sweet Mooncake without Egg Yolk"
+        },
+        {
+            "idb": 32,
+            "info": [
+                "24A",
+                270000
+            ],
+            "name": "Hạnh Nhân Phô Mai Việt Quất Hoa Kỳ",
+            "namee": "Almond Cheese US Bluberry",
+            "type": "Nhân Ngọt Không Trứng",
+            "typee": "Sweet Mooncake without Egg Yolk"
+        },
+        {
+            "idb": 33,
+            "info": [
+                "4B",
+                180000
+            ],
+            "name": "Hạt Sen Trà Xanh Chay",
+            "namee": "Vegetarian Green Tea & Lotus Seed",
+            "type": "Bánh Chay",
+            "typee": "Chay Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 34,
+            "info": [
+                "4A",
+                200000
+            ],
+            "name": "Hạt Sen Trà Xanh Chay",
+            "namee": "Vegetarian Green Tea & Lotus Seed",
+            "type": "Bánh Chay",
+            "typee": "Chay Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 35,
+            "info": [
+                "8B",
+                160000
+            ],
+            "name": "Đậu Xanh Chay",
+            "namee": "Vegetarian Mung Bean",
+            "type": "Bánh Chay",
+            "typee": "Chay Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 36,
+            "info": [
+                "8A",
+                180000
+            ],
+            "name": "Đậu Xanh Chay",
+            "namee": "Vegetarian Mung Bean",
+            "type": "Bánh Chay",
+            "typee": "Chay Mooncake with Egg Yolk"
+        },
+        {
+            "id": 37,
+            "info": [
+                "LV",
+                130000
+            ],
+            "name": "Bánh Lava Trứng Muối Tan Chảy",
+            "namee": "Salted Egg Yolk Lava Cake",
+            "type": "Bánh Mini",
+            "typee": "Mini Mooncake with Egg Yolk"
+        },
+        {
+            "id": 38,
+            "info": [
+                "TN1",
+                60000
+            ],
+            "name": "Đậu Xanh Chay - Hình Gấu",
+            "namee": "Vegetarian Mung Bean - Bear Shape",
+            "type": "Bánh Mini",
+            "typee": "Mini Mooncake with Egg Yolk"
+        },
+        {
+            "id": 39,
+            "info": [
+                "TN2",
+                60000
+            ],
+            "name": "Đậu Xanh Chay - Hình Heo",
+            "namee": "Vegetarian Mung Bean - Pig Shape",
+            "type": "Bánh Mini",
+            "typee": "Mini Mooncake with Egg Yolk"
+        },
+        {
+            "id": 40,
+            "info": [
+                "TN3",
+                60000
+            ],
+            "name": "Đậu Xanh Chay - Hình Mèo",
+            "namee": "Vegetarian Mung Bean - Cat Shape",
+            "type": "Bánh Mini",
+            "typee": "Mini Mooncake with Egg Yolk"
         }
     ]
 }

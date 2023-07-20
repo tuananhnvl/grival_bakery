@@ -122,12 +122,22 @@ grid-column-start: 2;
     text-transform: uppercase;
 }
 .infobanhle {
-    width: 50%;
+
     overflow: hidden;
    
 }
-.infobanhle > div {
+.imgbanhle {
+    height:500px;
+}
+.infobanhle  {
+    width:50%;
     display: flex;
-    height: 500px;
-  justify-content: space-around;
+    
+    flex-direction: row;
+
+    justify-content: space-around;
+}
+
+.detailbanhle {
+    height: fit-content;
 }
