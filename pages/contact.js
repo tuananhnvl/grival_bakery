@@ -3,17 +3,10 @@ import { useRef, useLayoutEffect,useEffect } from 'react'
 import gsap from 'gsap/dist/gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import styles from '../styles/Login.module.css'
-import useIsomorphicLayoutEffect from '@/helpers/isomorphicEffect';
-gsap.registerPlugin(ScrollTrigger)
+
+//gsap.registerPlugin(ScrollTrigger)
 export default function contact() {
-    useEffect( () => {
-        (
-          async () => {
-              const LocomotiveScroll = (await import('locomotive-scroll')).default
-              const locomotiveScroll = new LocomotiveScroll();
-          }
-        )()
-      }, [])
+ 
     const phrases = ["Los Flamencos National Reserve", "is a nature reserve located", "in the commune of San Pedro de Atacama", "The reserve covers a total area", "of 740 square kilometres (290 sq mi)"]
 
     const boxRef = useRef();
