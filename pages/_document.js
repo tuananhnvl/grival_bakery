@@ -45,12 +45,12 @@ export default class MyDocument extends Document {
     return (
       <Html lang="vi">
         <Head/>
-         
 
         <body>
         
           <Main />
           <NextScript />
+          <div id="modal-root-protal"></div>
         </body>
       </Html>
     )

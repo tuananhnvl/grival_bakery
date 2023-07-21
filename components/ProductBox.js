@@ -71,7 +71,7 @@ export default function ProductBox({id,title,thumbnail,price,lazy}) {
           <Price>
             ${price}
           </Price>
-          <Button block onClick={() => addProduct(id)} primary outline>
+          <Button block onClick={console.log('----')} primary outline>
             Add to cartt
           </Button>
         </PriceRow>

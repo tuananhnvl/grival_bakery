@@ -77,7 +77,7 @@ export default function CartPage({ ip }) {
 
 
 
-  console.log(ip)
+  //console.log(ip)
   console.log('[[CartPage]]');
   const { cartProducts, addProduct, removeProduct, clearCart } = useContext(CartContext);
   const [products, setProducts] = useState([]);
@@ -124,7 +124,7 @@ export default function CartPage({ ip }) {
     }
   }, []);
   function moreOfThisProduct(id) {
-    addProduct(id);
+    addProduct(id,1);
   }
   function lessOfThisProduct(id) {
     removeProduct(id);
@@ -134,7 +134,7 @@ export default function CartPage({ ip }) {
     setProducts()
   }
   const dbInstance = collection(db, 'list-customer');
-  async function sendDataToDb(data) {
+  async function sendToMail(data) {
 
     fetch("/api/nodemailer", {
       method: "POST",
@@ -163,8 +163,8 @@ export default function CartPage({ ip }) {
 
 
   }
-  async function goToPayment() {
-    alert(['goToPayment',
+  async function onCheckOut() {
+    alert(['onCheckOut',
       name, email, city, postalCode, streetAddress, country,
       cartProducts,]
     )
@@ -175,8 +175,8 @@ export default function CartPage({ ip }) {
       email: email,
       cart: cartProducts
     }
-    console.log(cartProducts)
-    sendDataToDb(b)
+
+    sendToMail(b)
 
     // nodemailer(name,email,cartProducts)
 
@@ -187,15 +187,17 @@ export default function CartPage({ ip }) {
 
 
   let total = 0;
-
+  let setPrice = 0
   for (const productId of cartProducts) {
+    if (productId > 40) {
+      setPrice = data.code.find(p => (p.idb) === productId)?.price || 0;
+    } else {
+      setPrice = data.code.find(p => (p.idb) === productId)?.info[1] || 0;
+    }
 
-    const price = data.code.find(p => (p.idb) === productId)?.info[1] || 0;
-    console.log(price)
-    total += price;
-    //console.log(total)
+    total += setPrice;
   }
-  // console.log('---------------4',`$${total}`,`Length:${cartProducts.length}`)
+
   if (isSuccess) {
     return (
       <>
@@ -257,39 +259,67 @@ export default function CartPage({ ip }) {
                 <Table>
                   <thead>
                     <tr>
-                      <th>id</th>
-                      <th>Product</th>
-                      <th>About</th>
-                      <th>Count</th>
-                      <th>Price</th>
+                      <th>Mã bánh</th>
+                      {/* <th>Product</th> */}
+                      <th>Sản phẩm</th>
+                      <th>Số lượng</th>
+                      <th>Giá</th>
                     </tr>
                   </thead>
                   <tbody>
-                    {products.map((itemid) => {
+                    {products.map((idb, index) => {
 
                       return (
-                        <tr key={itemid}>
-                          <td>{itemid}</td>
-                          <td>
-                            <ProductImageBox>
-                              <Image src={'/asset-trungthu/loaihop/41.png'} width={500} height={300} alt="" />
-                            </ProductImageBox>
-                          </td>
-                          <td>{data.code[itemid + 1].name}</td>
-                          <td>
+                        <tr key={index}>
+                          {idb > 40 ? (
                             <>
-                              <Button
-                                onClick={() => lessOfThisProduct(itemid)}>-</Button>
-                              <QuantityLabel>
-                                {cartProducts.filter(id => id === itemid).length}
-                              </QuantityLabel>
-                              <Button
-                                onClick={() => moreOfThisProduct(itemid)}>+</Button></>
-                          </td>
-                          <td>
-                            <p>{ }</p>
-                            {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(cartProducts.filter(id => id === itemid).length * data.code[itemid].info[1]))}
-                          </td>
+                              <td>{JSON.stringify(data.code[idb - 1].value)}</td>
+                              <td>
+                                {/*  <ProductImageBox>
+                                  <Image src={'/asset-trungthu/loaihop/41.png'} width={500} height={300} alt="" />
+                                </ProductImageBox> */}
+                              </td>
+                              <td>{data.code[idb - 1].name}</td>
+                              <td>
+                                <>
+                                  <Button
+                                    onClick={() => lessOfThisProduct(idb)}>-</Button>
+                                  <QuantityLabel>
+                                    {cartProducts.filter(id => id === idb).length}
+                                  </QuantityLabel>
+                                  <Button
+                                    onClick={() => moreOfThisProduct(idb)}>+</Button></>
+                              </td>
+                              <td>
+                                {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(cartProducts.filter(id => id === idb).length * data.combo[data.code[idb - 1].type].value[data.code[idb - 1].stt].price))}
+                              </td>
+                            </>
+                          ) : (
+                            <>
+                              <td>{data.code[idb - 1].info[0]}</td>
+                              <td>
+                                {/*  <ProductImageBox>
+                                  <Image src={'/asset-trungthu/loaihop/41.png'} width={500} height={300} alt="" />
+                                </ProductImageBox> */}
+                              </td>
+                              <td>{data.code[idb - 1].name}</td>
+                              <td>
+                                <>
+                                  <Button
+                                    onClick={() => lessOfThisProduct(idb)}>-</Button>
+                                  <QuantityLabel>
+                                    {cartProducts.filter(id => id === idb).length}
+                                  </QuantityLabel>
+                                  <Button
+                                    onClick={() => moreOfThisProduct(idb)}>+</Button></>
+                              </td>
+                              <td>
+                                {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(cartProducts.filter(id => id === idb).length * data.code[idb - 1].info[1]))}
+                              </td>
+                            </>
+                          )}
+
+
                         </tr>
                       );
 
@@ -367,7 +397,7 @@ export default function CartPage({ ip }) {
               name="country"
               onChange={ev => setCountry(ev.target.value)} />
             <Button black block
-              onClick={goToPayment}>
+              onClick={onCheckOut}>
               Continue to payment
             </Button>
           </Box>

@@ -40,5 +40,7 @@ export const TypeBanhLe = styled.div`
         margin: 10px;
     }
 
-
+`
+export const DivTd = styled.div`
+    display:flex;
 `

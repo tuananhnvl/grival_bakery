@@ -6,7 +6,7 @@ export function CartContextProvider({children}) {
   console.log('[[CartContextProvider]]')
   const ls = typeof window !== "undefined" ? window.localStorage : null;
   const [cartProducts,setCartProducts] = useState([]);
- 
+ // console.log(cartProducts)
   useEffect(() => {
  //   console.log('[[CartContextProvider]]','check State')
     if (cartProducts?.length > 0) {
@@ -29,9 +29,10 @@ export function CartContextProvider({children}) {
     
   }
 
-  function addProduct(productId) {
-   // console.log('[[CartContextProvider]]','add')
-    setCartProducts(prev => [...prev,productId]);
+  function addProduct(productId,count) {
+    for (let i = 0; i < count; i++) {
+      setCartProducts(prev => [...prev,productId]);
+    }
     
   }
   function removeProduct(productId) {

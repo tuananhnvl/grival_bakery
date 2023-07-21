@@ -1,5 +1,5 @@
 import React from 'react'
-import { WrapperTable, TableBanhLeIndex,RowBanhLe,ThBanhLe,TypeBanhLe } from './StylesComponent';import ButtonAdd from './ButtonAdd';
+import { WrapperTable, TableBanhLeIndex,RowBanhLe,ThBanhLe,TypeBanhLe,DivTd } from './StylesComponent';import ButtonAdd from './ButtonAdd';
 
 export default function BanhNhanNgot({data}) {
 
@@ -30,17 +30,16 @@ export default function BanhNhanNgot({data}) {
                                     <p style={{fontStyle: "italic"}}>{item.namee}</p>
                                 </RowBanhLe>
                                 <RowBanhLe width="20.421%">
-                                    <p><strong>{item[200][0]}</strong></p>
-                                    {/* <br/> */}
-                                    <p>{new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(item[200][1]))}</p>
+                                    <DivTd>
+                                        <p><strong>{item[200][1]}</strong><br/>-<br/>{new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(item[200][2]))}</p>
+                                        <ButtonAdd id={item[200][0]} />
+                                    </DivTd>
                                 </RowBanhLe>
                                 <RowBanhLe width="20.422%">
-                                    <p><strong>{item[250][0]}</strong></p>
-                                    {/* <br/> */}
-                                    <p>{new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(item[250][1]))}</p>
-                                </RowBanhLe>
-                                <RowBanhLe width="10.420420%">
-                                    <ButtonAdd id={item.idb} />
+                                    <DivTd>
+                                        <p><strong>{item[250][1]}</strong><br/>-<br/>{new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(item[250][2]))}</p>
+                                        <ButtonAdd id={item[250][0]} />
+                                    </DivTd>
                                 </RowBanhLe>
                             </tr>
                         )

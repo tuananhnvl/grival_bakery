@@ -14,19 +14,14 @@ import BanhChay from '@/components/bakery/BanhChay'
 import BanhMini from '@/components/bakery/BanhMini'
 import Combo from '@/components/bakery/Combo'
 import data from '@/pages/data/brodard.json'
+import ButtonAdd from "@/components/bakery/ButtonAdd";
 
 const imagesc = require.context('@/public/asset-trungthu', true);
 const imageList = imagesc.keys().map(image => imagesc(image));
 
 export default function HomePage() {
-  let a = data.combo["thuongtrang"].value[0].value
-  //console.log(data.code)
-  //console.log(data.combo["thuongtrang"].value[0].value)
-  for (let i = 0; i < a.length; i++) {
-   // console.log(a[i])
-    console.log(data.code[a[i] - 1])
-    
-  }
+
+
   return (
     <>
       <Head>
@@ -113,6 +108,15 @@ export default function HomePage() {
         <div className="maxWidth">
           <h2>Các loại combo</h2>
           <div>
+            <h3>Combo Đầu Mùa</h3>
+            <ul>
+              <li>Set Đầu Mùa 1  <ButtonAdd id={41}/></li>
+              <li>Set Đầu Mùa 2  <ButtonAdd id={42}/></li>
+              <li>Set Đầu Mùa 3  <ButtonAdd id={43}/></li>
+              <li>Set Đầu Mùa 4  <ButtonAdd id={44}/></li>
+            </ul>
+          </div>
+          <div>
             <h3>Combo Đong Đầy</h3>
             <ul>
               <li>Set Đong Đầy 1</li>
@@ -128,12 +132,9 @@ export default function HomePage() {
             </ul>
           </div>
           <div>
-            <h3>Combo Đầu Mùa</h3>
+            <h3>Combo Đa Sắc</h3>
             <ul>
-              <li>Set Đầu Mùa 1</li>
-              <li>Set Đầu Mùa 2</li>
-              <li>Set Đầu Mùa 3</li>
-              <li>Set Đầu Mùa 4</li>
+              <li>Set LAVA Tan Chảy</li>
             </ul>
           </div>
         </div>

@@ -10,10 +10,12 @@
                         "name": "Thập Cẩm 2 Trứng",
                         "namee": "Assorted Delights 2 Yolks",
                         "200": [
+                            1,
                             "1B",
                             200000
                         ],
                         "250": [
+                            2,
                             "1A",
                             230000
                         ]
@@ -23,10 +25,12 @@
                         "name": "Thập Cẩm Gà Quay 2 Trứng",
                         "namee": "Roasted Chicken 2 Yolks",
                         "200": [
+                            3,
                             "3B",
                             210000
                         ],
                         "250": [
+                            4,
                             "3A",
                             240000
                         ]
@@ -36,10 +40,12 @@
                         "name": "Gà Quay Jambon Bát Bửu 1 Trứng",
                         "namee": "Roasted Chicken & Eight Treasures Ham 1 Yolks",
                         "200": [
+                            5,
                             "7B",
                             280000
                         ],
                         "250": [
+                            6,
                             "7A",
                             310000
                         ]
@@ -50,10 +56,12 @@
                         "name": "Tom Yum Hải Sản 2 Trứng",
                         "namee": "Tom Yum Seafood 2 Yolks",
                         "200": [
+                            7,
                             "9B",
                             290000
                         ],
                         "250": [
+                            8,
                             "9A",
                             320000
                         ]
@@ -62,10 +70,12 @@
                         "name": "Bào Ngư Vi Cá 1 Trứng",
                         "namee": "Abalone & Shark Fin 1 Yolks",
                         "200": [
+                            9,
                             "11B",
                             420000
                         ],
                         "250": [
+                            10,
                             "11A",
                             500000
                         ]
@@ -74,10 +84,12 @@
                         "name": "Gà Quay Vi Cá 2 Trứng",
                         "namee": "Roasted Chicken & Shark Fin 2 Yolks",
                         "200": [
+                            11,
                             "13B",
                             310000
                         ],
                         "250": [
+                            12,
                             "13A",
                             380000
                         ]
@@ -86,10 +98,12 @@
                         "name": "Thập Cẩm Xốt Tôm Anh Đào 2 Trứng",
                         "namee": "Assorted Delights with Sakura Shrimp Sauce 2 Yolks",
                         "200": [
+                            13,
                             "15B",
                             300000
                         ],
                         "250": [
+                            14,
                             "15A",
                             330000
                         ]
@@ -106,10 +120,12 @@
                         "name": "Khoai Môn 2 Trứng",
                         "namee": "Taro 2 Yolks",
                         "200": [
+                            15,
                             "42B",
                             180000
                         ],
                         "250": [
+                            16,
                             "42A",
                             200000
                         ]
@@ -118,10 +134,12 @@
                         "name": "Sầu Riêng 6 Ri 2 Trứng",
                         "namee": "6 Ri Durian 2 Yolks",
                         "200": [
+                            17,
                             "48B",
                             180000
                         ],
                         "250": [
+                            18,
                             "48A",
                             200000
                         ]
@@ -130,10 +148,12 @@
                         "name": "Hạt Sen Trà Xanh 2 Trứng",
                         "namee": "Green Tea & Lotus Seed 2 Yolks",
                         "200": [
+                            19,
                             "50B",
                             210000
                         ],
                         "250": [
+                            20,
                             "50A",
                             230000
                         ]
@@ -142,10 +162,12 @@
                         "name": "Đậu Xanh 2 Trứng",
                         "namee": "Mung Bean 2 Yolks",
                         "200": [
+                            21,
                             "52B",
                             170000
                         ],
                         "250": [
+                            22,
                             "52A",
                             190000
                         ]
@@ -154,10 +176,12 @@
                         "name": "Quế Hoa Kỉ Tử 2 Trứng",
                         "namee": "Osmanthus Flowers, Wolfberries 2 Yolks",
                         "200": [
+                            23,
                             "58B",
                             230000
                         ],
                         "250": [
+                            24,
                             "58A",
                             250000
                         ]
@@ -174,10 +198,12 @@
                         "name": "Cà Phê Dừa",
                         "namee": "Coffee Coconut",
                         "200": [
+                            25,
                             "10B",
                             200000
                         ],
                         "250": [
+                            26,
                             "10A",
                             220000
                         ]
@@ -186,10 +212,12 @@
                         "name": "Tiramisu",
                         "namee": "Tiramisu",
                         "200": [
+                            27,
                             "12B",
                             220000
                         ],
                         "250": [
+                            28,
                             "12A",
                             270000
                         ]
@@ -198,10 +226,12 @@
                         "name": "Đậu Biếc Phô Mai",
                         "namee": "Butterfly Pea Flowers with Cheese",
                         "200": [
+                            29,
                             "16B",
                             220000
                         ],
                         "250": [
+                            30,
                             "16A",
                             270000
                         ]
@@ -210,10 +240,12 @@
                         "name": "Hạnh Nhân Phô Mai Việt Quất Hoa Kỳ",
                         "namee": "Almond Cheese US Bluberry",
                         "200": [
+                            31,
                             "24B",
                             220000
                         ],
                         "250": [
+                            32,
                             "24A",
                             270000
                         ]
@@ -230,10 +262,12 @@
                         "name": "Hạt Sen Trà Xanh Chay",
                         "namee": "Vegetarian Green Tea & Lotus Seed",
                         "200": [
+                            33,
                             "4B",
                             180000
                         ],
                         "250": [
+                            34,
                             "4A",
                             200000
                         ]
@@ -242,10 +276,12 @@
                         "name": "Đậu Xanh Chay",
                         "namee": "Vegetarian Mung Bean",
                         "200": [
+                            35,
                             "8B",
                             160000
                         ],
                         "250": [
+                            36,
                             "8A",
                             180000
                         ]
@@ -258,10 +294,11 @@
                 "name": "Bánh Mini",
                 "namee": "Mini Mooncake with Egg Yolk",
                 "value": [
-                    {"idb":19,
+                    {"idb":37,
                         "name": "Bánh Lava Trứng Muối Tan Chảy",
                         "namee": "Salted Egg Yolk Lava Cake",
                         "40": [
+                            37,
                             "LV",
                             130000
                         ]
@@ -270,6 +307,7 @@
                         "name": "Đậu Xanh Chay - Hình Gấu",
                         "namee": "Vegetarian Mung Bean - Bear Shape",
                         "100": [
+                            38,
                             "TN1",
                             60000
                         ]
@@ -278,6 +316,7 @@
                         "name": "Đậu Xanh Chay - Hình Heo",
                         "namee": "Vegetarian Mung Bean - Pig Shape",
                         "100": [
+                            39,
                             "TN2",
                             60000
                         ]
@@ -286,6 +325,7 @@
                         "name": "Đậu Xanh Chay - Hình Mèo",
                         "namee": "Vegetarian Mung Bean - Cat Shape",
                         "100": [
+                            40,
                             "TN3",
                             60000
                         ]
@@ -692,7 +732,7 @@
             "typee": "Chay Mooncake with Egg Yolk"
         },
         {
-            "id": 37,
+            "idb": 37,
             "info": [
                 "LV",
                 130000
@@ -703,7 +743,7 @@
             "typee": "Mini Mooncake with Egg Yolk"
         },
         {
-            "id": 38,
+            "idb": 38,
             "info": [
                 "TN1",
                 60000
@@ -714,7 +754,7 @@
             "typee": "Mini Mooncake with Egg Yolk"
         },
         {
-            "id": 39,
+            "idb": 39,
             "info": [
                 "TN2",
                 60000
@@ -725,7 +765,7 @@
             "typee": "Mini Mooncake with Egg Yolk"
         },
         {
-            "id": 40,
+            "idb": 40,
             "info": [
                 "TN3",
                 60000
@@ -734,54 +774,76 @@
             "namee": "Vegetarian Mung Bean - Cat Shape",
             "type": "Bánh Mini",
             "typee": "Mini Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 41,
+            "type" : "daumua",
+            "stt" : 0,
+            "name" : "Set Đầu Mùa 1",
+            "namee" : "Moonrise 1",
+            "price" : 860000,
+            "value" : [2, 4, 22, 34]
+        },
+        {
+            "idb": 41,
+            "type" : "daumua",
+            "stt" : 1,
+            "name" : "Set Đầu Mùa 2",
+            "namee" : "Moonrise 2",
+            "price" : 940000,
+            "value" : [2, 4, 32, 18]
+        },
+        {
+            "idb": 43,
+            "type" : "daumua",
+            "stt" : 2,
+            "idc" : 3,
+            "name" : "Set Đầu Mùa 3",
+            "namee" : "Moonrise 3",
+            "price" : 970000,
+            "value" : [4, 14, 16, 18]
+        },
+        {
+            "idb": 44,
+            "type" : "daumua",
+            "stt" : 3,
+            "name" : "Set Đầu Mùa 4",
+            "namee" : "Moonrise 4",
+            "price" : 1210000,
+            "value" :[12, 14, 28, 20]
+        },
+        {
+            "idb": 45,
+            "type" : "dasac",
+            "stt" : 0
+        },
+        {
+            "idb": 46,
+            "type" : "thuongtrang",
+            "stt" : 0
+        },
+        {
+            "idb": 47,
+            "type" : "thuongtrang",
+            "stt" : 1
+        },
+        {
+            "idb": 48,
+            "type" : "dongday",
+            "stt" : 0
+        },
+        {
+            "idb": 49,
+            "type" : "dongday",
+            "stt" : 1
+        },
+        {
+            "idb": 50,
+            "type" : "dongday",
+            "stt" : 2
         }
     ],
     "combo":{
-        "thuongtrang" : {
-            "name" : "Combo Thưởng Trăng",
-            "value" : [
-                {
-                    "idc" : 1,
-                    "name" : "Set Thưởng Trăng 1",
-                    "namee" : "Moongazing 1",
-                    "price" : 1500000,
-                    "value" : [2,4,34,22]
-                },
-                {
-                    "idc" : 2,
-                    "name" : "Set Thưởng Trăng 2",
-                    "namee" : "Moongazing 2",
-                    "price" : 1640000,
-                    "value" : [2,4,34,22]
-                }
-            ]
-        },
-        "dongday" : {
-            "name" : "Combo Đong Đầy",
-            "value" : [
-                {
-                    "idc" : 1,
-                    "name" : "Set Đong Đầy – Nấm Xích Linh Chi",
-                    "namee" : "Wholesomeness (Dried Japan Red Reishi Mushroom Edition)",
-                    "price" : 3080000,
-                    "value" : [2,4,34,22]
-                },
-                {
-                    "idc" : 2,
-                    "name" : "Set Đong Đầy – Mật Ong",
-                    "namee" : "Wholesomeness (Honney Edition)",
-                    "price" : 3080000,
-                    "value" : [2,4,34,22]
-                },
-                {
-                    "idc" : 3,
-                    "name" : "Set Đong Đầy – Yến Sào",
-                    "namee" : "Wholesomeness (Pure Bird's Nest Edition)",
-                    "price" : 6600000,
-                    "value" : [2,4,34,22]
-                }
-            ]
-        },
         "daumua" : {
             "name" : "Combo Đầu Mùa",
             "value" : [
@@ -790,28 +852,87 @@
                     "name" : "Set Đầu Mùa 1",
                     "namee" : "Moonrise 1",
                     "price" : 860000,
-                    "value" : [2,4,34,22]
+                    "value" : [2, 4, 22, 34]
                 },
                 {
                     "idc" : 2,
                     "name" : "Set Đầu Mùa 2",
                     "namee" : "Moonrise 2",
                     "price" : 940000,
-                    "value" : [2,4,34,22]
+                    "value" : [2, 4, 32, 18]
                 },
                 {
                     "idc" : 3,
                     "name" : "Set Đầu Mùa 3",
                     "namee" : "Moonrise 3",
                     "price" : 970000,
-                    "value" : [2,4,34,22]
+                    "value" : [4, 14, 16, 18]
                 },
                 {
                     "idc" : 4,
                     "name" : "Set Đầu Mùa 4",
                     "namee" : "Moonrise 4",
                     "price" : 1210000,
-                    "value" : [2,4,34,22]
+                    "value" :[12, 14, 28, 20]
+                }
+            ]
+        },
+        "dasac" : {
+            "name" : "Combo Đa Sắc",
+            "value" : {
+                "idc" : 1,
+                "name" : "Set LAVA Tan Chảy",
+                "namee" : "Combo Lava",
+                "price" : 780000,
+                "value" : [37,37,37,37,37,37]
+            }
+        },
+        "thuongtrang" : {
+            "name" : "Combo Thưởng Trăng",
+            "value" : [
+                {
+                    "idc" : 1,
+                    "name" : "Set Thưởng Trăng 1",
+                    "namee" : "Moongazing 1",
+                    "price" : 1500000,
+                    "value" : [2, 4, 14, 32, 18, 20]
+                },
+                {
+                    "idc" : 2,
+                    "name" : "Set Thưởng Trăng 2",
+                    "namee" : "Moongazing 2",
+                    "price" : 1640000,
+                    "value" : [2, 6, 12, 28, 16, 24]
+                }
+            ]
+        },
+        "dongday" : {
+            "type" : "s",
+            "name" : "Combo Đong Đầy",
+            "value" : [
+                {
+                    "idc" : 1,
+                    "name" : "Set Đong Đầy – Nấm Xích Linh Chi",
+                    "namee" : "Wholesomeness (Dried Japan Red Reishi Mushroom Edition)",
+                    "price" : 3080000,
+                    "value" : [10, 12, 18, 24],
+                    "bonus" : ["2 Gói Trà Ô Long 100g","Nấm Linh Chi Nhật Cắt Lát 100g"]
+                },
+                {
+                    "idc" : 2,
+                    "name" : "Set Đong Đầy – Yến Sào",
+                    "namee" : "Wholesomeness (Pure Bird's Nest Edition)",
+                    "price" : 6600000,
+                    "value" : [10, 12, 18, 24],
+                    "bonus" : ["Yến Sào 50g" , "2 Gói Trà Ô Lông 100g"]
+                },
+                {
+                    "idc" : 3,
+                    "name" : "Set Đong Đầy – Mật Ong",
+                    "namee" : "Wholesomeness (Honney Edition)",
+                    "price" : 3080000,
+                    "value" : [10, 12, 18, 24],
+                    "bonus" : ["Lọ Mật Ong Hoa Cà Phê 189ml", "Lọ Mật Ong Hoa Chôm Chôm 189ml" ,"2 Gói trà Ô Long"]
                 }
             ]
         }

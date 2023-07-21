@@ -1,28 +1,21 @@
 'use client';
-import React from 'react'
-import {useContext } from "react";
-import {CartContext} from "@/components/CartContext";
-
+import React,{useState} from 'react'
+import Modal from "@/components/Modal";
 export default function ButtonAdd({ id }) {
-    const { addProduct } = useContext(CartContext);
-    //  console.log('ButtonContext',id)
     
-    const addToCart = () => {
-        console.log(id)
-       // addProduct(id)
-       /*  if (id % 2 == 0){
-            let idd = id + 1
-            console.log("id là số chẵn");
-        }
-        else{
-            console.log("id là số lẽ");
-        } */
-    };
+    const [showModal, setShowModal] = useState(false);
+    
+    
     return (
         <>
-            <button onClick={addToCart}>
-                Mua
-            </button>
+
+        <div>
+            <button onClick={() => setShowModal(true)}>Open Modal</button>
+            {showModal &&
+                <Modal onClose={() => setShowModal(false)} /* children={'test children on Modal Protal'} */ id={id}/>
+            }
+        </div>
+            
         </>
     )
 }
