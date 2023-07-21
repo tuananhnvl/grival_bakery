@@ -24,17 +24,21 @@ p,a,button,span {
 h1,h2,h3,h4,h5 {
     font-family: "Play";
 }
- 
+a,button {
+    cursor: pointer;
+}
 table {
     border-collapse: collapse;
   }
 table, td, th {
-    border: 1px solid gray;
-  }
-
+    /* border: 1px solid gray; */
+}
+td {
+    border-bottom: 1px solid gray;
+}
 
 div {
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
   /* GRID */
   :root {

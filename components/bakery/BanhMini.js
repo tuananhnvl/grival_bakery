@@ -1,5 +1,5 @@
 import React from 'react'
-import { WrapperTable, TableBanhLeIndex,RowBanhLe,ThBanhLe } from './StylesComponent';import ButtonAdd from './ButtonAdd';
+import { WrapperTable, TableBanhLeIndex,RowBanhLe,ThBanhLe,TypeBanhLe } from './StylesComponent';import ButtonAdd from './ButtonAdd';
 
 export default function BanhMini({data}) {
 
@@ -9,7 +9,11 @@ export default function BanhMini({data}) {
             <thead>
                 <tr>
                     <ThBanhLe colSpan='8'>
-                        <p><strong>BÁNH {data.name} - {data.namee}</strong></p>
+                        <TypeBanhLe>
+                            <span>Bánh Trung Thu</span>
+                            <h4>{data.name}</h4>
+                            <p>{data.namee}</p>
+                        </TypeBanhLe>
                     </ThBanhLe>
                 </tr>
             </thead>
@@ -28,6 +32,7 @@ export default function BanhMini({data}) {
                                 </RowBanhLe>
                                 <RowBanhLe width="42.420%">
                                     <p>{item.name}</p>
+                                    <p style={{fontStyle: "italic"}}>{item.namee}</p>
                                 </RowBanhLe>
                                 <RowBanhLe width="20.421%">
                                     <p><strong>{item[u][0]}</strong></p>

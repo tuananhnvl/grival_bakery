@@ -187,6 +187,18 @@ export default function HomePage() {
               <p>625.000VND</p>
               <button>Mua</button>
             </div>
+            <div className='boxitem'>
+              <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} src={'/asset-trungthu/loaihop/v1.png'} alt="Box 5 cai" />
+              <h3>Hộp VIP</h3>
+              <p>625.000VND</p>
+              <button>Mua</button>
+            </div>
+            <div className='boxitem'>
+              <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} src={'/asset-trungthu/loaihop/v1.png'} alt="Box 5 cai" />
+              <h3>Hộp VIP</h3>
+              <p>625.000VND</p>
+              <button>Mua</button>
+            </div>
           </div>
         </div>
       </section>
