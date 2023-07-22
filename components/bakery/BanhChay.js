@@ -21,7 +21,7 @@ export default function BanhChay({data}) {
                 {(data.value).map(function(item, i){
                         console.log(item.idb)
                         return (
-                            <tr>
+                            <tr key={i}>
                                 <RowBanhLe width="5.420%" style={{textAlign:"center"}}>
                                     <p>{item.idb}</p>
                                 </RowBanhLe>

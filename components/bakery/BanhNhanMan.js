@@ -23,7 +23,7 @@ export default function BanhNhanMan({data}) {
                 {(data.value).map(function(item, i){
                   
                         return (
-                            <tr>
+                            <tr key={i}>
                                 <RowBanhLe width="5.420%" style={{textAlign:"center"}}>
                                     <p>{item.idb}</p>
                                 </RowBanhLe>

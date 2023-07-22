@@ -1,21 +1,14 @@
 'use client';
-import React,{useState} from 'react'
-import Modal from "@/components/Modal";
+import React from 'react'
+import { useContext } from "react";
+import { CartContext } from "@/components/CartContext";
 export default function ButtonAdd({ id }) {
-    
-    const [showModal, setShowModal] = useState(false);
-    
-    
-    return (
-        <>
+    const { addProduct } = useContext(CartContext);
+    const addToCart = () => {
+        addProduct(id, 1)
+    };
 
-        <div>
-            <button onClick={() => setShowModal(true)}>Open Modal</button>
-            {showModal &&
-                <Modal onClose={() => setShowModal(false)} /* children={'test children on Modal Protal'} */ id={id}/>
-            }
-        </div>
-            
-        </>
+    return (
+        <button onClick={() => addToCart()}>Mua</button>
     )
 }

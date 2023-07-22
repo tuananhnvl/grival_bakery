@@ -247,15 +247,16 @@ export default function CartPage({ ip }) {
             )}
 
           </UserLog>
+       
           <Box>
             <h2>Cart</h2>
             {!cartProducts?.length && (
               <div>Your cart is empty</div>
             )}
-
+              <Button onClick={handleClearCart}>Clear Cart</Button>
             {(products)?.length > 0 && (
               <>
-                <Button onClick={handleClearCart}>Clear Cart</Button>
+              
                 <Table>
                   <thead>
                     <tr>
@@ -291,7 +292,7 @@ export default function CartPage({ ip }) {
                                     onClick={() => moreOfThisProduct(idb)}>+</Button></>
                               </td>
                               <td>
-                                {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(cartProducts.filter(id => id === idb).length * data.combo[data.code[idb - 1].type].value[data.code[idb - 1].stt].price))}
+                                {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(cartProducts.filter(id => id === idb).length *data.code[idb - 1].price))}
                               </td>
                             </>
                           ) : (

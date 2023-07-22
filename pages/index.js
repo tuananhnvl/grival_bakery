@@ -3,10 +3,10 @@ import Header from "@/components/Header";
 import Head from 'next/head';
 import styles from '../styles/Home.module.css'
 import dynamic from "next/dynamic";
-import { useEffect } from 'react'
+import { useEffect,useContext ,useRef} from 'react'
 import Image from "next/image";
 import LogoBrodrad from '@/public/logo-brodard.png'
-
+import DemoImg from '@/public/asset-trungthu/combo/combo-dong-day.png'
 import BanhNhanMan from '@/components/bakery/BanhNhanMan'
 import BanhNhanNgotKo from '@/components/bakery/BanhNhanNgotKo'
 import BanhNhanNgot from '@/components/bakery/BanhNhanNgot'
@@ -15,13 +15,23 @@ import BanhMini from '@/components/bakery/BanhMini'
 import Combo from '@/components/bakery/Combo'
 import data from '@/pages/data/brodard.json'
 import ButtonAdd from "@/components/bakery/ButtonAdd";
-
+import ButtonMore from "@/components/bakery/ButtonMore";
+import {LenisContext} from "@/components/LenisProvider";
 const imagesc = require.context('@/public/asset-trungthu', true);
 const imageList = imagesc.keys().map(image => imagesc(image));
 
 export default function HomePage() {
+  const refD = useRef(null)
+  const lenisVal = useContext(LenisContext);
+  useEffect(() => {
+    if (lenisVal && lenisVal.scroll) {
 
-
+    }
+  },[refD])
+  function scrollToTarget(target) {
+ 
+    lenisVal.scrollTo(`#${target}`,1000)
+  }
   return (
     <>
       <Head>
@@ -38,6 +48,7 @@ export default function HomePage() {
         />
       </Head>
       <Header />
+  
       <section>
         <div className={styles.banner}>
           <h2>Bánh trung thu </h2>
@@ -52,8 +63,9 @@ export default function HomePage() {
           </div>
           <p>Bánh trung thu Brodard, nơi hội tụ của sự tinh tế , Thay bạn thể hiện sự quan tâm tận tình </p>
           <div className={styles.btngr}>
-            <button>Hộp Bánh Combo</button>
-            <button>Bánh lẻ</button>
+            <button onClick={() => scrollToTarget('combo')} >Combo</button>
+            <button onClick={() => scrollToTarget('banhle')}>Bánh lẻ</button>
+            <button onClick={() => scrollToTarget('hop')}>Hộp</button>
           </div>
         </div>
         <div className={styles.gallery} >
@@ -90,7 +102,7 @@ export default function HomePage() {
             />
           </div>
         </div>
-        <div className={styles.infobrodard}>
+        <div className={styles.infobrodard} ref={refD}>
           <Image
             src={LogoBrodrad}
             
@@ -105,41 +117,41 @@ export default function HomePage() {
             <p style={{ textAlign: 'center' }}>Chất lượng bánh Brodard luôn là yếu tố được coi trọng hàng đầu: không dùng phụ gia, đường hóa học và đảm bảo quy định an toàn vệ sinh thực phẩm. Bên cạnh chất lượng bánh đã gắn liền với thương hiệu, Brodard chăm chút cho hình thức bánh với nhiều mẫu mã đa dạng.</p>
           </div>
         </div>
-        <div className="maxWidth">
+        <div className="maxWidth" id="combo">
           <h2>Các loại combo</h2>
           <div>
             <h3>Combo Đầu Mùa</h3>
             <ul>
-              <li>Set Đầu Mùa 1  <ButtonAdd id={41}/></li>
-              <li>Set Đầu Mùa 2  <ButtonAdd id={42}/></li>
-              <li>Set Đầu Mùa 3  <ButtonAdd id={43}/></li>
-              <li>Set Đầu Mùa 4  <ButtonAdd id={44}/></li>
+              <li>Set Đầu Mùa 1  <ButtonMore id={41} /><ButtonAdd id={41}/></li>
+              <li>Set Đầu Mùa 2  <ButtonMore id={42} /><ButtonAdd id={42}/></li>
+              <li>Set Đầu Mùa 3  <ButtonMore id={43} /><ButtonAdd id={43}/></li>
+              <li>Set Đầu Mùa 4  <ButtonMore id={44} /><ButtonAdd id={44}/></li>
             </ul>
           </div>
           <div>
             <h3>Combo Đong Đầy</h3>
             <ul>
-              <li>Set Đong Đầy 1</li>
-              <li>Set Đong Đầy 2</li>
-              <li>Set Đong Đầy 3</li>
+              <li>Set Đong Đầy 1 <ButtonMore id={48} /><ButtonAdd id={48}/></li>
+              <li>Set Đong Đầy 2 <ButtonMore id={49} /><ButtonAdd id={49}/></li>
+              <li>Set Đong Đầy 3 <ButtonMore id={50} /><ButtonAdd id={50}/></li>
             </ul>
           </div>
           <div>
             <h3>Combo Thưởng Trăng</h3>
             <ul>
-              <li>Set Thưởng Trăng 1</li>
-              <li>Set Thưởng Trăng 2</li>
+              <li>Set Thưởng Trăng 1 <ButtonMore id={46} /><ButtonAdd id={46}/></li>
+              <li>Set Thưởng Trăng 2 <ButtonMore id={47} /><ButtonAdd id={47}/></li>
             </ul>
           </div>
           <div>
             <h3>Combo Đa Sắc</h3>
             <ul>
-              <li>Set LAVA Tan Chảy</li>
+              <li>Set LAVA Tan Chảy <ButtonMore id={45} /><ButtonAdd id={45}/></li>
             </ul>
           </div>
         </div>
-        <div className={`maxWidth ${styles.listbanhle}`}>
-        <div style={{ display: 'flex', width: '100%'}}>
+        <div className={`maxWidth ${styles.listbanhle}`} id="banhle">
+        <div style={{ display: 'flex', width: '100%'}} >
               <div className={styles.contentbanhle}>
                 <h2>các vị bánh trung thu</h2>
                 <p>Với sự kết hợp giữa những nguyên liệu tinh tuý nhất, những chiếc bánh độc bản, Hộp quà BRODARD VIP là món quà đầy tâm tình độc nhất dành cho kính khách</p>
@@ -167,7 +179,7 @@ export default function HomePage() {
           </div>
           
         </div>
-        <div className={` ${styles.listbox}`}>
+        <div className={` ${styles.listbox}`} id="hop">
           <h2>Hộp quà tặng trung thu</h2>
           <div className='grid-system-12'>
             <div className='boxitem' >

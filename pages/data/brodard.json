@@ -740,7 +740,8 @@
             "name": "Bánh Lava Trứng Muối Tan Chảy",
             "namee": "Salted Egg Yolk Lava Cake",
             "type": "Bánh Mini",
-            "typee": "Mini Mooncake with Egg Yolk"
+            "typee": "Mini Mooncake with Egg Yolk",
+            "image" : "./asset-trungthu/banh/banh-lava-tan-chay.jpg"
         },
         {
             "idb": 38,
@@ -751,7 +752,8 @@
             "name": "Đậu Xanh Chay - Hình Gấu",
             "namee": "Vegetarian Mung Bean - Bear Shape",
             "type": "Bánh Mini",
-            "typee": "Mini Mooncake with Egg Yolk"
+            "typee": "Mini Mooncake with Egg Yolk",
+            "image" : "./asset-trungthu/banh/banh-trung-thu-hinh-gau.png"
         },
         {
             "idb": 39,
@@ -762,7 +764,8 @@
             "name": "Đậu Xanh Chay - Hình Heo",
             "namee": "Vegetarian Mung Bean - Pig Shape",
             "type": "Bánh Mini",
-            "typee": "Mini Mooncake with Egg Yolk"
+            "typee": "Mini Mooncake with Egg Yolk",
+            "image" : "./asset-trungthu/banh/banh-trung-thu-hinh-heo.png"
         },
         {
             "idb": 40,
@@ -773,7 +776,8 @@
             "name": "Đậu Xanh Chay - Hình Mèo",
             "namee": "Vegetarian Mung Bean - Cat Shape",
             "type": "Bánh Mini",
-            "typee": "Mini Mooncake with Egg Yolk"
+            "typee": "Mini Mooncake with Egg Yolk",
+            "image" : "./asset-trungthu/banh/banh-trung-thu-hinh-meo.png"
         },
         {
             "idb": 41,
@@ -782,7 +786,9 @@
             "name" : "Set Đầu Mùa 1",
             "namee" : "Moonrise 1",
             "price" : 860000,
-            "value" : [2, 4, 22, 34]
+            "value" : [2, 4, 22, 34],
+            "image" : "./asset-trungthu/combo/combo-dau-mua.png",
+            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Đầu Mùa khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
         },
         {
             "idb": 41,
@@ -791,7 +797,9 @@
             "name" : "Set Đầu Mùa 2",
             "namee" : "Moonrise 2",
             "price" : 940000,
-            "value" : [2, 4, 32, 18]
+            "value" : [2, 4, 32, 18],
+            "image" : "./asset-trungthu/combo/combo-dau-mua.png",
+            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Đầu Mùa khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
         },
         {
             "idb": 43,
@@ -801,7 +809,9 @@
             "name" : "Set Đầu Mùa 3",
             "namee" : "Moonrise 3",
             "price" : 970000,
-            "value" : [4, 14, 16, 18]
+            "value" : [4, 14, 16, 18],
+            "image" : "./asset-trungthu/combo/combo-dau-mua.png",
+            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Đầu Mùa khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
         },
         {
             "idb": 44,
@@ -810,37 +820,79 @@
             "name" : "Set Đầu Mùa 4",
             "namee" : "Moonrise 4",
             "price" : 1210000,
-            "value" :[12, 14, 28, 20]
+            "value" :[12, 14, 28, 20],
+            "image" : "./asset-trungthu/combo/combo-dau-mua.png",
+            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Đầu Mùa khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
         },
         {
             "idb": 45,
             "type" : "dasac",
-            "stt" : 0
+            "stt" : 0,
+            "name" : "Set LAVA Tan Chảy",
+            "namee" : "Combo Lava",
+            "price" : 780000,
+            "value" : [37,37,37,37,37,37],
+            "image" : "./asset-trungthu/combo/combo-da-sac.png",
+            "content" : "Được thiết kế trong hình dáng của của tấm bưu thiếp từ nunowsc Pháp xinh đẹp nhưng mang đậm “Dấu ấn Sài Gòn” đong đầy cảm xúc, gửi gắm trọn vẹn yêu thương tới người thân."
         },
         {
             "idb": 46,
             "type" : "thuongtrang",
-            "stt" : 0
+            "stt" : 0,
+            "name" : "Set Thưởng Trăng 1",
+            "namee" : "Moongazing 1",
+            "price" : 1500000,
+            "value" : [2, 4, 14, 32, 18, 20],
+            "image" : "./asset-trungthu/combo/combo-thuong-trang.png",
+            "content" : "Rằm tháng Tám, khi trăng treo đỉnh trời cũng là lúc những ánh trăng chiếu xen vào tán lá xanh trong vườn nhà, Thưởng Trăng gợi ra một đêm trung thu Đoàn Viên ấm áp bên bạn bè và gia đình"
         },
         {
             "idb": 47,
             "type" : "thuongtrang",
-            "stt" : 1
+            "stt" : 1,
+            "name" : "Set Thưởng Trăng 2",
+            "namee" : "Moongazing 2",
+            "price" : 1640000,
+            "value" : [2, 6, 12, 28, 16, 24],
+            "image" : "./asset-trungthu/combo/combo-thuong-trang.png",
+            "content" : "Rằm tháng Tám, khi trăng treo đỉnh trời cũng là lúc những ánh trăng chiếu xen vào tán lá xanh trong vườn nhà, Thưởng Trăng gợi ra một đêm trung thu Đoàn Viên ấm áp bên bạn bè và gia đình"
         },
         {
             "idb": 48,
             "type" : "dongday",
-            "stt" : 0
+            "stt" : 0,
+            "name" : "Set Đong Đầy – Nấm Xích Linh Chi",
+            "namee" : "Wholesomeness (Dried Japan Red Reishi Mushroom Edition)",
+            "price" : 3080000,
+            "value" : [10, 12, 18, 24],
+            "bonus" : ["2 Gói Trà Ô Long 100g","Nấm Linh Chi Nhật Cắt Lát 100g"],
+            "image" : "./asset-trungthu/combo/combo-dong-day.png",
+            "content" : "Màu đỏ tượng trưng cho niềm vui và hạnh phúc, gửi tới gia đình, bạn bè và đối tác. Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Đong Đầy là một món quà vẹn tròn cho tết Đoàn Viên."
+            
         },
         {
             "idb": 49,
             "type" : "dongday",
-            "stt" : 1
+            "stt" : 1,
+            "name" : "Set Đong Đầy – Yến Sào",
+            "namee" : "Wholesomeness (Pure Bird's Nest Edition)",
+            "price" : 6600000,
+            "value" : [10, 12, 18, 24],
+            "bonus" : ["Yến Sào 50g" , "2 Gói Trà Ô Lông 100g"],
+            "image" : "./asset-trungthu/combo/combo-dong-day.png",
+            "content" : "Màu đỏ tượng trưng cho niềm vui và hạnh phúc, gửi tới gia đình, bạn bè và đối tác. Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Đong Đầy là một món quà vẹn tròn cho tết Đoàn Viên."
         },
         {
             "idb": 50,
             "type" : "dongday",
-            "stt" : 2
+            "stt" : 2,
+            "name" : "Set Đong Đầy – Mật Ong",
+            "namee" : "Wholesomeness (Honney Edition)",
+            "price" : 3080000,
+            "value" : [10, 12, 18, 24],
+            "bonus" : ["Lọ Mật Ong Hoa Cà Phê 189ml", "Lọ Mật Ong Hoa Chôm Chôm 189ml" ,"2 Gói trà Ô Long"],
+            "image" : "./asset-trungthu/combo/combo-dong-day.png",
+            "content" : "Màu đỏ tượng trưng cho niềm vui và hạnh phúc, gửi tới gia đình, bạn bè và đối tác. Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Đong Đầy là một món quà vẹn tròn cho tết Đoàn Viên."
         }
     ],
     "combo":{

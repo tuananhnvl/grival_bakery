@@ -27,7 +27,7 @@ export default function BanhMini({data}) {
                             u = 100
                         }
                         return (
-                            <tr>
+                            <tr key={i}>
                                 <RowBanhLe width="5.420%" style={{textAlign:"center"}}>
                                     <p>{item.idb}</p>
                                 </RowBanhLe>
