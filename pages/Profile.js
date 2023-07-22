@@ -1,4 +1,4 @@
-import { useSession, signIn, signOut } from "next-auth/react"
+import { useSession } from "next-auth/react"
 import { useRouter } from 'next/router';
 import styles from '../styles/Profile.module.css'
 import {useEffect, useState,useContext} from 'react'

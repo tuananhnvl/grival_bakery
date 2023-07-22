@@ -1,10 +1,8 @@
 
-import { useSession, signIn, signOut } from "next-auth/react"
+import { useSession, signOut } from "next-auth/react"
 import { useRouter } from 'next/router';
 import styles from '../styles/Login.module.css'
 import Signin from './auth/signin'
-import { useEffect,useRef } from "react";
-import gsap from "gsap";
 
 export default function Login() {
   const { data: session } = useSession()

@@ -8,8 +8,6 @@ import dynamic from "next/dynamic";
 export default function ProductsPage() {
   console.log('[[ProductsPage]]')
 
-
-
   const ProductsGrid = dynamic(() => import("../components/ProductsGrid"), {
     loading: () => <p>Loading...</p>,
   });

@@ -1,6 +1,4 @@
-import {createGlobalStyle} from "styled-components";
-import localFont from 'next/font/local'
-import { useState,useEffect } from "react";
+import { useEffect } from "react";
 import {CartContextProvider} from "@/components/CartContext";
 import { SessionProvider } from "next-auth/react"
 import Popupchat from '@/components/Popupchat.js'
@@ -22,7 +20,7 @@ export default function App({
 
     
         lenisScroll.on('scroll', () => {
-          console.log('scroll')
+         // console.log('scroll')
        
         })
 
