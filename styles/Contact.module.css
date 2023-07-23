@@ -1,0 +1,17 @@
+.contact {
+    display:flex;
+    justify-content: space-around;
+}
+.contact > div:nth-child(1) {
+    width: 60%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+.contact > div:nth-child(1) > img {
+    margin: auto;
+}
+.contact > div:nth-child(2) {
+    width: 40%;
+    height: 100%;
+}

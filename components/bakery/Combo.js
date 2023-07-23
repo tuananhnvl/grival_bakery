@@ -1,644 +1,105 @@
+'use client';
 import React from 'react'
-
+import styles from '@/styles/Home.module.css'
+import Image from "next/image";
+import ButtonAdd from "@/components/bakery/ButtonAdd";
+import ButtonMore from "@/components/bakery/ButtonMore";
+import data from '@/pages/data/brodard.json'
+import {TDCombo,TRCombo,TBCombo,TableCombo} from './StylesCombo'
 export default function Combo() {
-  return (
-    <div>
-        <table>
-            <tbody>
-            <tr>
-            <td>
-                <p><strong>LV1</strong></p>
-            </td>
-            <td colSpan='6'>
-                <p><strong>HỘP BÁNH LAVA (06 cái) – 720,000 VND</strong></p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p></p>
-            </td>
-            <td>
-                <p>Bánh Lava Trứng Muối Tan Chảy</p>
-            </td>
-            <td>
-                <p><strong>LV</strong></p>
-            </td>
-            <td colSpan='4'>
-                <p>48Gr</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p><strong>VIP1</strong></p>
-            </td>
-            <td colSpan='6'>
-                <p><strong>HỘP HOÀNG GIA</strong><strong>-MẬT ONG</strong><strong>VIP 1 – 2,800,000 VND</strong></p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p><strong>STT</strong></p>
-            </td>
-            <td>
-                <p><strong>TÊN BÁNH</strong></p>
-            </td>
-            <td>
-                <p><strong>MÃ BÁNH</strong></p>
-            </td>
-            <td colSpan='4'>
-                <p><strong>TRỌNG LƯỢNG</strong></p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>1</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Bào Ngư Vi Cá (1 trứng)</p>
-            </td>
-            <td>
-                <p><strong>11A</strong></p>
-            </td>
-            <td colSpan='4'>
-                <p>250Gr</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>2</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Gà Quay Vi Cá (2 trứng)</p>
-            </td>
-            <td>
-                <p><strong>13A</strong></p>
-            </td>
-            <td colSpan='4'>
-                <p>250Gr</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>3</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Tiramisu Phô Mai</p>
-            </td>
-            <td>
-                <p><strong>12A</strong></p>
-            </td>
-            <td colSpan='4'>
-                <p>250Gr</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>4</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Quế Hoa Kỉ Tử (2 trứng)</p>
-            </td>
-            <td>
-                <p><strong>58A</strong></p>
-            </td>
-            <td colSpan='4'>
-                <p>250Gr</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>5</p>
-            </td>
-            <td>
-                <p>02 gói Trà</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-            <td colSpan='4'>
-                <p>100Gr</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>6</p>
-            </td>
-            <td>
-                <p>Mật ong Hoa chôm chôm 189 ml</p>
-            </td>
-            <td>
-                <p><strong>M1</strong></p>
-            </td>
-            <td colSpan='4'>
-                <p>189ML</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>7</p>
-            </td>
-            <td>
-                <p>Mật ong Hoa cà phê 189 ml</p>
-            </td>
-            <td>
-                <p><strong>M2</strong></p>
-            </td>
-            <td colSpan='4'>
-                <p>189ML</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p><strong>VIP2</strong></p>
-            </td>
-            <td colSpan='6'>
-                <p><strong>HỘP HOÀNG GIA</strong><strong>-</strong><strong>Y</strong><strong>ẾN SÀO</strong><strong>VIP 2 – 6,000,000 VND</strong></p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p><strong>STT</strong></p>
-            </td>
-            <td>
-                <p><strong>TÊN BÁNH</strong></p>
-            </td>
-            <td>
-                <p><strong>MÃ BÁNH</strong></p>
-            </td>
-            <td colSpan='4'>
-                <p><strong>TRỌNG LƯỢNG</strong></p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>1</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Bào Ngư Vi Cá (1 trứng)</p>
-            </td>
-            <td>
-                <p><strong>11A</strong></p>
-            </td>
-            <td colSpan='4'>
-                <p>250Gr</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>2</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Gà Quay Vi Cá (2 trứng)</p>
-            </td>
-            <td>
-                <p><strong>13A</strong></p>
-            </td>
-            <td colSpan='4'>
-                <p>250Gr</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>3</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Tiramisu Phô Mai</p>
-            </td>
-            <td>
-                <p><strong>12A</strong></p>
-            </td>
-            <td colSpan='4'>
-                <p>250Gr</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>4</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Quế Hoa Kỉ Tử (2 trứng)</p>
-            </td>
-            <td>
-                <p><strong>58A</strong></p>
-            </td>
-            <td colSpan='4'>
-                <p>250Gr</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>5</p>
-            </td>
-            <td>
-                <p>02 gói Trà</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-            <td colSpan='4'>
-                <p>100Gr</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>6</p>
-            </td>
-            <td>
-                <p>Yến Sào 50 gram</p>
-            </td>
-            <td>
-                <p><strong>Y1</strong></p>
-            </td>
-            <td colSpan='4'>
-                <p>50Gr</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td colSpan='8'>
-                <p><strong></strong><strong>COMBO TÀI LỘC 1 – 810,000 VND</strong></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p><strong>STT</strong></p>
-            </td>
-            <td>
-                <p><strong>TÊN BÁNH</strong></p>
-            </td>
-            <td>
-                <p><strong>MÃ BÁNH</strong></p>
-            </td>
-            <td colSpan='2'>
-                <p><strong>TRỌNG LƯỢNG</strong></p>
-            </td>
-            <td colSpan='2'>
-                <p><strong>GIÁ TIỀN</strong></p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>1</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Thập Cẩm (2 trứng)</p>
-            </td>
-            <td>
-                <p><strong>1A</strong></p>
-            </td>
-            <td colSpan='2'>
-                <p>250Gr</p>
-            </td>
-            <td colSpan='2'>
-                <p>210,000</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>2</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Thập Cẩm Gà Quay (2 trứng)</p>
-            </td>
-            <td>
-                <p><strong>3A</strong></p>
-            </td>
-            <td colSpan='2'>
-                <p>250Gr</p>
-            </td>
-            <td colSpan='2'>
-                <p>240,000</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>3</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Đậu Xanh Chay</p>
-            </td>
-            <td>
-                <p><strong>8A</strong></p>
-            </td>
-            <td colSpan='2'>
-                <p>250Gr</p>
-            </td>
-            <td colSpan='2'>
-                <p>170,000</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>4</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Khoai Môn (2 trứng)</p>
-            </td>
-            <td>
-                <p><strong>42A</strong></p>
-            </td>
-            <td colSpan='2'>
-                <p>250Gr</p>
-            </td>
-            <td colSpan='2'>
-                <p>190,000</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p><strong>TL2</strong></p>
-            </td>
-            <td colSpan='6'>
-                <p><strong>COMBO TÀI LỘC 2 – 860,000 VND</strong></p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p><strong>STT</strong></p>
-            </td>
-            <td>
-                <p><strong>TÊN BÁNH</strong></p>
-            </td>
-            <td>
-                <p><strong>MÃ BÁNH</strong></p>
-            </td>
-            <td colSpan='2'>
-                <p><strong>TRỌNG LƯỢNG</strong></p>
-            </td>
-            <td colSpan='2'>
-                <p><strong>GIÁ TIỀN</strong></p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>1</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Thập Cẩm (2 trứng)</p>
-            </td>
-            <td>
-                <p><strong>1A</strong></p>
-            </td>
-            <td colSpan='2'>
-                <p>250Gr</p>
-            </td>
-            <td colSpan='2'>
-                <p>210,000</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>2</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Thập Cẩm Gà Quay (2 trứng)</p>
-            </td>
-            <td>
-                <p><strong>3A</strong></p>
-            </td>
-            <td colSpan='2'>
-                <p>250Gr</p>
-            </td>
-            <td colSpan='2'>
-                <p>240,000</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>3</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Khoai Môn (2 trứng)</p>
-            </td>
-            <td>
-                <p><strong>42A</strong></p>
-            </td>
-            <td colSpan='2'>
-                <p>250Gr</p>
-            </td>
-            <td colSpan='2'>
-                <p>190,000</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>4</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Hạt Sen Trà Xanh (2 trứng)</p>
-            </td>
-            <td>
-                <p><strong>50A</strong></p>
-            </td>
-            <td colSpan='2'>
-                <p>250Gr</p>
-            </td>
-            <td colSpan='2'>
-                <p>220,000</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p><strong>TL3</strong></p>
-            </td>
-            <td colSpan='6'>
-                <p><strong>COMBO TÀI LỘC 3 – 920,000 VND</strong></p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p><strong>STT</strong></p>
-            </td>
-            <td>
-                <p><strong>TÊN BÁNH</strong></p>
-            </td>
-            <td>
-                <p><strong>MÃ BÁNH</strong></p>
-            </td>
-            <td colSpan='2'>
-                <p><strong>TRỌNG LƯỢNG</strong></p>
-            </td>
-            <td colSpan='2'>
-                <p><strong>GIÁ TIỀN</strong></p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>1</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Thập Cẩm (2 trứng)</p>
-            </td>
-            <td>
-                <p><strong>1</strong><strong>A</strong></p>
-            </td>
-            <td colSpan='2'>
-                <p>250Gr</p>
-            </td>
-            <td colSpan='2'>
-                <p>210,000</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>2</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Thập Cẩm Gà Quay (2 trứng)</p>
-            </td>
-            <td>
-                <p><strong>3A</strong></p>
-            </td>
-            <td colSpan='2'>
-                <p>250Gr</p>
-            </td>
-            <td colSpan='2'>
-                <p>240,000</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>3</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Đậu Biếc Phô Mai</p>
-            </td>
-            <td>
-                <p><strong>16A</strong></p>
-            </td>
-            <td colSpan='2'>
-                <p>250Gr</p>
-            </td>
-            <td colSpan='2'>
-                <p>250,000</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>4</p>
-            </td>
-            <td>
-                <p>Bánh trung thu Hạt Sen Trà Xanh (2 trứng)</p>
-            </td>
-            <td>
-                <p><strong>50A</strong></p>
-            </td>
-            <td colSpan='2'>
-                <p>250Gr</p>
-            </td>
-            <td colSpan='2'>
-                <p>220,000</p>
-            </td>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-            </tbody>
-        </table>
+
+
+    return (
+        <div className="maxWidth" id="combo">
+            <h2>MÙA HOA THU</h2>
+            <p>Một mùa trăng nữa lại về. Mùa trăng có lẽ là mùa ngọt ngào nhất trong năm, bởi trăng về là gọi tuổi thơ về, cùng với lồng đèn, truyện cổ tích, cùng bánh trung thu trên mâm cỗ tròn đầy. Mỗi năm trăng về vào rằm tháng Tám, cũng là lúc đất trời rực rỡ với hoa tam giác mạch ở Hà Giang, cúc hoạ mi ở Hà Nội, hoa dã quỳ ở Đà Lạt và cả hoa súng Đồng Tháp. Vậy nên Brodard chọn Mùa Hoa Thu làm chủ đề chính cho BST bánh Trung Thu 2023 với mong muốn khi trăng về sẽ đúng mùa hoa nở ngọt ngào, cho một tết Đoàn Viên trọn vẹn nhất.</p>
+            <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+            {
+                Object.entries(data.combo).map(([key, value]) => {
+           
+                    const a = value.value
+                    return (
+                        <div className={styles.itemcombo} key={key}>
+                            <div className="img">
+                                <Image src={`/asset-trungthu/combo/combo-${key}.png`} alt="" width={0} height={0} style={{ width: '100%', height: 'auto' }} />
+                            </div>
+                            <div className="info">
+                                <h2>{value.name}</h2>
+                                <p>{value.content}</p>
+                            </div>
+                            <div className="detail">
+                                <TableCombo style={{width:'100%'}}>
+                                    <TBCombo>
+                                    {Array.isArray(a) ? a.map((data, index) => {
+                                        return (
+                                            <TRCombo key={index}>
+                                                <TDCombo width={'50%'}>
+                                                    <h4>
+                                                        {data.name}
+                                                    </h4>
+                                                    <p>
+                                                    {data.namee}
+                                                    </p>
+                                                </TDCombo>
+                                           
+                                                <TDCombo width={'20%'}><p>{new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(data.price))}</p></TDCombo>
+                                                <TDCombo width={'10%'}><ButtonMore id={data.idc} /></TDCombo>
+                                                <TDCombo width={'10%'}><ButtonAdd id={data.idc} /></TDCombo>
+                                            </TRCombo>
+                                        )
+                                    }) : null}
+                                    </TBCombo>
+                                </TableCombo>
+
+                            </div>
+                        </div>
+                    )
+                })
+            }
+              
+
+
+                {/*   <div className={styles.itemcombo}>
+      <div className="img">
+        <Image src={'/asset-trungthu/combo/combo-dong-day.png'} alt="" width={0} height={0} style={{ width: '100%', height: 'auto' }} />
+      </div>
+      <div className={styles.detail}>
+        <h3>Combo Đong Đầy</h3>
+        <ul>
+          <li>Set Đong Đầy 1 <ButtonMore id={48} /><ButtonAdd id={48}/></li>
+          <li>Set Đong Đầy 2 <ButtonMore id={49} /><ButtonAdd id={49}/></li>
+          <li>Set Đong Đầy 3 <ButtonMore id={50} /><ButtonAdd id={50}/></li>
+        </ul>
+      </div>
     </div>
-  )
+
+    <div className={styles.itemcombo}>
+      <div className="img">
+        <Image src={'/asset-trungthu/combo/combo-thuong-trang.png'} alt="" width={0} height={0} style={{ width: '100%', height: 'auto' }} />
+      </div>
+      <div className={styles.detail}>
+        <h3>Combo Thưởng Trăng</h3>
+        <ul>
+          <li>Set Thưởng Trăng 1 <ButtonMore id={46} /><ButtonAdd id={46}/></li>
+          <li>Set Thưởng Trăng 2 <ButtonMore id={47} /><ButtonAdd id={47}/></li>
+        </ul>
+      </div>
+    </div>
+
+    <div className={styles.itemcombo}>
+      <div className="img">
+        <Image src={'/asset-trungthu/combo/combo-da-sac.png'} alt="" width={0} height={0} style={{ width: '100%', height: 'auto' }} />
+      </div>
+      <div className={styles.detail}>
+        <h3>Combo Đa Sắc</h3>
+        <ul>
+          <li>Set LAVA Tan Chảy <ButtonMore id={45} /><ButtonAdd id={45}/></li>
+        </ul>
+      </div>
+    </div> */}
+            </div>
+
+
+        </div>
+    )
 }

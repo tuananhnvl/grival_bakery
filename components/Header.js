@@ -44,9 +44,9 @@ export default function Header() {
 
   return (
     <NavSpace ref={navSpaceRef}>
-      <Logo href={'/'}>
+    {/*   <Logo href={'/'}>
         <Image src="logo-brodard.png" alt="Logo Brodrad"   width={0} height={0} style={{ width: '100%', height: 'auto' }}  />
-      </Logo>
+      </Logo> */}
       <MaskLock ref={maskLockRef} style={{pointerEvents:'none'}}/>
       <WarpperNav ref={warperNavRef} style={{right:"-100%"}}>
           <MenuItem >

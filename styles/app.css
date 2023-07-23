@@ -1,3 +1,8 @@
+:root {
+    --color-primary : rgba(223,234,227,255);
+    --color-tittle : rgba(185,77,35,255);
+    --color-p: rgba(49,72,30,255);
+}
 body{
     margin: 0;
     padding:0;
@@ -5,7 +10,7 @@ body{
 .maxWidth {
     max-width: 1240px;
     margin: 0 auto;
-    background-color: antiquewhite;
+    padding: 0 72px;
 }
 @font-face {
     font-family: "Jose";
@@ -17,13 +22,19 @@ body{
     src: url("/fonts/PlayfairDisplay-Regular.ttf");   
     font-display: swap;
 }
+main {
+    width:100%;
+}
 p,a,button,span {
     font-family: "Jose";
     font-weight: 700;
     padding: 0.5rem 1rem;
+    color:var(--color-p);
 }
 h1,h2,h3,h4,h5 {
     font-family: "Play";
+    color:var(--color-tittle);
+    padding: 0.5rem 1rem;
 }
 a,button {
     cursor: pointer;
@@ -98,3 +109,10 @@ div {
     grid-row:1;
 }
  
+
+
+
+/* contact page */
+#contact-page {
+    height: 100vh;
+}

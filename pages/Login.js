@@ -3,7 +3,7 @@ import { useSession, signOut } from "next-auth/react"
 import { useRouter } from 'next/router';
 import styles from '../styles/Login.module.css'
 import Signin from './auth/signin'
-
+import Header from '@/components/Header'
 export default function Login() {
   const { data: session } = useSession()
   const router = useRouter();
@@ -13,6 +13,8 @@ export default function Login() {
    
     
     return (
+     <>
+      <Header />
       <div className={styles.container}>
     
         <h1 className="title">HELLLO</h1>
@@ -29,6 +31,7 @@ export default function Login() {
         </div>
        
       </div>
+     </>
 
     )
   }

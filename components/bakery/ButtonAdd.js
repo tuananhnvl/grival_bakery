@@ -9,6 +9,6 @@ export default function ButtonAdd({ id }) {
     };
 
     return (
-        <button onClick={() => addToCart()}>Mua</button>
+        <button onClick={() => addToCart()}>Thêm vào giỏ hàng</button>
     )
 }

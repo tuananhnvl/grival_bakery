@@ -2,19 +2,40 @@
 import { useRef, useLayoutEffect,useEffect } from 'react'
 import gsap from 'gsap/dist/gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
-import styles from '../styles/Login.module.css'
-
-//gsap.registerPlugin(ScrollTrigger)
+import Image from 'next/image'
+import Header from '@/components/Header'
+import styles from '@/styles/Contact.module.css'
 export default function contact() {
  
     const phrases = ["Los Flamencos National Reserve", "is a nature reserve located", "in the commune of San Pedro de Atacama", "The reserve covers a total area", "of 740 square kilometres (290 sq mi)"]
 
     const boxRef = useRef();
 
+    return (
+        <main style={{backgroundColor:'var(--color-primary)'}} id='contact-page'>
+            <Header/>
+            <div className={styles.contact}>
+                <div className='img'>
+                    <Image src={'/asset-trungthu/contact-1.png'} alt="" width={0} height={0} style={{ width: 'auto', height: '86%' }} />
+                </div>
+                <div className='info'>
+                    
+                </div>
+            </div>
+        </main>
+    )
+}
 
+/* 
+export default function contact() {
+ 
+    const phrases = ["Los Flamencos National Reserve", "is a nature reserve located", "in the commune of San Pedro de Atacama", "The reserve covers a total area", "of 740 square kilometres (290 sq mi)"]
+
+    const boxRef = useRef();
 
     return (
-        <main>
+        <main style={{background:'rgba(223,234,227,255)'}}>
+            <Header/>
             <div ref={boxRef} className={styles.boxgsap}>
                 <span>a</span>
                 <span>b</span>
@@ -34,9 +55,7 @@ export default function contact() {
             </div>
         </main>
     )
-}
-
-
+} */
 
 function AnimatedText({children}) {
     const text = useRef(null);
