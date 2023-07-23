@@ -81,33 +81,33 @@
 }
 .listbox > div > div:nth-child(1) {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row:1;
 }
 
 .listbox > div > div:nth-child(2) {
-    grid-column-start: 4;
-    grid-column-end: 6;
+    grid-column-start: 5;
+    grid-column-end: 9;
     grid-row:1;
 
 }
 
 .listbox > div > div:nth-child(3) {
-    grid-column-start: 6;
-    grid-column-end: 8;
+    grid-column-start: 9;
+    grid-column-end: 13;
     grid-row:1;
 }
 
 .listbox > div > div:nth-child(4) {
     grid-column-start: 8;
     grid-column-end: 10;
-    grid-row:1;
+    grid-row:2;
 }
 
 .listbox > div > div:nth-child(5) {
     grid-column-start: 10;
     grid-column-end: 12;
-    grid-row:1;
+    grid-row:2;
 }
 
 
@@ -146,4 +146,12 @@
 
 .detailbanhle {
     height: fit-content;
+}
+
+.itemcombo {
+    display:flex;
+}
+
+.itemcombo > div:nth-child(1) {
+    width: 360px;
 }

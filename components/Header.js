@@ -7,7 +7,7 @@ import BarsIcon from "@/components/icons/Bars";
 import Image from "next/image";
 import { NavSpace, Logo, WarpperNav,MenuItem,InfoCompany,NavLink,LeftInfo,RightInfo,InfoLink,NavButton,MaskLock } from "@/components/compo-styles/HeaderStyle.js";
 import { gsap } from "gsap";
-
+import Policy from "@/pages/chinhsach-thanhtoan";
 export default function Header() {
   console.log('Header')
  const {cartProducts} = useContext(CartContext);
@@ -51,10 +51,12 @@ export default function Header() {
       <WarpperNav ref={warperNavRef} style={{right:"-100%"}}>
           <MenuItem >
             <NavLink  href={'/'}>Trang chủ</NavLink>
-            <NavLink  href={'/products'}>Sản phẩm</NavLink>
+           {/*  <NavLink  href={'/products'}>Sản phẩm</NavLink> */}
+           <NavLink  href={'/cart'}>Giỏ hàng ({cartProducts.length})</NavLink>
+           <NavLink  href={'/chinhsach-thanhtoan'}>Chính sách và TT</NavLink>
             <NavLink  href={'/contact'}>Liên hệ</NavLink>
-            <NavLink  href={'/policy'}>Chính sách và TT</NavLink>
-            <NavLink  href={'/cart'}>Giỏ hàng ({cartProducts.length})</NavLink>
+           
+           
           </MenuItem>
           <InfoCompany>
             <LeftInfo>

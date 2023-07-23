@@ -1,0 +1,32 @@
+.footer {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    background-color: aquamarine;
+}
+.content {
+    display:flex;
+    width: 100%;
+}
+.content > div:nth-child(n) {
+    width: 50%;
+    padding: 2rem;
+    border:1px solid gray;
+    height: fit-content;
+}
+.more {
+    text-align: center;
+}
+.content ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.content ul li p {
+    margin: 0;
+}
+.menutreo ul li button {
+    outline:none;
+    background-color: transparent;
+    border: none;
+}
