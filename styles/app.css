@@ -2,6 +2,7 @@
     --color-primary : rgba(223,234,227,255);
     --color-tittle : rgba(185,77,35,255);
     --color-p: rgba(49,72,30,255);
+    --color-brodard: #2C430C;
 }
 body{
     margin: 0;
@@ -116,3 +117,16 @@ div {
 #contact-page {
     height: 100vh;
 }
+
+
+/* svg */
+.cls-1 {
+    fill: none;
+    stroke: #daab6f;
+    stroke-miterlimit: 10;
+    stroke-width: 1px;
+  }
+
+  .cls-2 {
+    fill: #daab6f;
+  }

@@ -3,15 +3,42 @@
     justify-content: space-around;
 }
 .contact > div:nth-child(1) {
-    width: 60%;
+    width: 50%;
     height: 100vh;
     overflow: hidden;
     display: flex;
 }
 .contact > div:nth-child(1) > img {
     margin: auto;
+    
 }
 .contact > div:nth-child(2) {
-    width: 40%;
+    width: 50%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+}
+.contact > div:nth-child(2) > div {
+    position: relative;
+    padding: 1rem 0;
+}
+.contact > div:nth-child(2) > div > span {
+    max-width:200px;
+    display: block;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 2rem 0 1rem 0;
+}
+.contentStyle {
+    font-family: "Play";
+    font-weight: 600;
+    font-size: 12.4px;
+    line-height: 142%;
+    padding: 0.5rem 1rem;
+    color: var(--color-p);
+    text-align: center;
+    max-width: 420px;
+    margin: 0 auto;
 }

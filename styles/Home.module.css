@@ -46,6 +46,7 @@
 }
 
 .infobrodard {
+    position:relative;
     height: fit-content;
     padding: 50px 0;
     display: flex;
@@ -56,9 +57,37 @@
 .infotext {
     max-width: 68vw;
     padding: 0 2rem;
+    position: relative;
+    z-index: 5;
 }
+.bghoatiet {
+    position:absolute;
+    width:100%;
+    height:100%;
+    overflow:hidden;
 
-
+}
+.bghoatiet > img:nth-child(n) {
+    position:absolute;
+    width:100px;
+    height:auto;
+}
+.bghoatiet > img:nth-child(1) {
+    right: -50px;
+    bottom: 42px;
+    width: 300px;
+    transform: rotate(-90deg);
+    transform-origin: center center;
+  
+}
+.bghoatiet > img:nth-child(2) {
+    bottom:-70px;
+    width:300px;
+    left:-50px;
+    transform-origin: center center;
+    transform: rotate(-29deg);
+  
+}
 
 .listbox > h2 {
  
@@ -153,6 +182,7 @@
     flex-wrap: wrap;
     width:100%;
     margin-top: 42px;
+    position: relative;
 }
 
 .itemcombo > div:nth-child(1) {

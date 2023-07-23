@@ -23,10 +23,18 @@ export default function ZaloPlugin() {
 
   return (
     <>
-      <Head>
+
+      <Script
+        id="plugin-add"
+        src="https://sp.zalo.me/plugins/sdk.js" 
+        dangerouslySetInnerHTML={{
+          __html: zaloWidget,
+        }}
+      />
+     {/*  <Head>
         <script src="https://sp.zalo.me/plugins/sdk.js" />
       </Head>
-      <div className='plugin-add' dangerouslySetInnerHTML={{ __html: zaloWidget }} />
+      <div className='plugin-add' dangerouslySetInnerHTML={{ __html:  }} /> */}
     </>
   )
 }

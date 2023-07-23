@@ -41,7 +41,7 @@ export default function BanhMini({data}) {
                                 <RowBanhLe>
                                     <p>{new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(item[u][2]))}</p>
                                 </RowBanhLe>
-                                <RowBanhLe width="5.420420%">
+                                <RowBanhLe width="10.420420%">
                                     <DivTd>
                                         <ButtonAdd id={item[u][0]}/>
                                     </DivTd>

@@ -113,6 +113,11 @@ export default function HomePage() {
             <p style={{ textAlign: 'center' }}>Đội ngũ nhân viên Brodard, với sứ mệnh và nhiệt tâm chân thành, luôn khát khao mang đến cho người tiêu dùng một thương hiệu Việt chất lượng cao, giữ vững tinh hoa truyền thống nhưng đồng thời cũng liên tục cải tiến, tìm kiếm những ý tưởng mới mẻ.</p>
             <p style={{ textAlign: 'center' }}>Chất lượng bánh Brodard luôn là yếu tố được coi trọng hàng đầu: không dùng phụ gia, đường hóa học và đảm bảo quy định an toàn vệ sinh thực phẩm. Bên cạnh chất lượng bánh đã gắn liền với thương hiệu, Brodard chăm chút cho hình thức bánh với nhiều mẫu mã đa dạng.</p>
           </div>
+          <div className={styles.bghoatiet}>
+            <Image src={'/asset-trungthu/hoatiet/3.png'} alt="" width={0} height={0} /* style={{ width: '20%', height: 'auto' }} */ /> 
+            <Image src={'/asset-trungthu/hoatiet/2.png'} alt="" width={0} height={0} /* style={{ width: '20%', height: 'auto' }} */ /> 
+          
+          </div>
         </div>
         <Combo />
         <div className={`maxWidth ${styles.listsp}`}>

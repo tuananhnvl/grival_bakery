@@ -2,7 +2,10 @@
     position: relative;
     width: 100%;
     height: fit-content;
-    background-color: aquamarine;
+    background-color: var(--color-brodard);
+}
+.footer * {
+    color:white;
 }
 .content {
     display:flex;

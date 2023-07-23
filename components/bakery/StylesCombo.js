@@ -6,10 +6,12 @@ export const TableCombo = styled.table`
     
     tbody tr:hover {
         opacity: 1; 
+       
     }
     
     tbody:hover tr:not(:hover) {
-        opacity: 0.42; 
+        opacity: 0.142; 
+       
     }
 `
 export const TBCombo = styled.tbody`
