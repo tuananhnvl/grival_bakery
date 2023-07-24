@@ -1,5 +1,5 @@
 import React from 'react'
-import { WrapperTable, TableBanhLeIndex,RowBanhLe,ThBanhLe,TypeBanhLe,DivTd } from './StylesComponent';
+import { WrapperTable, TableBanhLeIndex,RowBanhLe,ThBanhLe,TypeBanhLe,DivTd,TrBanhLe } from './StylesComponent';
 import ButtonAdd from './ButtonAdd';
 
 export default function BanhNhanMan({data}) {
@@ -23,7 +23,7 @@ export default function BanhNhanMan({data}) {
                 {(data.value).map(function(item, i){
                   
                         return (
-                            <tr key={i}>
+                            <TrBanhLe key={i}>
                                 <RowBanhLe width="5.420%" style={{textAlign:"center"}}>
                                     <p>{item.idb}</p>
                                 </RowBanhLe>
@@ -43,7 +43,7 @@ export default function BanhNhanMan({data}) {
                                         <ButtonAdd id={item[250][0]} />
                                     </DivTd>
                                 </RowBanhLe>
-                            </tr>
+                            </TrBanhLe>
                         )
                     })}
             </tbody>

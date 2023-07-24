@@ -10,7 +10,7 @@ export const TableCombo = styled.table`
     }
     
     tbody:hover tr:not(:hover) {
-        opacity: 0.142; 
+        opacity: 0.42; 
        
     }
 `
@@ -19,7 +19,10 @@ export const TBCombo = styled.tbody`
 
 `
 export const TRCombo = styled.tr`
-  
+border-bottom:1px solid gray;
+&:last-child {
+    border-bottom:0px;
+}
   
 `
 export const TDCombo = styled.td`
@@ -39,11 +42,11 @@ export const TDCombo = styled.td`
         font-size:10px;
         max-width:90px;
         align-self: center;
-        opacity:0.24;
+       
     }
     button:hover {
         border: 1px solid var(--color-p);
-        opacity:1;
+     
     }
 
 `

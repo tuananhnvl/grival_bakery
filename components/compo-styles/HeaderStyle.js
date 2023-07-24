@@ -72,9 +72,10 @@ export const InfoLink =  styled.div`
   margin-left:1rem;
 `
 export const NavButton = styled.button`
-  background-color: green;
-  width: fit-content;
-  height:  fit-content;
+  background-color: var(--color-brodard);
+  width: 72px;
+    height: 72px;
+
   border:0;
   top:50px;
   right:50px;
@@ -82,8 +83,10 @@ export const NavButton = styled.button`
   cursor: pointer;
   position: fixed;
   z-index: 10;
-  border-radius:50%;
-  
+ 
+  svg {
+    transform:scale(1.39);
+  }
 `;
 
 export const MaskLock = styled.div`

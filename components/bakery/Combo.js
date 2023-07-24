@@ -6,16 +6,17 @@ import ButtonAdd from "@/components/bakery/ButtonAdd";
 import ButtonMore from "@/components/bakery/ButtonMore";
 import data from '@/pages/data/brodard.json'
 import {TDCombo,TRCombo,TBCombo,TableCombo} from './StylesCombo'
-import PattentVintage from '@/components/asset/PattentVintage.js'
-import { transform } from '@/next-sitemap.config';
+import PattentVintage from '@/components/asset/PattentVintage'
 
+import Slogan from '@/components/asset/Slogan'
 
 export default function Combo() {
 
 
     return (
         <div className="maxWidth" id="combo">
-            
+            <Slogan/>
+            <PattentVintage top={-30} left={30} rotate={'rotate(180deg)'}/>
             <h2>MÙA HOA THU</h2>
             <p>Một mùa trăng nữa lại về. Mùa trăng có lẽ là mùa ngọt ngào nhất trong năm, bởi trăng về là gọi tuổi thơ về, cùng với lồng đèn, truyện cổ tích, cùng bánh trung thu trên mâm cỗ tròn đầy. Mỗi năm trăng về vào rằm tháng Tám, cũng là lúc đất trời rực rỡ với hoa tam giác mạch ở Hà Giang, cúc hoạ mi ở Hà Nội, hoa dã quỳ ở Đà Lạt và cả hoa súng Đồng Tháp. Vậy nên Brodard chọn Mùa Hoa Thu làm chủ đề chính cho BST bánh Trung Thu 2023 với mong muốn khi trăng về sẽ đúng mùa hoa nở ngọt ngào, cho một tết Đoàn Viên trọn vẹn nhất.</p>
             <div style={{ display: 'flex', flexWrap: 'wrap' }}>
@@ -57,7 +58,8 @@ export default function Combo() {
                                 </TableCombo>
 
                             </div>
-                            <PattentVintage top={-25} right={-25} rotate={'rotate(270deg)'}/>
+                            <PattentVintage top={-30} right={-30} rotate={'rotate(270deg)'}/>
+
                         </div>
                     )
                 })

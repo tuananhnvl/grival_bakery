@@ -15,6 +15,8 @@ import data from '@/pages/data/brodard.json'
 
 import { LenisContext } from "@/components/LenisProvider";
 import Box from "@/components/bakery/Box";
+import Slogan from "@/components/asset/Slogan";
+import Logo from "@/components/asset/Logo";
 const imagesc = require.context('@/public/asset-trungthu', true);
 const imageList = imagesc.keys().map(image => imagesc(image));
 
@@ -34,6 +36,7 @@ export default function HomePage() {
   return (
     <main style={{backgroundColor:'var(--color-primary)'}}>
       <Head>
+        
         <title>Home Page - Bánh trung thu Grival</title>
         <meta
           name="description"
@@ -48,6 +51,7 @@ export default function HomePage() {
       </Head>
       <Header />
       <div className={styles.banner}>
+      
           <h2>Bánh trung thu </h2>
           <div className={styles.logoonbanner}>
             <Image
@@ -65,6 +69,10 @@ export default function HomePage() {
             <button onClick={() => scrollToTarget('hop')}>Hộp</button>
           </div>
         </div>
+
+
+        
+
         <div className={styles.gallery} >
           <div className={styles.sampleImg}>
             <Image
@@ -99,6 +107,13 @@ export default function HomePage() {
             />
           </div>
         </div>
+      
+        <Combo />
+        <div className={`maxWidth ${styles.listsp}`}>
+         
+          <BanhLe/>
+          <Box/>
+        </div>
         <div className={styles.infobrodard} ref={refD}>
           <Image
             src={LogoBrodrad}
@@ -119,17 +134,12 @@ export default function HomePage() {
           
           </div>
         </div>
-        <Combo />
-        <div className={`maxWidth ${styles.listsp}`}>
-         
-          <BanhLe/>
-          <Box/>
-        </div>
-       
         <div className={stylesf.footer}>
           <div className={stylesf.content}>
-            <div>
-              <Image src={'logo-brodard.png'} alt='' width={0} height={0} style={{ width: '50%', height: 'auto' }} />
+            <div className={stylesf.infocontent}>
+              <div>
+                <Image src={'logo-brodard.png'} alt='' width={0} height={0} style={{ width: '100%', height: '100%' }} />
+              </div>
               <ul>
                 <li><p>66 Vo Thi Sau, Quan 1</p></li>
                 <li><p>093 538 9747</p></li>

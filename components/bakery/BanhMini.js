@@ -1,5 +1,5 @@
 import React from 'react'
-import { WrapperTable, TableBanhLeIndex,RowBanhLe,ThBanhLe,TypeBanhLe,DivTd } from './StylesComponent';
+import { WrapperTable, TableBanhLeIndex,RowBanhLe,ThBanhLe,TypeBanhLe,DivTd,TrBanhLe } from './StylesComponent';
 import ButtonAdd from './ButtonAdd';
 
 export default function BanhMini({data}) {
@@ -27,7 +27,7 @@ export default function BanhMini({data}) {
                             u = 100
                         }
                         return (
-                            <tr key={i}>
+                            <TrBanhLe key={i}>
                                 <RowBanhLe width="5.420%" style={{textAlign:"center"}}>
                                     <p>{item.idb}</p>
                                 </RowBanhLe>
@@ -46,7 +46,7 @@ export default function BanhMini({data}) {
                                         <ButtonAdd id={item[u][0]}/>
                                     </DivTd>
                                 </RowBanhLe>
-                            </tr>
+                            </TrBanhLe>
                         )
                     })}
             </tbody>

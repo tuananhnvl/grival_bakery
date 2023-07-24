@@ -69,8 +69,9 @@ export default function Header() {
             </RightInfo>
           </InfoCompany>
       </WarpperNav>
-      <NavButton onClick={() => setMobileNavActive(!mobileNavActive)} ref={iconNavRef}>
+      <NavButton onClick={() => setMobileNavActive(!mobileNavActive)} >
         <svg
+          ref={iconNavRef}
             width="24"
             height="24"
             viewBox="0 0 24 24"

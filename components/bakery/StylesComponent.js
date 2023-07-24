@@ -9,21 +9,34 @@ position:relative;
 export const TableBanhLeIndex = styled.table`
 width:100%;
 margin-top: 50px;
+
 `
 
 export const RowBanhLe = styled.td`
 height:42.222px;
 padding:0 1rem;
-p {
-    margin:15px 0;
+p:nth-child(n) {
+    margin:10px 0;
     padding:0;
+    font-family:"Play";
+    font-weight:900;
 }
+p:nth-child(2) {
+
+    font-weight:300;
+}
+
 `
 export const ThBanhLe = styled.th`
 text-transform: uppercase;
 
 `
-
+export const TrBanhLe = styled.tr`
+    border-bottom:1px solid gray;
+    &:last-child {
+        border-bottom:0px;
+    }
+`
 export const TypeBanhLe = styled.div`
     display:flex;
     flex-direction: column;
@@ -37,14 +50,17 @@ export const TypeBanhLe = styled.div`
         font-size:1rem;
         font-family:"Play";
         color:var(--color-tittle);
+        padding: 0rem 1rem 0.25rem 1rem;
     }
     h4 {
-        font-size: 2rem;
+        font-size: 2.4rem;
         margin: 0;
+        
     }
     p{
-        margin: 10px;
+        margin: 0;
         color:var(--color-tittle);
+        padding: 0 0 1rem 0;
     }
 
 `
