@@ -12,7 +12,7 @@ import BanhLe from '@/components/bakery/BanhLe'
 import Footer from '@/components/Footer'
 import Combo from '@/components/bakery/Combo'
 import data from '@/pages/data/brodard.json'
-
+import gsap from 'gsap'
 import { LenisContext } from "@/components/LenisProvider";
 import Box from "@/components/bakery/Box";
 import Slogan from "@/components/asset/Slogan";
@@ -32,15 +32,19 @@ export default function HomePage() {
   function scrollToTarget(target) {
 
     lenisVal.scrollTo(`#${target}`, 1000)
+
+
+  
+  
   }
   return (
     <main style={{backgroundColor:'var(--color-primary)'}}>
       <Head>
         
-        <title>Home Page - Bánh trung thu Grival</title>
+        <title>Trang chủ - Bánh trung thu Brodard 2023</title>
         <meta
           name="description"
-          content="Nhà cung cấp bánh trung thu tại Sài Gòn || Since 1991."
+          content="Nhà phân phối bánh trung thu Brodard tại Sài Gòn || Since 1991"
           key="desc"
         />
         <link
@@ -48,9 +52,15 @@ export default function HomePage() {
           href={`${process.env.NEXT_PUBLIC_DOMAIN_HOST}`}
           key="canonical"
         />
+        <link rel="icon" type="image/x-icon" href="https://brodardbakery1948.com/logo-brodard.png"></link>
+        <meta property="og:title" content="Nhà phân phối bánh trung thu Brodard tại Sài Gòn || Since 1991" />
+        <meta property="og:type" content="" />
+        <meta property="og:url" content="https://brodardbakery1948.com" />
+        <meta property="og:image" content="https://brodardbakery1948.com/logo-brodard.png" />
       </Head>
       <Header />
-      <div className={styles.banner}>
+      <button id="btn-scrollTo" onClick={() => scrollToTarget('toppage')} >^</button>
+      <div className={styles.banner} id="toppage">
       
           <h2>Bánh trung thu </h2>
           <div className={styles.logoonbanner}>
@@ -109,8 +119,8 @@ export default function HomePage() {
         </div>
       
         <Combo />
+    
         <div className={`maxWidth ${styles.listsp}`}>
-         
           <BanhLe/>
           <Box/>
         </div>
@@ -135,7 +145,7 @@ export default function HomePage() {
           </div>
         </div>
         <div className={stylesf.footer}>
-          <div className={stylesf.content}>
+          <div className={`maxWidth ${stylesf.content}`}>
             <div className={stylesf.infocontent}>
               <div>
                 <Image src={'logo-brodard.png'} alt='' width={0} height={0} style={{ width: '100%', height: '100%' }} />

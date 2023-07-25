@@ -42,10 +42,7 @@ export const TypeBanhLe = styled.div`
     flex-direction: column;
     width:fit-content;
     margin-left:1.24vw;
-    &:hover {
-        background:red; 
-    }
-
+ 
     span {
         font-size:1rem;
         font-family:"Play";
@@ -55,7 +52,7 @@ export const TypeBanhLe = styled.div`
     h4 {
         font-size: 2.4rem;
         margin: 0;
-        
+        padding-top: 0;
     }
     p{
         margin: 0;

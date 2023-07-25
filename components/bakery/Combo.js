@@ -1,5 +1,6 @@
 'use client';
-import React from 'react'
+import { useContext, useEffect, useState } from "react";
+import { CartContext } from "@/components/CartContext";
 import styles from '@/styles/Home.module.css'
 import Image from "next/image";
 import ButtonAdd from "@/components/bakery/ButtonAdd";
@@ -12,6 +13,27 @@ import Slogan from '@/components/asset/Slogan'
 
 export default function Combo() {
 
+
+  const {cartProducts, stateCustom, addProduct } = useContext(CartContext);
+  const [clickedItemId, setClickedItemId] = useState(null); 
+  const [showAnimation, setShowAnimation] = useState(null); 
+  const addToCart = (id) => {
+    addProduct(id, 1)
+    setClickedItemId(id); 
+};
+
+useEffect(() => {
+  // Whenever stateCustom changes, trigger the animation
+  setShowAnimation(true);
+
+  // Clear the animation state after 1 second
+  const timer = setTimeout(() => {
+      setShowAnimation(false);
+  }, 1000);
+
+  // Clean up the timer to avoid memory leaks
+  return () => clearTimeout(timer);
+}, [clickedItemId,stateCustom]);
 
     return (
         <div className="maxWidth" id="combo">
@@ -48,9 +70,20 @@ export default function Combo() {
                                                     </p>
                                                 </TDCombo>
                                            
-                                                <TDCombo width={'20%'}><p>{new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(data.price))}</p></TDCombo>
-                                                <TDCombo width={'10%'}><ButtonMore id={data.idc} /></TDCombo>
-                                                <TDCombo width={'10%'}><ButtonAdd id={data.idc} /></TDCombo>
+                                                <TDCombo width={'20%'}><p><strong>{new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(data.price))}</strong></p></TDCombo>
+                                                <TDCombo width={'10%'}><ButtonMore id={data.idc} >Xem chi tiết</ButtonMore></TDCombo>
+                                                <TDCombo width={'10%'}>
+                                                  <button id="customBtn1" onClick={() => addToCart(data.idc)} >
+                                                  <span className="v1xx">Thêm vào giỏ hàng</span>
+                                                    {showAnimation ? (
+                                                        <>
+                                                          {clickedItemId === data.idc ? (
+                                                            <span className="animate-opacity">{stateCustom}</span>
+                                                          ) : null}
+                                                        </>
+                                                    ):(null)}
+                                                </button>
+                                                </TDCombo>
                                             </TRCombo>
                                         )
                                     }) : null}

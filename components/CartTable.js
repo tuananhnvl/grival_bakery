@@ -1,4 +1,4 @@
-
+"use client"
 import { TitlePart, TitleDetail, Processbar, Lasao } from './StylesComponent.js'
 import { useContext, useEffect, useState } from "react";
 import { CartContext } from "@/components/CartContext";
@@ -65,7 +65,7 @@ export default function CartTable() {
 
         total += setPrice;
     }
-    console.log(total)
+
 
     return (
         <>
@@ -112,7 +112,7 @@ export default function CartTable() {
                     )}
 
 
-                    {products["banhle"].length > 0 ? (
+                  {/*   {products["banhle"].length > 0 ? (
                         <>
                             <div className='typeitemcart'>
                                 <h3>Bánh lẻ</h3>
@@ -143,7 +143,7 @@ export default function CartTable() {
                         </>
                     ) : (
                         null
-                    )}
+                    )} */}
                <div className="processbar">
                         <div className="detail">
                             <h4>Tổng đơn hàng : {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(total))}</h4>

@@ -29,9 +29,13 @@ export const TDCombo = styled.td`
     padding: 1rem 0;
     h4 {
         margin: 0;
+        font-size: 1.2rem;
+        padding-bottom: 0;
     }
     p{
         margin: 0;
+  
+        font-family:"Play";
     }
     button {
         width:fit-content;
@@ -45,8 +49,7 @@ export const TDCombo = styled.td`
        
     }
     button:hover {
-        border: 1px solid var(--color-p);
-     
+  
     }
 
 `

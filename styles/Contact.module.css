@@ -1,10 +1,13 @@
 .contact {
     display:flex;
     justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    padding: 0 5rem;
 }
 .detailcontact {
     width: 50%;
-    height: 100vh;
+
     overflow: hidden;
     display: flex;
 }
@@ -12,9 +15,114 @@
     margin: auto;
     
 }
+.detailcontact > div {
+    width: 95%;
+    margin: 0 auto;
+    
+}
+.formPrimary > table {
+    width: 86%;
+     margin: auto;
+}
+.formPrimary > table > tbody tr {
+    height: 42px;
+}
+.formPrimary > table > tbody tr td {
+    color: var(--color-p);
+    font-family: "Play";
+    text-transform: uppercase;
+    font-size: 16px;
+
+ 
+   
+}
+.formPrimary > table > tbody tr > td:nth-child(2) {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.664);
+    border-bottom-style: dashed;
+}
+.formPrimary > table > tbody tr td label {
+    font-size:0.95rem;
+    font-weight: bold;
+}
+.formPrimary > table > tbody tr td input {
+    
+    border:none;
+    background: unset;
+   
+   
+    width: 100%;
+    padding: 0.5rem 0.25rem;
+    box-sizing: border-box;
+    font-family: "Jose";
+    font-weight: 700;
+}
+.formPrimary > table > tbody tr td textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    background: #2c430c08;
+    padding: 1rem;
+    font-family: "Jose";
+    border: 1px solid #2c430c1c;
+    border-style: dashed;
+    box-sizing: border-box;
+}
+.formPrimary > table > tbody tr td input:focus {
+    border:none;
+    outline: none;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+}
+.formPrimary >  button {
+    border: 1px solid black;
+    padding: 0.75rem 2.0rem;
+    height: -moz-fit-content;
+    height: fit-content;
+    font-family: 'Jose';
+    font-size: 16px;
+    background: unset;
+    display:block;
+    margin: 0 auto;
+    margin-top:1rem;
+}
+.detailcontact > div > h2 {
+    text-align:center;
+    font-size:2rem;
+    color:var(--color-brodard);
+    margin-bottom: 0;
+
+}
+.detailcontact > div > div {
+    display:block;
+    width:fit-content;
+    height:fit-content;
+    margin: 0 auto;
+    position: relative;
+}
+.detailcontact > div > div > span {
+    display:flex;
+}
+.detailcontact > div > div > span > svg {
+    display:block;
+}
+.detailcontact > div > div > span h2 {
+    font-family:"Play";
+    font-size:2rem;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    color:var(--color-brodard);
+    
+}
+.detailcontact > div > div a {
+    font-family:"Jose";
+    font-size:2rem;
+    margin: 0;
+
+}
 .custominfo {
     width: 50%;
-    height: 100%;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-self: center;

@@ -1,15 +1,28 @@
 'use client';
-import React,{useState} from 'react'
+import React,{Children, useState} from 'react'
 import Modal from "@/components/Modal";
-export default function ButtonMore({ id }) {
+import ModalCheckOut from "@/components/ModalCheckOut";
+export default function ButtonMore({ id,children }) {
     console.log(id)
     const [showModal, setShowModal] = useState(false);
-    return (
-        <>
-            <button onClick={() => setShowModal(true)}>Xem chi tiết</button>
-            {showModal &&
-                <Modal onClose={() => setShowModal(false)} /* children={'test children on Modal Protal'} */ id={id}/>
-            }
-        </>
-    )
+    if(id == 'checkout') {
+        return (
+            <>
+                <button onClick={() => setShowModal(true)}>{children}</button>
+                {showModal &&
+                    <ModalCheckOut onClose={() => setShowModal(false)} /* children={'test children on Modal Protal'} */ id={id}/>
+                }
+            </>
+        )
+    }else{
+        return (
+            <>
+                <button onClick={() => setShowModal(true)}>{children}</button>
+                {showModal &&
+                    <Modal onClose={() => setShowModal(false)} /* children={'test children on Modal Protal'} */ id={id}/>
+                }
+            </>
+        )
+    }
+    
 }

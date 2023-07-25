@@ -1,6 +1,5 @@
 import Script from 'next/script'
-import { useRouter } from 'next/router'
-import { useEffect, useState } from 'react'
+import {  useState } from 'react'
 import Head from "next/head";
 
 
@@ -15,8 +14,6 @@ data-height="420"
 
 
 export default function ZaloPlugin() {
-
-  const router = useRouter()
   const [showPlugin, setShowPlugin] = useState(true)
   console.log('[[ZaloPlugin]]]', showPlugin)
 
@@ -25,13 +22,9 @@ export default function ZaloPlugin() {
     <>
       <Head>
         {/* <script src="https://sp.zalo.me/plugins/sdk.js" /> */}
-       
       </Head>
-    <Script id="plugin-add" src="https://sp.zalo.me/plugins/sdk.js" strategy="lazyOnload" />
-
+      <Script id="plugin-add" src="https://sp.zalo.me/plugins/sdk.js" strategy="lazyOnload" />
       <div className='plugin-add' dangerouslySetInnerHTML={{ __html: zaloWidget }} />
-
-
     </>
   )
 }

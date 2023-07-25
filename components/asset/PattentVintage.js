@@ -21,13 +21,13 @@ const SvgVintage = () => (
   )
 
 
-export default function PattentVintage({top,left,right,bottom,rotate}) {
+export default function PattentVintage({top,left,right,bottom,rotate,position }) {
     const positionStyles = {
         top: top !== undefined ? `${top}px` : 'unset',
         right: right !== undefined ? `${right}px` : 'unset',
         left: left !== undefined ? `${left}px` : 'unset',
         bottom: bottom !== undefined ? `${bottom}px` : 'unset',
-        position: 'absolute',
+        position: position !== undefined ? `relative` : 'absolute',
         transformOrigin: 'center',
         transform: rotate || 'none', // Use 'none' as the default value if rotate is not provided
       };

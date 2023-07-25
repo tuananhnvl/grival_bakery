@@ -18,7 +18,7 @@ export async function sendMail(person, otpText) {
     to: "tuananh.namvietluat@gmail.com",
     subject: "Đơn hàng Grival",
     text: '??',
-    html: `<div>${person}</div><p>Code banh${otpText}</p>`
+    html: `<div>${person}</div><p>Code banh${JSON.stringify(otpText)}</p>`
   };
 
   await new Promise((resolve, reject) => {

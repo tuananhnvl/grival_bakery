@@ -1,22 +1,21 @@
-import Header from "@/components/Header";
 
+import Header from "@/components/Header";
 import { useContext, useEffect, useState } from "react";
 import { CartContext } from "@/components/CartContext";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useSession } from "next-auth/react"
-import { db } from '../firebase.config.js';
-import { collection, addDoc } from 'firebase/firestore';
-import { LogoCart, WrapperCart, TableCart, TrCustom } from '@/components/StylesComponent.js'
-import CartTable from "@/components/CartTable";
+import { LogoCart, WrapperCart,  WrapperItemProducts, ItemProducts1, ItemProducts2, ItemProducts3, ItemProducts4, ListItemProducts, TagTypeproducts, HeadCartTable, TitList } from '@/components/StylesComponent.js'
 
-
+import data from '@/pages/data/brodard.json'
+import Star from '@/components/asset/Star.js'
+import ButtonMore from "@/components/bakery/ButtonMore";
 export default function CartPage() {
   console.log('[[CartPage]]');
   const { data: session } = useSession()
-  
-  const { cartProducts, clearCart } = useContext(CartContext);
   const [products, setProducts] = useState({ "banhle": [], "combo": [] });
+  const { cartProducts, addProduct, removeProduct, clearCart } = useContext(CartContext);
+
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [city, setCity] = useState('');
@@ -28,71 +27,72 @@ export default function CartPage() {
   const router = useRouter()
 
   useEffect(() => {
-    
+
     if (session) {
       setName(session.user.name)
       setEmail(session.user.email)
     }
   }, [session])
 
-
-
-  const dbInstance = collection(db, 'list-customer');
-  async function sendToMail(data) {
-
-    fetch("/api/nodemailer", {
-      method: "POST",
-      headers: {
-        Accept: "application/json, text/plain, */*",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        name: data.name,
-        email: data.email,
-        cart: data.cart
-      }),
-    }).then((res) => {
-      console.log("Fetch: ", res);
-      res.status === 200
-      addDoc(dbInstance, {
-        name: data.name,
-        email: data.email,
-        cart: data.cart
-      })
-      setIsSuccess(true)
-      clearCart()
-      
-      //?router.push("/success"): router.push("/error")
-    })
-  }
-  async function onCheckOut() {
-    alert(['onCheckOut',
-      name, email, city, postalCode, streetAddress, country,
-      cartProducts,]
-    )
-    let b = {
-      name: name,
-      email: email,
-      cart: cartProducts
-    }
-    sendToMail(b)
-  }
   function handleClearCart() {
     clearCart();
     setProducts()
-}
+  }
 
 
-  if (isSuccess) {
-    return (
-      <main style={{ backgroundColor: 'var(--color-primary)' }}>
-        <Header />
-        <h1>Chúng tôi đã nhận được đơn hàng!</h1>
-        <p>Vui lòng chở nhân viên tư vấn liên hệ cho quý khách . thankk.</p>
-        <button onClick={() => router.push('/')}>Trang chủ</button>
-        <button onClick={() => router.push('/Login')}>Quản lý đơn hàng</button>
-      </main>
-    );
+  useEffect(() => {
+
+    if (cartProducts.length > 0) {
+
+      const uniqueProducts = Array.from(new Set(cartProducts));
+      const updatedProducts = { "banhle": [], "combo": [] };
+
+      uniqueProducts.forEach((num) => {
+        if (num < 41) {
+          updatedProducts.banhle.push(num);
+        } else {
+          updatedProducts.combo.push(num);
+        }
+      });
+
+      setProducts(updatedProducts);
+
+    } else {
+      console.log('++++0')
+      //setProducts([]);
+    }
+
+  }, [cartProducts]);
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      //  console.log('---------------2')
+      return;
+    }
+    if (window?.location.href.includes('success')) {
+      //  console.log('---------------3')
+      setIsSuccess(true);
+      clearCart();
+    }
+  }, []);
+  function moreOfThisProduct(id) {
+    addProduct(id, 1);
+  }
+  function lessOfThisProduct(id) {
+    removeProduct(id);
+  }
+
+
+
+  let total = 0;
+  let setPrice = 0
+  for (const productId of cartProducts) {
+    if (productId > 40) {
+      setPrice = data.code.find(p => (p.idb) === productId)?.price || 0;
+    } else {
+      setPrice = data.code.find(p => (p.idb) === productId)?.info[1] || 0;
+    }
+
+    total += setPrice;
   }
 
 
@@ -123,68 +123,7 @@ export default function CartPage() {
             )}
 
           </UserLog> */}
-      {/*   {!!cartProducts?.length && (
-          <Box>
-            <h2>Order information</h2>
-            {session ? (
-              <>
-                <Input
-                  type="text"
-                  value={session.user.name}
-                  name="name"
-                  onChange={ev => setName(ev.target.value)} />
-                <Input
-                  type="text"
-                  value={session.user.email}
-                  name="email"
-                  onChange={ev => setEmail(ev.target.value)} />
-              </>
-            ) : (
-              <>
-                <Input
-                  type="text"
-                  placeholder="Name"
-                  value={name}
-                  name="name"
-                  onChange={ev => setName(ev.target.value)} />
-                <Input
-                  type="text"
-                  placeholder="Email"
-                  value={email}
-                  name="email"
-                  onChange={ev => setEmail(ev.target.value)} />
-              </>
-            )}
 
-
-            <CityHolder>
-              <Input type="text"
-                placeholder="City"
-                value={city}
-                name="city"
-                onChange={ev => setCity(ev.target.value)} />
-              <Input type="text"
-                placeholder="Postal Code"
-                value={postalCode}
-                name="postalCode"
-                onChange={ev => setPostalCode(ev.target.value)} />
-            </CityHolder>
-            <Input type="text"
-              placeholder="Street Address"
-              value={streetAddress}
-              name="streetAddress"
-              onChange={ev => setStreetAddress(ev.target.value)} />
-            <Input type="text"
-              placeholder="Country"
-              value={country}
-              name="country"
-              onChange={ev => setCountry(ev.target.value)} />
-            <Button black block
-              onClick={onCheckOut}>
-              Continue to payment
-            </Button>
-          </Box>
-        )} */}
       <Header />
       <WrapperCart>
         <LogoCart>
@@ -193,23 +132,108 @@ export default function CartPage() {
 
 
 
-        <button onClick={handleClearCart}>Clear Cart</button>
-        <TableCart>
-          <thead>
-            <TrCustom>
-
-              <th width="30%">Thông tin giỏ hàng</th>
-              <th width="20%">Đơn giá</th>
-              <th width="20%">Số lượng</th>
-              <th width="20%">Tổng</th>
-            </TrCustom>
-          </thead>
-        </TableCart>
-
-        <CartTable />
 
 
-      
+        {!cartProducts?.length ? (
+          <>
+            <div>Giỏ hàng trống</div>
+            <a href={process.env.NEXT_PUBLIC_DOMAIN_HOST}>Home</a>
+          </>
+        ) : (
+          <>
+
+
+            <HeadCartTable>
+              <TitList>Thông tin giỏ hàng</TitList>
+              <TitList>Đơn giá</TitList>
+              <TitList>Số lượng</TitList>
+              <TitList>Tổng</TitList>
+            </HeadCartTable>
+            {products["combo"].length > 0 ? (
+              <>
+                <TagTypeproducts>
+                  <Star left={'-20px'} top={'56%'} translate={'translateY(-50%)'} />
+                  <h3>Combo Bánh</h3>
+                </TagTypeproducts>
+
+                <ListItemProducts>
+                  {Array.isArray(products["combo"]) ? products["combo"].map((idb, index) => {
+                    return (
+                      <WrapperItemProducts key={index}>
+                        <ItemProducts1><p>{data.code[idb - 1].name}</p><p>{data.code[idb - 1].namee}</p></ItemProducts1>
+                        <ItemProducts2><p>{data.code[idb - 1].price}</p></ItemProducts2>
+                        <ItemProducts3>
+                          <div>
+                            <button onClick={() => lessOfThisProduct(idb)}>-</button>
+                            <p>{cartProducts.filter(id => id === idb).length}</p>
+                            <button onClick={() => moreOfThisProduct(idb)}>+</button>
+                          </div>
+                        </ItemProducts3>
+                        <ItemProducts4><p>{new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(cartProducts.filter(id => id === idb).length * data.code[idb - 1].price))}</p></ItemProducts4>
+                      </WrapperItemProducts>
+                    )
+                  }) : null}
+
+
+                </ListItemProducts>
+              </>
+            ) : (
+              null
+            )}
+            {products["banhle"].length > 0 ? (
+              <>
+                <TagTypeproducts>
+                  <Star left={'-20px'} top={'56%'} translate={'translateY(-50%)'} />
+                  <h3>Combo Bánh</h3>
+                </TagTypeproducts>
+
+                <ListItemProducts>
+                  {Array.isArray(products["banhle"]) ? products["banhle"].map((idb, index) => {
+                    return (
+                      <WrapperItemProducts key={index}>
+                        <ItemProducts1><p>{data.code[idb - 1].name}</p><p>{data.code[idb - 1].namee}</p></ItemProducts1>
+                        <ItemProducts2><p>{new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(data.code[idb - 1].info[1]))}</p></ItemProducts2>
+                        <ItemProducts3>
+                          <div>
+                            <button onClick={() => lessOfThisProduct(idb)}>-</button>
+                            <p>{cartProducts.filter(id => id === idb).length}</p>
+                            <button onClick={() => moreOfThisProduct(idb)}>+</button>
+                          </div>
+                        </ItemProducts3>
+                        <ItemProducts4><p>{new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(cartProducts.filter(id => id === idb).length * data.code[idb - 1].info[1]))}</p></ItemProducts4>
+                      </WrapperItemProducts>
+                    )
+                  }) : null}
+
+
+                </ListItemProducts>
+              </>
+            ) : (
+              null
+            )}
+
+
+
+
+            <div style={{ width: "100%", position: 'relative', height: '200px', pointerEvents: "none" }}></div>
+            <div className="processbar">
+              <div className="detail">
+                <h4>Tổng đơn hàng : {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(total))}</h4>
+                <div className="btngr">
+                  <button onClick={handleClearCart}>Xóa giỏ hàng</button>
+                  <ButtonMore id={'checkout'}>Đặt hàng</ButtonMore>
+                  <button>Xuất báo giá</button>
+                </div>
+              </div>
+
+            </div>
+          </>
+        )}
+
+
+
+
+
       </WrapperCart>
     </main>
   );

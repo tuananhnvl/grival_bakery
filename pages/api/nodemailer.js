@@ -1,14 +1,14 @@
 import { sendMail } from "../../service/mailService";
 const handler = async (req, res) => {
-    const { name, email, cartProducts } = req.body;
+    const { name, email,phone,luuy, cart } = req.body;
   try {
     const { method } = req;
     switch (method) {
       case "POST": {
         //Do some thing
         await sendMail(
-          [name,email],
-          cartProducts
+          [name,email,phone,luuy],
+          `${JSON.stringify(cart)}`
         );
         res.status(200).send("Success");
         break;

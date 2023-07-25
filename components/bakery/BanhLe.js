@@ -14,7 +14,7 @@ export default function BanhLe() {
   return (
     <>
      <div style={{ display: 'flex', width: '100%',marginTop: '100px' }} id="banhle">
-     <PattentVintage top={-45} left={-45} rotate={'rotate(180deg)'}/>
+            <PattentVintage top={-45} left={-45} rotate={'rotate(180deg)'}/>
             <PattentVintage bottom={-45} right={-45} rotate={'rotate(0deg)'}/> 
             <div className={styles.contentbanhle}>
             
@@ -29,7 +29,7 @@ export default function BanhLe() {
               <Image
                 src={'/asset-trungthu/banner3.png'}
                 alt="Singla Cake Brodrad"
-                width={0} height={0} style={{ width: '100%', height: 'auto' }}
+                width={0} height={0} style={{ width: 'auto', height: '100%' }}
               />
              
             </div>

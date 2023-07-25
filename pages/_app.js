@@ -23,7 +23,7 @@ export default function App({
           </Head>
           <Component {...pageProps} />
           {/* <Popupchat /> */}
-          <ZaloPlugin />
+         {/*  <ZaloPlugin /> */}
         </CartContextProvider>
       </SessionProvider>
     </LenisProvider>

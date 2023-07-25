@@ -28,7 +28,7 @@ z-index: 10;
   width:42.042vw;
   max-height:100vh;
   padding: 50px;
-  background-color: #1d1d1d;
+  background-color: var(--color-brodard);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -60,7 +60,9 @@ export const InfoCompany = styled.div`
 `
 export const LeftInfo =  styled.div`
   width:50%;
-  color:white;
+  p{
+    color:white;
+  }
 `
 export const RightInfo =  styled.div`
   width:50%;
@@ -68,7 +70,9 @@ export const RightInfo =  styled.div`
   justify-content: end;
 `
 export const InfoLink =  styled.div`
-  color:white;
+  p{
+    color:white;
+  }
   margin-left:1rem;
 `
 export const NavButton = styled.button`

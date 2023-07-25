@@ -17,9 +17,22 @@ const SvgVintage = () => (
   )
 
 
-export default function Star() {
+export default function Star({top,left,right,bottom,rotate,position,translate }) {
+  const positionStyles = {
+    
+    top: top !== undefined ? `${top}` : 'unset',
+    right: right !== undefined ? `${right}` : 'unset',
+    left: left !== undefined ? `${left}` : 'unset',
+    bottom: bottom !== undefined ? `${bottom}` : 'unset',
+    position: position !== undefined ? `relative` : 'absolute',
+    margin: position !== undefined ? `0 auto` : 'unset',
+    transformOrigin: 'center',
+    transform: `${rotate || ''} ${translate || ''}`, // Use 'none' as the default value if rotate is not provided
+    width:'fit-content',
+    height:'fit-content'
+  };
   return (
-    <div style={{position:"relative", margin: ' 0 auto',width: 'fit-content'}}>
+    <div style={positionStyles}>
         <SvgVintage/>
     </div>
   )

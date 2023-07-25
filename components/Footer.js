@@ -3,7 +3,7 @@ import styles from '../styles/Footer.module.css'
 import Image from 'next/image'
 export default function Footer() {
   return (
-    <div className={styles.footer}>
+    <div className={`maxWidth ${styles.footer}`}>
         <div className={styles.content}>
             <div>
                 <Image src={'logo-brodard.png'} alt='' width={0} height={0} style={{ width: '50%', height: 'auto' }} />

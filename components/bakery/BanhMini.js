@@ -1,12 +1,33 @@
-import React from 'react'
+import { useContext, useEffect, useState } from "react";
+import { CartContext } from "@/components/CartContext";
 import { WrapperTable, TableBanhLeIndex,RowBanhLe,ThBanhLe,TypeBanhLe,DivTd,TrBanhLe } from './StylesComponent';
 import ButtonAdd from './ButtonAdd';
 
 export default function BanhMini({data}) {
+    const {cartProducts, stateCustom, addProduct } = useContext(CartContext);
+    const [clickedItemId, setClickedItemId] = useState(null); 
+    const [showAnimation, setShowAnimation] = useState(null); 
+    useEffect(() => {
+        // Whenever stateCustom changes, trigger the animation
+        setShowAnimation(true);
+      
+        // Clear the animation state after 1 second
+        const timer = setTimeout(() => {
+            setShowAnimation(false);
+        }, 1000);
+      
+        // Clean up the timer to avoid memory leaks
+        return () => clearTimeout(timer);
+      }, [clickedItemId,stateCustom]);
+      
+    const addToCart = (id) => {
+        addProduct(id, 1)
+        setClickedItemId(id); 
+    };
 
-  return (
-    <WrapperTable>
-        <TableBanhLeIndex>
+    return (
+        <WrapperTable>
+            <TableBanhLeIndex>
             <thead>
                 <tr>
                     <ThBanhLe colSpan='8'>
@@ -43,7 +64,16 @@ export default function BanhMini({data}) {
                                 </RowBanhLe>
                                 <RowBanhLe width="10.420420%">
                                     <DivTd>
-                                        <ButtonAdd id={item[u][0]}/>
+                                        <button id="customBtn1" onClick={() => addToCart(item[u][0])} >
+                                            <span className="v1xx">Thêm vào giỏ hàng</span>
+                                            {showAnimation ? (
+                                                        <>
+                                                          {clickedItemId === item[u][0] ? (
+                                                            <span className="animate-opacity">{stateCustom}</span>
+                                                          ) : null}
+                                                        </>
+                                                    ):(null)}
+                                        </button>
                                     </DivTd>
                                 </RowBanhLe>
                             </TrBanhLe>
