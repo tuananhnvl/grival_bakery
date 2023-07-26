@@ -51,12 +51,9 @@ export default function Header() {
       <WarpperNav ref={warperNavRef} style={{right:"-100%"}}>
           <MenuItem >
             <NavLink  href={'/'}>Trang chủ</NavLink>
-           {/*  <NavLink  href={'/products'}>Sản phẩm</NavLink> */}
-           <NavLink  href={'/cart'}>Giỏ hàng ({cartProducts.length})</NavLink>
-           <NavLink  href={'/chinhsach-thanhtoan'}>Chính sách và TT</NavLink>
-            <NavLink  href={'/contact'}>Liên hệ</NavLink>
-           
-           
+            <NavLink  href={'/gio-hang'}>Giỏ hàng ({cartProducts.length})</NavLink>
+            <NavLink  href={'/chinhsach-thanhtoan'}>Chính sách và TT</NavLink>
+            <NavLink  href={'/lien-he'}>Liên hệ</NavLink>
           </MenuItem>
           <InfoCompany>
             <LeftInfo>

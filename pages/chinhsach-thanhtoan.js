@@ -4,6 +4,7 @@ export default function Policy() {
   return (
     <div>
       <Header/>
+      <p>alo</p>
     </div>
   )
 }
