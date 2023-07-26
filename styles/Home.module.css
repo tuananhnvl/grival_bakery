@@ -311,6 +311,7 @@
     .itemcombo > div:nth-child(2) > h2 {
         font-size: 1.42rem !important;
         font-weight: bold !important;
+        padding-top:20px !important;
     }
     .itemcombo > div:nth-child(2) > p{
         font-size: 14px!important;
@@ -318,7 +319,7 @@
         text-align: justify!important;
     }
     .itemcombo >div:first-child {
-        padding : 1rem 0 0 1rem !important;
+        padding : 0 !important;
     }
 }
 .itemcombo {

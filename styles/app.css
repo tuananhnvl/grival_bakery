@@ -484,3 +484,10 @@ button {
 .customoverflow {
 
 }
+
+/* fix each page duplicate */
+#combo #ht-svg {
+    top:-36px !important;
+    right:-20px !important;
+    transform: scale(0.72) rotate(270deg) !important;
+}   

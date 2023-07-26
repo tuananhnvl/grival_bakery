@@ -225,6 +225,22 @@ width: 95%;
 display: flex; 
 
 box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+
+@media (max-width:568px) {
+    & > div:nth-child(n) p{
+        font-size:10px !important;
+    }
+    & > div:nth-child(n) button{
+        font-size:10px !important;
+    }
+    & > div:nth-child(n) > div > p{
+        margin:0 !important;
+    }
+   
+  
+}
+
 `
 export const ItemProducts1 = styled.div`
 width: 29.82%; 

@@ -32,7 +32,7 @@ export default function PattentVintage({top,left,right,bottom,rotate,position })
         transform: rotate || 'none', // Use 'none' as the default value if rotate is not provided
       };
   return (
-    <div style={positionStyles}>
+    <div id="ht-svg" style={positionStyles}>
         <SvgVintage/>
     </div>
   )

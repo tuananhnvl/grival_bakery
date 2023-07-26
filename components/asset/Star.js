@@ -32,7 +32,7 @@ export default function Star({top,left,right,bottom,rotate,position,translate })
     height:'fit-content'
   };
   return (
-    <div style={positionStyles}>
+    <div className="star-svg" style={positionStyles}>
         <SvgVintage/>
     </div>
   )

@@ -20,10 +20,18 @@ export const TBCombo = styled.tbody`
 `
 export const TRCombo = styled.tr`
 border-bottom:1px solid gray;
+
+height: fit-content;
+
 &:last-child {
     border-bottom:0px;
 }
-  
+@media (max-width:568px) {
+    & {
+        padding: 10px 0 !important;
+display: block;
+    }
+}
 `
 export const TDCombo = styled.td`
     padding: 1rem 0;
@@ -64,17 +72,19 @@ export const TDCombo = styled.td`
         }
         & > h4 {
             font-size:1rem !important;
-            max-width: 136px;
+            max-width: 130px;
+            padding: 10px 0!important;
         }
         & > p {
             font-size:12px !important;
             font-weight:normal !important;
+            padding:0 0 10px 0 !important;
         }
         & > div {
             flex-direction: column !important
         }
-        & > div button {
-            margin: 10px !important;
+        & > div > button:nth-child(1) {
+            margin-bottom:10px;
         }
     }
 
