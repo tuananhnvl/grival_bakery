@@ -1,7 +1,7 @@
 /** @type {import('next-sitemap').IConfig} */
 const nextConfig = {
     siteUrl: process.env.NEXT_PUBLIC_DOMAIN_HOST,
-    generateRobotsTxt: true, // (optional)
+    generateRobotsTxt: false, // (optional)
     transform: async(config, path) => {
       // config: object chứa các cài đặt mặc định của next-sitemap
       // path: đường dẫn của trang đang được transform

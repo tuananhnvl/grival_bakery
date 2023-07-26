@@ -37,8 +37,12 @@ export const TDCombo = styled.td`
   
         font-family:"Play";
     }
-    button {
-        width:fit-content;
+    & > div {
+        display:flex;
+        flex-direction: row;
+    }
+    & > div button {
+        width:150px;
         height:fit-content;
         background:none;
         border:none;
@@ -46,10 +50,32 @@ export const TDCombo = styled.td`
         font-size:10px;
         max-width:90px;
         align-self: center;
+        display:block;
+        margin: 0 auto;
        
     }
-    button:hover {
+    & > div b button:hover {
   
+    }
+    @media (max-width:568px) {
+
+        & {
+            padding: 0 !important;
+        }
+        & > h4 {
+            font-size:1rem !important;
+            max-width: 136px;
+        }
+        & > p {
+            font-size:12px !important;
+            font-weight:normal !important;
+        }
+        & > div {
+            flex-direction: column !important
+        }
+        & > div button {
+            margin: 10px !important;
+        }
     }
 
 `

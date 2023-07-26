@@ -26,6 +26,21 @@ p:nth-child(2) {
     font-weight:300;
 }
 
+@media (max-width:568px) {
+   & {
+    padding:0 !important;
+   }
+   & > p:nth-child(1){
+    font-size: 12px !important;
+    max-width: 142px;
+   }
+   & > p:nth-child(2){
+    font-size: 10px !important;
+   }
+   &:nth-child(1) > p:nth-child(1){
+    font-size: 10px !important;
+   }
+}
 `
 export const ThBanhLe = styled.th`
 text-transform: uppercase;
@@ -36,11 +51,13 @@ export const TrBanhLe = styled.tr`
     &:last-child {
         border-bottom:0px;
     }
+    
+  
 `
 export const TypeBanhLe = styled.div`
     display:flex;
     flex-direction: column;
-    width:fit-content;
+    width:100%;
     margin-left:1.24vw;
  
     span {
@@ -59,12 +76,19 @@ export const TypeBanhLe = styled.div`
         color:var(--color-tittle);
         padding: 0 0 1rem 0;
     }
-
+    @media (max-width:868px) {
+        justify-content:center;
+    }
+    @media (max-width:568px) {
+      & > h4 {
+        font-size: 1.72rem;
+    }
+    }
 `
 export const DivTd = styled.div`
     display:flex;
     justify-content: space-around;
-   
+    flex-direction:row;
     button {
         width:fit-content;
         height:fit-content;
@@ -79,5 +103,22 @@ export const DivTd = styled.div`
     button:hover {
         border: 1px solid var(--color-p);
         opacity:1;
+    }
+    @media (max-width:868px) {
+        & {
+            flex-direction: column !important;
+        }
+        & > p {
+            text-align:center;
+        }
+        & > p br {
+            display:none !important;
+        }
+    }
+    @media (max-width:568px) { 
+        & > p {
+            font-size:12px !important;
+        }
+        
     }
 `

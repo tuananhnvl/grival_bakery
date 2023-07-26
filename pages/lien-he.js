@@ -43,10 +43,10 @@ export default function contact() {
 
                     <div>
                         <span><Image src={'logo-brodard.png'} alt='' width={0} height={0} style={{ width: '100%', height: 'auto' }} /></span>
-                        <PattentVintage top={-42} right={-42} rotate={'rotate(270deg)'} />
-                        <PattentVintage top={-42} left={-42} rotate={'rotate(180deg)'} />
-                        <PattentVintage bottom={-42} right={-42} rotate={'rotate(0deg)'} />
-                        <PattentVintage bottom={-42} left={-42} rotate={'rotate(90deg)'} />
+                        <PattentVintage top={0} right={0} rotate={'rotate(270deg)'} />
+                        <PattentVintage top={0} left={0} rotate={'rotate(180deg)'} />
+                        <PattentVintage bottom={0} right={0} rotate={'rotate(0deg)'} />
+                        <PattentVintage bottom={0} left={0} rotate={'rotate(90deg)'} />
                         {Array.isArray(dataContent) ? dataContent.map((item, index) => {
                             if (index == 2) {
                                 return (

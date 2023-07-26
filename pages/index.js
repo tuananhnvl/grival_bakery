@@ -59,7 +59,7 @@ export default function HomePage() {
         <meta property="og:image" content="https://brodardbakery1948.com/logo-brodard.png" />
       </Head>
       <Header />
-      <button id="btn-scrollTo" onClick={() => scrollToTarget('toppage')} >^</button>
+     {/*  <button id="btn-scrollTo" onClick={() => scrollToTarget('toppage')} >^</button> */}
       <div className={styles.banner} id="toppage">
       
           <h2>Bánh trung thu </h2>

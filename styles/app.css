@@ -15,14 +15,15 @@ body{
     max-width: 1240px;
     margin: 0 auto;
     padding: 0 72px;
+    overflow: hidden;
 }
 
 
 /* reponsive */
-@media (max-width: 768px) {
+@media (max-width: 868px) {
     .maxWidth {
         max-width:100%;
-        padding: 0 1rem;
+        padding: 0 0.5rem;
     }
 }
 @font-face {
@@ -63,7 +64,7 @@ td {
 }
 
 div {
-    /* border: 1px solid gray; */
+   
     transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
   /* GRID */
@@ -247,6 +248,11 @@ div {
 }
 
 /* process bar */
+@media (max-width:568px) {
+    .processbar button {
+        padding: 10px !important;
+    }
+}
 .processbar {
     z-index: 3;
     position:fixed;
@@ -314,9 +320,27 @@ div {
     text-align: center;
     margin: 0 auto;
     line-height: 124%;
+    font-weight: normal;
 
 }
+@media (max-width:568px) {
+    #combo .svg-slogan svg {
+   
+      width:100% !important;
+      transform: scale(0.5)!important;
+    }
+    #combo > h2 {
+        left:20% !important;
+        text-align: center !important;
+    }
 
+    #btn-scrollTo {
+        bottom:24.42px !important;
+        left:24.42px !important;
+        width: 64px !important;
+        height: 64px !important;
+    }
+}
 
 /*  banhle */
 #banhle {
@@ -330,7 +354,7 @@ div {
 #btn-scrollTo {
     border: 1px solid var(--color-p);
     color: white;
-    background:  var(--color-brodard);
+    background: #2c430cd6;
     padding:0;
     font-size: 5rem;
     display: block;
@@ -373,7 +397,7 @@ button {
     
     display: flex;
     padding: 0 3px;
-    margin: 0;
+
     width: 150px;
     height: 36px;
     align-items: center;
@@ -427,3 +451,36 @@ button {
     padding: 8px 20px;
     float:right;
   }
+
+
+
+  /* width custom repon for td */
+
+  .w50 {
+    width:50%;
+  }
+  .w20 {
+    width:20%;
+  }
+  .w10 {
+    width:10%;
+  }
+@media (max-width:868) {
+    .w50 {
+        width:50%;
+    }
+    .w20 {
+        width:20%;
+    }
+    .w10 {
+        width:10%;
+    }
+}
+
+
+
+
+/* custom hook */
+.customoverflow {
+
+}

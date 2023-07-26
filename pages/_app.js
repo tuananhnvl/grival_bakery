@@ -6,7 +6,7 @@ import ZaloPlugin from '@/components/ZaloPlugin.js'
 import Head from 'next/head'
 
 import '@/styles/app.css'
-import '@/styles/free.css'
+import '@/styles/repon.css'
 export default function App({
   Component,
   pageProps: { session, ...pageProps },

@@ -19,20 +19,32 @@ export const NavSpace = styled.div`
   background:none;
 `;
 export const WarpperNav = styled.nav`
-
-z-index: 10;
+box-sizing: border-box;
+  z-index: 10;
   position: fixed;
   top: 0;
   bottom: 0;
   right: 0;
   width:42.042vw;
-  max-height:100vh;
+  height:100vh;
   padding: 50px;
   background-color: var(--color-brodard);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
- 
+  @media (max-width:868px) {
+    & {
+
+      width:72.042vw !important;
+    }
+  }
+  @media (max-width:868px) {
+    & {
+      padding: 20px;
+      width:95vw !important;
+      justify-content: center !important;
+    }
+  }
 `;
 export const MenuItem = styled.div`
  
@@ -49,8 +61,14 @@ export const NavLink = styled.a`
   margin-bottom: 1rem;
   color:#ffff;
   text-decoration:none;
-  @media screen and (min-width: 768px) {
+  @media (min-width:868px) {
     padding:0;
+  }
+  @media (max-width:568px) {
+    & {
+
+      font-size: 2.4rem !important;
+    }
   }
 `;
 export const InfoCompany = styled.div`
@@ -76,7 +94,7 @@ export const InfoLink =  styled.div`
   margin-left:1rem;
 `
 export const NavButton = styled.button`
-  background-color: var(--color-brodard);
+  background-color: #2c430cd6;
   width: 72px;
     height: 72px;
 
@@ -90,6 +108,15 @@ export const NavButton = styled.button`
  
   svg {
     transform:scale(1.39);
+  }
+  @media (max-width:568px) {
+    & {
+      top:24.42px !important;
+      right:24.42px !important;
+      width: 64px !important;
+      height: 64px !important;
+  
+    }
   }
 `;
 
