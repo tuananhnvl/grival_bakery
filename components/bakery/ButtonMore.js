@@ -3,7 +3,6 @@ import React,{Children, useState} from 'react'
 import Modal from "@/components/Modal";
 import ModalCheckOut from "@/components/ModalCheckOut";
 export default function ButtonMore({ id,children }) {
-    console.log(id)
     const [showModal, setShowModal] = useState(false);
     if(id == 'checkout') {
         return (

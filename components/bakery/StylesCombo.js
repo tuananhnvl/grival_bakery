@@ -84,8 +84,12 @@ export const TDCombo = styled.td`
             flex-direction: column !important
         }
         & > div > button:nth-child(1) {
-            margin-bottom:10px;
+            margin:0 0 10px auto !important
         }
+        & > div > button:nth-child(2) {
+            margin:0 0 0 auto !important
+        }
+      
     }
 
 `

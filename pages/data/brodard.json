@@ -893,6 +893,42 @@
             "bonus" : ["Lọ Mật Ong Hoa Cà Phê 189ml", "Lọ Mật Ong Hoa Chôm Chôm 189ml" ,"2 Gói trà Ô Long"],
             "image" : "./asset-trungthu/combo/combo-dongday.png",
             "content" : "Màu đỏ tượng trưng cho niềm vui và hạnh phúc, gửi tới gia đình, bạn bè và đối tác. Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Đong Đầy là một món quà vẹn tròn cho tết Đoàn Viên."
+        },
+        {
+            "idb": 51,
+            "type" : "hop",
+            "stt" : 1,
+            "name" : "Mẫu Hộp 4 Bánh Đầu Mùa",
+            "namee" : "",
+            "price" : 111111,
+            "value" : [],
+            "bonus" : [],
+            "image" : "./asset-trungthu/loaihop/41-rbg.png",
+            "content" : ""
+        },
+        {
+            "idb": 52,
+            "type" : "hop",
+            "stt" : 1,
+            "name" : "Mẫu Hộp 6 Bánh Đầu Mùa",
+            "namee" : "",
+            "price" : 111111,
+            "value" : [],
+            "bonus" : [],
+            "image" : "./asset-trungthu/loaihop/61-rbg.png",
+            "content" : ""
+        },
+        {
+            "idb": 53,
+            "type" : "hop",
+            "stt" : 1,
+            "name" : "Mẫu Hộp VIP",
+            "namee" : "",
+            "price" : 111111,
+            "value" : [],
+            "bonus" : [],
+            "image" : "./asset-trungthu/loaihop/v1-rbg.png",
+            "content" : ""
         }
     ],
     "combo":{

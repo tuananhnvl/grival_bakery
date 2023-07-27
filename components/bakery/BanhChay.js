@@ -41,7 +41,7 @@ export default function BanhChay({data}) {
             </thead>
             <tbody>
                 {(data.value).map(function(item, i){
-                        console.log(item.idb)
+                  
                         return (
                             <TrBanhLe key={i}>
                                 <RowBanhLe width="5.420%" style={{textAlign:"center"}}>

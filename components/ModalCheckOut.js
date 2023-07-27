@@ -19,7 +19,7 @@ export default function ModalCheckOut({ onClose }) {
 
   const router = useRouter()
   const dbInstance = collection(db, 'list-customer');
-  async function sendToMail(data) {
+function sendToMail(data) {
 
     fetch("/api/nodemailer", {
       method: "POST",
@@ -35,7 +35,7 @@ export default function ModalCheckOut({ onClose }) {
         cart: data.cart
       }),
     }).then((res) => {
-      console.log("Fetch: ", res);
+     // console.log("Fetch: ", res);
       res.status === 200
       addDoc(dbInstance, {
         name: data.name,
@@ -45,12 +45,16 @@ export default function ModalCheckOut({ onClose }) {
         cart: data.cart
       })
       setIsSuccess(true)
-      clearCart()
-
-      //?router.push("/success"): router.push("/error")
+      setTimeout(() => {
+        clearCart()
+      }, 4200);
     })
   }
-  async function onCheckOut() {
+
+
+
+  async function onCheckOut(event) {
+    event.preventDefault(); 
     alert(['onCheckOut',
       name, email, phone, luuy,
       cartProducts,]
@@ -76,13 +80,17 @@ export default function ModalCheckOut({ onClose }) {
   };
   if (isSuccess) {
     return (
-      <main style={{ backgroundColor: 'var(--color-primary)' }}>
-        <Header />
+      <div id='modal-space'>
+      <div id='modal-checkout'>
         <h1>Chúng tôi đã nhận được đơn hàng!</h1>
-        <p>Vui lòng chở nhân viên tư vấn liên hệ cho quý khách . thankk.</p>
-        <button onClick={() => router.push('/')}>Trang chủ</button>
-        <button onClick={() => router.push('/Login')}>Quản lý đơn hàng</button>
-      </main>
+              <p>Vui lòng chở nhân viên tư vấn liên hệ cho quý khách . thankk.</p>
+        <div className={styles.formPrimary}>
+              <button onClick={() => router.push('/')}>Trang chủ</button>
+              <button onClick={() => router.push('/Login')}>Quản lý đơn hàng</button>
+        </div>
+      </div>
+      </div>
+
     );
   }
 
@@ -92,24 +100,24 @@ export default function ModalCheckOut({ onClose }) {
 
         <button onClick={handleCloseClick}>X</button>
         <h2>Thông tin liên hệ</h2>
-        <form className={styles.formPrimary}>
+        <div className={styles.formPrimary}>
           <table>
 
             <tbody>
               <tr>
-                <td width="40%"><label for="first">Tên khách hàng</label></td>
+                <td width="40%"><span for="first">Tên khách hàng</span></td>
                 <td width="60%"><input  onChange={ev => setName(ev.target.value)} type="text" id="name" name="name" /></td>
               </tr>
               <tr>
-                <td width="40%"><label for="first">Số điện thoại</label></td>
+                <td width="40%"><span for="first">Số điện thoại</span></td>
                 <td width="60%"><input onChange={ev => setPhone(ev.target.value)} type="text" id="phone" name="phone" /></td>
               </tr>
               <tr>
-                <td width="40%"><label for="first">Gmail</label></td>
+                <td width="40%"><span for="first">Gmail</span></td>
                 <td width="60%"><input onChange={ev => setEmail(ev.target.value)} type="text" id="gmail" name="gmail" /></td>
               </tr>
               <tr>
-                <td width="100%" colSpan={2}><label for="first">Lưu ý</label></td>
+                <td width="100%" colSpan={2}><span for="first">Lưu ý</span></td>
 
               </tr>
               <tr>
@@ -118,9 +126,9 @@ export default function ModalCheckOut({ onClose }) {
               </tr>
             </tbody>
           </table>
-          <button type="submit" onClick={() => onCheckOut()}>Gửi đơn hàng</button>
+          <button type="submit" onClick={(event ) => onCheckOut(event)}>Gửi đơn hàng</button>
           {/*  {!!cartProducts?.length && ( */}
-        </form>
+        </div>
       </div>
     </div>
 

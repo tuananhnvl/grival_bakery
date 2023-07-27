@@ -52,7 +52,7 @@ export default function Header() {
           <MenuItem >
             <NavLink  href={'/'}>Trang chủ</NavLink>
             <NavLink  href={'/gio-hang'}>Giỏ hàng ({cartProducts.length})</NavLink>
-            <NavLink  href={'/chinhsach-thanhtoan'}>Chính sách và TT</NavLink>
+           {/*  <NavLink  href={'/chinhsach-thanhtoan'}>Chính sách và TT</NavLink> */}
             <NavLink  href={'/lien-he'}>Liên hệ</NavLink>
           </MenuItem>
           <InfoCompany>
@@ -61,7 +61,7 @@ export default function Header() {
             </LeftInfo>
             <RightInfo>
               <InfoLink href={'/'}><p>Zalo</p></InfoLink>
-              <InfoLink href={'/'}><p>Facebook</p></InfoLink>
+           {/*    <InfoLink href={'/'}><p>Facebook</p></InfoLink> */}
               <InfoLink href={'/'}><p>Phone</p></InfoLink>
             </RightInfo>
           </InfoCompany>

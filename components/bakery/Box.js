@@ -1,8 +1,32 @@
 'use client';
-import React from 'react'
+import { useContext,useState,useEffect} from "react";
+import { CartContext } from "@/components/CartContext";
 import styles from '@/styles/Home.module.css'
 import Image from "next/image";
+
 export default function Box() {
+  const { cartProducts, stateCustom, addProduct } = useContext(CartContext);
+  const [clickedItemId, setClickedItemId] = useState(null); 
+  const [showAnimation, setShowAnimation] = useState(null); 
+  const addToCart = (id) => {
+  
+    addProduct(id, 1)
+    setClickedItemId(id); 
+  };
+
+  useEffect(() => {
+    // Whenever stateCustom changes, trigger the animation
+    setShowAnimation(true);
+  
+    // Clear the animation state after 1 second
+    const timer = setTimeout(() => {
+        setShowAnimation(false);
+    }, 1000);
+  
+    // Clean up the timer to avoid memory leaks
+    return () => clearTimeout(timer);
+  }, [clickedItemId,stateCustom]);
+  
   return (
     <div className={` ${styles.listbox}`} id="hop">
           <h2>Hộp quà tặng trung thu</h2>
@@ -14,7 +38,17 @@ export default function Box() {
               <div className='info'>
                 <h3>Hộp 4 Bánh</h3>
                 <p>625.000VND</p>
-                <button>Mua</button>
+             
+                <button id="customBtn1" onClick={() => addToCart(51)} >
+                  <span className="v1xx">Thêm vào giỏ hàng</span>
+                      {showAnimation ? (
+                          <>
+                            {clickedItemId === 51 ? (
+                              <span className="animate-opacity">{stateCustom}</span>
+                            ) : null}
+                          </>
+                      ):(null)}
+                  </button>
               </div>
             </div>
             <div className='boxitem'>
@@ -22,7 +56,16 @@ export default function Box() {
               <div className='info'>
                 <h3>Hộp 6 Bánh</h3>
                 <p>625.000VND</p>
-                <button>Mua</button>
+                <button id="customBtn1" onClick={() => addToCart(52)} >
+                  <span className="v1xx">Thêm vào giỏ hàng</span>
+                      {showAnimation ? (
+                          <>
+                            {clickedItemId === 52 ? (
+                              <span className="animate-opacity">{stateCustom}</span>
+                            ) : null}
+                          </>
+                      ):(null)}
+                  </button>
               </div>
             </div>
             <div className='boxitem'>
@@ -30,20 +73,29 @@ export default function Box() {
               <div className='info'>
                 <h3>Hộp VIP</h3>
                 <p>625.000VND</p>
-                <button>Mua</button>
+                <button id="customBtn1" onClick={() => addToCart(53)} >
+                  <span className="v1xx">Thêm vào giỏ hàng</span>
+                      {showAnimation ? (
+                          <>
+                            {clickedItemId === 53 ? (
+                              <span className="animate-opacity">{stateCustom}</span>
+                            ) : null}
+                          </>
+                      ):(null)}
+                  </button>
               </div>
             </div>
          {/*    <div className='boxitem'>
               <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} src={'/asset-trungthu/loaihop/v1.png'} alt="Box 5 cai" />
               <h3>Hộp VIP</h3>
               <p>625.000VND</p>
-              <button>Mua</button>
+              <button>Thêm vào giỏ hàng</button>
             </div>
             <div className='boxitem'>
               <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} src={'/asset-trungthu/loaihop/v1.png'} alt="Box 5 cai" />
               <h3>Hộp VIP</h3>
               <p>625.000VND</p>
-              <button>Mua</button>
+              <button>Thêm vào giỏ hàng</button>
             </div> */}
           </div>
         </div>

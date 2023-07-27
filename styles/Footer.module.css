@@ -9,7 +9,14 @@
 }
 .content {
     display:flex;
+    flex-direction:row;
    
+}
+@media (max-width:568px) {
+    .content {
+        flex-direction: column !important;
+    }
+  
 }
 .infocontent {
   

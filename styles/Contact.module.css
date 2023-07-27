@@ -4,6 +4,21 @@
     height: 100vh;
     align-items: center;
     padding: 0 5rem;
+    flex-direction: row;
+}
+
+@media (max-width:568px) {
+    .contact {
+        flex-direction: column!important;
+        padding: 1rem 0!important;
+    }
+    .custominfo {
+        display:none!important;
+    }
+    .detailcontact {
+        width:100% !important;
+  
+    }
 }
 .detailcontact {
     width: 50%;
@@ -40,9 +55,12 @@
     border-bottom: 1px solid rgba(128, 128, 128, 0.664);
     border-bottom-style: dashed;
 }
-.formPrimary > table > tbody tr td label {
+.formPrimary > table > tbody tr td span {
     font-size:0.95rem;
     font-weight: bold;
+    font-family: 'Play';
+  
+    padding: 0;
 }
 .formPrimary > table > tbody tr td input {
     
@@ -90,6 +108,9 @@
     font-size:2rem;
     color:var(--color-brodard);
     margin-bottom: 0;
+    max-width: 72%;
+    margin: 0 auto;
+
 
 }
 .detailcontact > div > div {

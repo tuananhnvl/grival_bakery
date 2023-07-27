@@ -15,6 +15,9 @@ margin-top: 50px;
 export const RowBanhLe = styled.td`
 height:42.222px;
 padding:0 1rem;
+&:nth-child(3) {
+    text-align:center;
+}
 p:nth-child(n) {
     margin:10px 0;
     padding:0;
@@ -89,6 +92,7 @@ export const DivTd = styled.div`
     display:flex;
     justify-content: space-around;
     flex-direction:row;
+
     button {
         width:fit-content;
         height:fit-content;
@@ -106,6 +110,7 @@ export const DivTd = styled.div`
     }
     @media (max-width:868px) {
         & {
+            padding: 10px !important;
             flex-direction: column !important;
         }
         & > p {

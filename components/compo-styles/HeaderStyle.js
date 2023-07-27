@@ -67,7 +67,7 @@ export const NavLink = styled.a`
   @media (max-width:568px) {
     & {
 
-      font-size: 2.4rem !important;
+      font-size: 2.6rem !important
     }
   }
 `;
@@ -75,23 +75,52 @@ export const InfoCompany = styled.div`
   display:flex;
   border-top:1px solid white;
   margin-top:2rem;
+  flex-direction: row;
+  @media (max-width:568px) {
+    & {
+      flex-direction: column-reverse;
+    }
+  }
 `
 export const LeftInfo =  styled.div`
-  width:50%;
+width: 60%;
+    display: flex;
+    align-items: center;
   p{
-    color:white;
+    color: white;
+    margin: 0;
+    font-size: 1rem;
+    padding: 0;
+  }
+  @media (max-width:568px) {
+    & {
+      width:100% !important;
+      justify-content: center;
+    }
+
   }
 `
 export const RightInfo =  styled.div`
   width:50%;
   display:flex;
   justify-content: end;
+  @media (max-width:568px) {
+    & {
+      width:100% !important;
+    }
+  }
 `
 export const InfoLink =  styled.div`
   p{
     color:white;
   }
-  margin-left:1rem;
+  width:50%;
+  @media (max-width:568px) {
+    & {
+      text-align:center;
+  
+    }
+  }
 `
 export const NavButton = styled.button`
   background-color: #2c430cd6;

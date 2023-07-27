@@ -21,6 +21,7 @@ export const ModalView = styled.div`
     transform:translate(-50%,-50%);
     display:flex;
     padding:2rem;
+    flex-wrap: wrap;
     button {
         position: absolute;
         right:2rem;
@@ -29,6 +30,41 @@ export const ModalView = styled.div`
         height:50px;
         border: 1px solid var(--color-brodard);
         background:unset;
+        z-index:50;
+    }
+    @media (max-width:568px) {
+       & {
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem !important;
+      
+       }
+       & > div:nth-child(1) {
+        width:100% !important;
+        opacity:0.5;
+       
+        top:0;
+        left:0;
+        filter: blur(1px);
+        }
+        & > div:nth-child(2) {
+            position:  absolute !important;
+            width:100% !important;
+            padding: 2rem 2rem  0 2rem !important;
+            z-index:9;
+            box-sizing: border-box;
+        }
+        & > div:nth-child(2) > h2 {
+            padding-left: 0 !important;
+            font-size: 1.2rem!important;
+            margin-top: 0!important;
+        }
+
+        & > button {
+            right: 7px!important;
+            top: 7px !important;
+        }
     }
 `
 export const ImgView = styled.div`
@@ -38,7 +74,7 @@ export const ImgView = styled.div`
 export const DetailView = styled.div`
     width:50%;
     height:100%;
-
+  
 `
 
 export const TitleBanh = styled.h2`
@@ -47,12 +83,18 @@ export const TitleBanh = styled.h2`
     font-size:1.72rem;
     font-family:"Play";
     margin-bottom:0 ;
+  
    
 `
 export const ContentBanh = styled.p`
     font-weight: normal;
     margin:0;
     max-width:86%;
+    @media (max-width:568px) {
+        & {
+            display:none !important;
+        }
+    }
 `
 export const MaBanh = styled.div`
     display:flex;
@@ -61,6 +103,7 @@ export const MaBanh = styled.div`
 `
 export const RowMaBanh = styled.div`
     display:flex;
+   
     span:nth-child(1) {
         width: 10%;
     }
@@ -68,6 +111,19 @@ export const RowMaBanh = styled.div`
         width: 90%;
     }
 
+    @media (max-width:568px) {
+        & {
+            border-bottom: 1px solid var(--color-p);
+            border-bottom-style: dashed;
+        }
+        & > span:nth-child(1) {
+            margin-right:5px;
+        }
+        span:nth-child(n) {
+            padding: 7px 0 7px 0 !important;
+            font-size:14px !important;
+        }
+    }
 `
 
 /* cart */
@@ -78,10 +134,11 @@ margin: 0 auto;
 padding:50px 10px 10px 10px;
 `
 export const LogoCart = styled.div`
-    margin: 0 auto;
+    margin: 50px auto 0 auto;
     position:relative;
     width:300px;
     padding: 2rem;
+
 
 `
 export const HeadCartTable = styled.div`
@@ -103,6 +160,11 @@ export const HeadCartTable = styled.div`
     div:nth-child(4) {
         width:24%;
         text-align:center;
+    }
+    @media (max-width:568px) {
+        & {
+            display:none !important;
+        }
     }
 `
 export const TitList =  styled.div`
@@ -206,6 +268,11 @@ h3 {
     font-family:"Play";   
    
 }
+@media (max-width:568px) {
+    &::after {
+        width: 60% !important;  
+    }
+}
 `
 
 export const ListItemProducts = styled.div`
@@ -228,14 +295,20 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 
 
 
 @media (max-width:568px) {
+    & {
+        width: calc(100vw - 30px) !important; 
+    }
     & > div:nth-child(n) p{
         font-size:10px !important;
     }
     & > div:nth-child(n) button{
-        font-size:10px !important;
+        font-size: 15px !important;
+        padding: 5px 10px!important;
     }
     & > div:nth-child(n) > div > p{
         margin:0 !important;
+        padding: 0 !important;
+        align-self: center !important;
     }
    
   
@@ -247,7 +320,7 @@ width: 29.82%;
 align-self: center;
 p {
     margin: 0;
-    padding: 5px 0 0px 24px;
+    padding: 5px 0 0px 10px;
 }
 p:nth-child(1) {
     font-weight: bold;
@@ -277,4 +350,27 @@ p{
 `
 export const ItemProducts4 = styled.div`
 display: flex; margin: auto;
+`
+
+
+export const EmptyCartView = styled.div`
+height: 50vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+align-items: center;
+
+    & > div.svg {
+        width:86px;
+        height:79px;
+        pointer-events:none;
+        display:block;
+    }
+    & > span {
+        color: var(--color-p);
+    font-size: 2rem;
+    font-family: "Play";
+    font-style: italic;
+    }
 `
