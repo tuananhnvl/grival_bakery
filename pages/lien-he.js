@@ -134,7 +134,7 @@ export default function contact() {
                                 <Star right={'10%'} top={'40%'} translate={'translateY(-50%)'} />
                             </span>
 
-                            <a>093.528.9747</a>
+                            <a href='tel:0785777768'>0785.7777.68</a>
                         </div>
                         <h2>THÔNG TIN KHÁCH HÀNG</h2>
                         <Image style={{ margin: '0 auto', display: 'block' }} src={'asset-trungthu/hoatiet/h7.svg'} alt="" width={100} height={20} />

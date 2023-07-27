@@ -173,3 +173,35 @@ export const MaskLock = styled.div`
   @media screen and (min-width: 768px) {
     display: none;
   } */
+
+
+  export const PhoneIc = styled.a`
+    position:fixed;
+
+    background-color: #2c430cd6;
+    width: 72px;
+      height: 72px;
+  
+    border:0;
+    top:142px;
+    right:50px;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    z-index: 10;
+    padding: 0!important;
+    svg {
+      transform:scale(0.42);
+   
+    }
+    @media (max-width:568px) {
+      & {
+        top:100.42px !important;
+        right:24.42px !important;
+        width: 64px !important;
+        height: 64px !important;
+        
+      }
+    }
+
+  `
