@@ -86,7 +86,7 @@ function sendToMail(data) {
               <p>Vui lòng chở nhân viên tư vấn liên hệ cho quý khách . thankk.</p>
         <div className={styles.formPrimary}>
               <button onClick={() => router.push('/')}>Trang chủ</button>
-              <button onClick={() => router.push('/Login')}>Quản lý đơn hàng</button>
+            {/*   <button onClick={() => router.push('/Login')}>Quản lý đơn hàng</button> */}
         </div>
       </div>
       </div>
