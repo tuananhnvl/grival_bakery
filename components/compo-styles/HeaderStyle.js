@@ -181,7 +181,7 @@ export const MaskLock = styled.div`
     background-color: #2c430cd6;
     width: 72px;
       height: 72px;
-  
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border:0;
     top:142px;
     right:50px;
@@ -196,8 +196,8 @@ export const MaskLock = styled.div`
     }
     @media (max-width:568px) {
       & {
-        top:100.42px !important;
-        right:24.42px !important;
+        top: 24.42px!important;
+        right: 105.42px !important;
         width: 64px !important;
         height: 64px !important;
         

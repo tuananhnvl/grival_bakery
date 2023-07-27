@@ -259,6 +259,16 @@ div {
     .processbar button {
         padding: 10px !important;
     }
+    .processbar .detail button {
+        font-size: 16px !important;
+        height: 100% !important;
+    }
+    .processbar .detail .btngr{
+        height: 72% !important;
+    }
+    .processbar .detail h4 {
+        font-size: 15px !important;
+    }
 }
 .processbar {
     z-index: 3;
@@ -292,6 +302,7 @@ div {
 }
 .processbar  .detail .btngr {
     display:flex;
+    height:fit-content;
 }
 .processbar .detail button {
     border: 1px solid black;
