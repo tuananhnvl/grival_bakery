@@ -36,9 +36,14 @@ p:nth-child(2) {
    & > p:nth-child(1){
     font-size: 12px !important;
     max-width: 142px;
+
+    margin-bottom: 0!important;
+  
    }
    & > p:nth-child(2){
     font-size: 10px !important;
+    margin-top: 0!important;
+
    }
    &:nth-child(1) > p:nth-child(1){
     font-size: 10px !important;
@@ -91,7 +96,7 @@ export const TypeBanhLe = styled.div`
 export const DivTd = styled.div`
     display:flex;
     justify-content: space-around;
-    flex-direction:row;
+    flex-direction:column;
 
     button {
         width:fit-content;

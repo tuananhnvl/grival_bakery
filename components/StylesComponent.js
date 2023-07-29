@@ -14,27 +14,36 @@ export const ModalView = styled.div`
     z-index: 100;
     position:absolute;
     background:var(--color-primary);
-    width: 72vw;
-    height: fit-content;
+    width: 42vw;
+    min-width:fit-content;
+    height: 42vh;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
     display:flex;
     padding:2rem;
     flex-wrap: wrap;
+    justify-content: space-between;
     button {
         position: absolute;
-        right:2rem;
-        top:2rem;
-        width:50px;
-        height:50px;
+        right: 14px;
+        top: 16px;
+        width: 50px;
+        height: 50px;
         border: 1px solid var(--color-brodard);
-        background:unset;
-        z-index:50;
+        color: white;
+        background: var(--color-brodard);
+        z-index: 50;
+    }
+    @media (max-width:1200px) {
+        width: 72vw;
+    }
+    @media (max-width:868px) {
+        width: 86vw;
     }
     @media (max-width:568px) {
        & {
-        height: fit-content;
+        height: 42vh !important;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         padding: 1rem !important;
@@ -43,21 +52,21 @@ export const ModalView = styled.div`
        & > div:nth-child(1) {
         width:100% !important;
         opacity:0.5;
-       
+        height: 42vh !important;
         top:0;
         left:0;
         filter: blur(1px);
         }
         & > div:nth-child(2) {
             position:  absolute !important;
-            width:100% !important;
-            padding: 2rem 2rem  0 2rem !important;
+            width: 93.42% !important;
+            padding: 2rem 1rem 0 2rem !important;
             z-index:9;
             box-sizing: border-box;
         }
         & > div:nth-child(2) > h2 {
             padding-left: 0 !important;
-            font-size: 1.2rem!important;
+            font-size: 1.5rem!important;
             margin-top: 0!important;
         }
 
@@ -68,13 +77,33 @@ export const ModalView = styled.div`
     }
 `
 export const ImgView = styled.div`
-    width: 50%;
+    width: fit-content;
     height:100%;
 `
 export const DetailView = styled.div`
-    width:50%;
-    height:100%;
-  
+    width: 50%;
+    max-height: 100%;
+    overflow-y: scroll;
+
+    /* width */
+    &::-webkit-scrollbar {
+    width: 15px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+    background: #2C430C;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+    background: var(--color-p);
+    }
 `
 
 export const TitleBanh = styled.h2`
@@ -82,7 +111,8 @@ export const TitleBanh = styled.h2`
     text-transform: uppercase;
     font-size:1.72rem;
     font-family:"Play";
-    margin-bottom:0 ;
+    margin: 0;
+    padding-right: 2rem;
   
    
 `
@@ -120,8 +150,8 @@ export const RowMaBanh = styled.div`
             margin-right:5px;
         }
         span:nth-child(n) {
-            padding: 7px 0 7px 0 !important;
-            font-size:14px !important;
+            padding: 10px 0 10px 0 !important;
+            font-size: 16px !important;
         }
     }
 `

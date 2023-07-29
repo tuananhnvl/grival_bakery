@@ -72,7 +72,8 @@ export default function HomePage() {
               quality={100}
             />
           </div>
-          <p>Bánh trung thu Brodard, nơi hội tụ của sự tinh tế , Thay bạn thể hiện sự quan tâm tận tình </p>
+       {/*    <p>Bánh trung thu Brodard, nơi hội tụ của sự tinh tế , Thay bạn thể hiện sự quan tâm tận tình </p> */}
+<br></br>
           <div className={styles.btngr}>
             <button onClick={() => scrollToTarget('combo')} >Combo</button>
             <button onClick={() => scrollToTarget('banhle')}>Bánh lẻ</button>

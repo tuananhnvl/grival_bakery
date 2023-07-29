@@ -15,8 +15,8 @@
     </style>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
-    <line id="rightt" className="cls-2" y1="75" x2="63.23" y2="75"/>
-    <path id="star" className="cls-1" d="m69.66,75l4.14-1,1.04-4,1.04,4,4.14,1-4.14,1-1.04,4-1.04-4-4.14-1Z"/>
-    <line id="bott" className="cls-2" x1="74.83" y1="63.7" x2="74.83"/>
+    <line id="rightt" class="cls-2" y1="75" x2="63.23" y2="75"/>
+    <path id="star" class="cls-1" d="m69.66,75l4.14-1,1.04-4,1.04,4,4.14,1-4.14,1-1.04,4-1.04-4-4.14-1Z"/>
+    <line id="bott" class="cls-2" x1="74.83" y1="63.7" x2="74.83"/>
   </g>
 </svg>

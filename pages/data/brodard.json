@@ -338,7 +338,7 @@
         {
             "idb": 1,
             "info": [
-                "1Bxgfs",
+                "1B",
                 200000
             ],
             "name": "Thập Cẩm 2 Trứng",
@@ -901,7 +901,7 @@
             "name" : "Mẫu Hộp 4 Bánh Đầu Mùa",
             "namee" : "",
             "price" : 111111,
-            "value" : [],
+            "value" : ["H4B"],
             "bonus" : [],
             "image" : "./asset-trungthu/loaihop/41-rbg.png",
             "content" : ""
@@ -913,7 +913,7 @@
             "name" : "Mẫu Hộp 6 Bánh Đầu Mùa",
             "namee" : "",
             "price" : 111111,
-            "value" : [],
+            "value" : ["H6B"],
             "bonus" : [],
             "image" : "./asset-trungthu/loaihop/61-rbg.png",
             "content" : ""
@@ -925,7 +925,7 @@
             "name" : "Mẫu Hộp VIP",
             "namee" : "",
             "price" : 111111,
-            "value" : [],
+            "value" : ["HVIP"],
             "bonus" : [],
             "image" : "./asset-trungthu/loaihop/v1-rbg.png",
             "content" : ""

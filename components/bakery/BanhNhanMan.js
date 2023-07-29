@@ -54,7 +54,7 @@ export default function BanhNhanMan({ data }) {
                                 </RowBanhLe>
                                 <RowBanhLe width="20.421%">
                                     <DivTd>
-                                        <p><strong>{item[200][1]}</strong><br />-<br />{new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(item[200][2]))}</p>
+                                        <p><strong>{item[200][1]}</strong> - {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(item[200][2]))}</p>
                                         <button id="customBtn1" onClick={() => addToCart(item[200][0])} >
                                             <span className="v1xx">Thêm vào giỏ hàng</span>
                                             {showAnimation ? (
@@ -69,7 +69,7 @@ export default function BanhNhanMan({ data }) {
                                 </RowBanhLe>
                                 <RowBanhLe width="20.422%">
                                     <DivTd>
-                                        <p><strong>{item[250][1]}</strong><br />-<br />{new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(item[250][2]))}</p>
+                                        <p><strong>{item[250][1]}</strong> - {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(item[250][2]))}</p>
                                         <button id="customBtn1" onClick={() => addToCart(item[250][0])} >
                                             <span className="v1xx">Thêm vào giỏ hàng</span>
                                             {showAnimation ? (

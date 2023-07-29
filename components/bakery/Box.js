@@ -37,8 +37,7 @@ export default function Box() {
               
               <div className='info'>
                 <h3>Hộp 4 Bánh</h3>
-                <p>625.000VND</p>
-             
+               {/*  <p>625.000VND</p>
                 <button id="customBtn1" onClick={() => addToCart(51)} >
                   <span className="v1xx">Thêm vào giỏ hàng</span>
                       {showAnimation ? (
@@ -48,14 +47,14 @@ export default function Box() {
                             ) : null}
                           </>
                       ):(null)}
-                  </button>
+                  </button> */}
               </div>
             </div>
             <div className='boxitem'>
               <div> <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} src={'/asset-trungthu/loaihop/61-rbg.png'} alt="Box 5 cai" /></div>
               <div className='info'>
                 <h3>Hộp 6 Bánh</h3>
-                <p>625.000VND</p>
+                {/* <p>625.000VND</p>
                 <button id="customBtn1" onClick={() => addToCart(52)} >
                   <span className="v1xx">Thêm vào giỏ hàng</span>
                       {showAnimation ? (
@@ -65,14 +64,14 @@ export default function Box() {
                             ) : null}
                           </>
                       ):(null)}
-                  </button>
+                  </button> */}
               </div>
             </div>
             <div className='boxitem'>
               <div><Image width={0} height={0} style={{ width: '100%', height: 'auto' }} src={'/asset-trungthu/loaihop/v1-rbg.png'} alt="Box 5 cai" /></div>
               <div className='info'>
                 <h3>Hộp VIP</h3>
-                <p>625.000VND</p>
+             {/*    <p>625.000VND</p>
                 <button id="customBtn1" onClick={() => addToCart(53)} >
                   <span className="v1xx">Thêm vào giỏ hàng</span>
                       {showAnimation ? (
@@ -82,7 +81,7 @@ export default function Box() {
                             ) : null}
                           </>
                       ):(null)}
-                  </button>
+                  </button> */}
               </div>
             </div>
          {/*    <div className='boxitem'>

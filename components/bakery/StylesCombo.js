@@ -30,6 +30,7 @@ height: fit-content;
     & {
         padding: 10px 0 !important;
 display: block;
+
     }
 }
 `
@@ -42,7 +43,7 @@ export const TDCombo = styled.td`
     }
     p{
         margin: 0;
-  
+        max-width: 95%;
         font-family:"Play";
     }
     & > div {
@@ -74,20 +75,24 @@ export const TDCombo = styled.td`
             font-size:1rem !important;
             max-width: 130px;
             padding: 10px 0!important;
+      
         }
         & > p {
             font-size:12px !important;
             font-weight:normal !important;
             padding:0 0 10px 0 !important;
+        
         }
         & > div {
             flex-direction: column !important
         }
         & > div > button:nth-child(1) {
-            margin:0 0 10px auto !important
+            margin:0 0 10px auto !important;
+        
         }
         & > div > button:nth-child(2) {
-            margin:0 0 0 auto !important
+            margin:0 0 0 auto !important;
+          
         }
       
     }

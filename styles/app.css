@@ -531,3 +531,10 @@ button {
     height: 100px;
 }
 
+
+
+
+/* re-new by toan */
+#customBtn1 {
+    display:none !important;
+}

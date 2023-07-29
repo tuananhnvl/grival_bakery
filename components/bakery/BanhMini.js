@@ -59,10 +59,10 @@ export default function BanhMini({data}) {
                                 <RowBanhLe width="20.421%">
                                     <p><strong>{item[u][1]}</strong></p>
                                 </RowBanhLe>
-                                <RowBanhLe>
+                                <RowBanhLe width="20.421%">
                                     <p>{new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(item[u][2]))}</p>
                                 </RowBanhLe>
-                                <RowBanhLe width="10.420420%">
+                              {/*   <RowBanhLe width="10.420420%">
                                     <DivTd>
                                         <button id="customBtn1" onClick={() => addToCart(item[u][0])} >
                                             <span className="v1xx">Thêm vào giỏ hàng</span>
@@ -75,7 +75,7 @@ export default function BanhMini({data}) {
                                                     ):(null)}
                                         </button>
                                     </DivTd>
-                                </RowBanhLe>
+                                </RowBanhLe> */}
                             </TrBanhLe>
                         )
                     })}

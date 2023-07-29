@@ -49,7 +49,7 @@ useEffect(() => {
             <div style={{ display: 'flex', flexWrap: 'wrap' }}>
             {
                 Object.entries(data.combo).map(([key, value]) => {
-                    const a = value.value
+                  
                     return (
                         <div className={styles.itemcombo} key={key}>
                          
@@ -63,9 +63,11 @@ useEffect(() => {
                             <div className="detail">
                                 <TableCombo style={{width:'100%'}}>
                                     <TBCombo>
-                                    {Array.isArray(a) ? a.map((data, index) => {
+                                    {Array.isArray(value.value) ? (value.value).map((data, index) => {
+                                 
+                           
                                         return (
-                                            <TRCombo key={index}>
+                                            <TRCombo key={data.idc}>
                                                 <TDCombo width={'50%'}>
                                                     <h4>
                                                         {data.name}
