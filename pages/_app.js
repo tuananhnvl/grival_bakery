@@ -23,7 +23,7 @@ export default function App({
           </Head>
           <Component {...pageProps} />
         
-          <ZaloPlugin />
+         {/*  <ZaloPlugin /> */}
         </CartContextProvider>
       </SessionProvider>
     </LenisProvider>

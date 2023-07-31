@@ -7,7 +7,8 @@
 body{
     margin: 0;
     padding:0;
-    background: var(--color-primary);
+   /*  background: var(--color-primary); */
+    background: rgba(213,228,221,255);
 }
 
 
@@ -478,6 +479,9 @@ button {
   }
 
   @media (max-width:568px) {
+    .customoverflow {
+        display:none !important;
+    }
     #modal-checkout {
         width: 95% !important;
     }

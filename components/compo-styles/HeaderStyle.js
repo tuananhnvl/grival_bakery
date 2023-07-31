@@ -128,7 +128,7 @@ export const NavButton = styled.button`
     height: 72px;
 
   border:0;
-  top:50px;
+  bottom:50px;
   right:50px;
   color: white;
   cursor: pointer;
@@ -183,7 +183,7 @@ export const MaskLock = styled.div`
       height: 72px;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border:0;
-    top:142px;
+    bottom:142px;
     right:50px;
     color: white;
     cursor: pointer;

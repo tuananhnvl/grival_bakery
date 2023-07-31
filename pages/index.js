@@ -38,7 +38,7 @@ export default function HomePage() {
   
   }
   return (
-    <main style={{backgroundColor:'var(--color-primary)'}}>
+    <main style={{backgroundColor:'#d5e4dd'}}>
       <Head>
         
         <title>Trang chủ - Bánh trung thu Brodard 2023</title>
@@ -61,9 +61,11 @@ export default function HomePage() {
       <Header />
      {/*  <button id="btn-scrollTo" onClick={() => scrollToTarget('toppage')} >^</button> */}
       <div className={styles.banner} id="toppage">
-      
-          <h2>Bánh trung thu </h2>
-          <div className={styles.logoonbanner}>
+          <div className={styles.bgbanner}>
+            <Image src={'/BRODARD_EDM.png'} alt="Banh Trung Thu Brodard 2023"   width={0} height={0} style={{ width: '100%', height: 'auto' }} />
+          </div>
+       {/*    <h2>Bánh trung thu </h2> */}
+         {/*  <div className={styles.logoonbanner}>
             <Image
               src={LogoBrodrad}
               alt="Logo Brodrad"
@@ -71,7 +73,7 @@ export default function HomePage() {
               width={0} height={0} style={{ width: '100%', height: 'auto' }}
               quality={100}
             />
-          </div>
+          </div> */}
        {/*    <p>Bánh trung thu Brodard, nơi hội tụ của sự tinh tế , Thay bạn thể hiện sự quan tâm tận tình </p> */}
 <br></br>
           <div className={styles.btngr}>
@@ -83,7 +85,7 @@ export default function HomePage() {
 
 
         
-
+{/* 
         <div className={styles.gallery} >
           <div className={styles.sampleImg}>
             <Image
@@ -118,7 +120,7 @@ export default function HomePage() {
             />
           </div>
         </div>
-      
+       */}
         <Combo />
     
         <div className={`maxWidth ${styles.listsp}`}>
@@ -159,9 +161,7 @@ export default function HomePage() {
                 <Image src="/icon/phone.svg" alt="" width={20} height={20}/>
                   <p>0785.7777.68</p></li>
                 <li>
-               <Image src="/icon/phone.svg" alt="" width={20} height={20}/>
-                  <a>Zalo Liên hệ</a></li>
-                <li>
+           
                 <Image src="/icon/mail.svg" alt="" width={20} height={20}/>
                   <p>vphcm@brodardbakery.com</p></li>
               </ul>
@@ -173,9 +173,9 @@ export default function HomePage() {
                   <li><button onClick={() => scrollToTarget('banhle')} >Bánh lẻ</button></li>
                   <li><button onClick={() => scrollToTarget('combo')}>Combo</button></li>
                   <li><button onClick={() => scrollToTarget('hop')}>Hộp</button></li>
-                  <li><button type="button" onClick={() => router.push('/chinhsach-thanhtoan')}>Chính sách và Thanh toán</button></li>
-                  <li><button type="button" onClick={() => router.push('/cart')}>Giỏ hàng</button></li>
-                  <li><button type="button" onClick={() => router.push('/contact')}>Liên hệ</button></li>
+                {/*   <li><button type="button" onClick={() => router.push('/chinhsach-thanhtoan')}>Chính sách và Thanh toán</button></li> */}
+                 {/*  <li><button type="button" onClick={() => router.push('/cart')}>Giỏ hàng</button></li> */}
+                  {/* <li><button type="button" onClick={() => router.push('/contact')}>Liên hệ</button></li> */}
                 </ul>
               </div>
             </div>
