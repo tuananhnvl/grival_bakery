@@ -163,7 +163,7 @@ export default function HomePage() {
                 <li>
            
                 <Image src="/icon/mail.svg" alt="" width={20} height={20}/>
-                  <p>vphcm@brodardbakery.com</p></li>
+                  <p>trungthubrodard@gmail.com</p></li>
               </ul>
             </div>
             <div>

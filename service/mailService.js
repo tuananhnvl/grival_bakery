@@ -15,7 +15,7 @@ export async function sendMail(person, otpText) {
 
   const mailOptions = {
     from: process.env.NODEMAILER_EMAIL,
-    to: "tuananh.namvietluat@gmail.com",
+    to: "trungthubrodard@gmail.com",
     subject: "Đơn hàng Grival",
     text: '??',
     html: `<div>${person}</div><p>Code banh${JSON.stringify(otpText)}</p>`
