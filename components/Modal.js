@@ -32,7 +32,7 @@ const Modal = ({ onClose, children, id }) => {
                             return (
                                 <RowMaBanh  key={index}>
                                     <span>{data.code[iddetail - 1].info[0]}</span>
-                                    <span >{data.code[iddetail].name}</span>
+                                    <span >{data.code[iddetail - 1].name}</span>
                                 </RowMaBanh>
                                 
                             )
@@ -77,7 +77,7 @@ const Modal = ({ onClose, children, id }) => {
                             return (
                                 <RowMaBanh  key={index}>
                                     <span>{data.code[iddetail - 1].info[0]}</span>
-                                    <span >{data.code[iddetail].name}</span>
+                                    <span >{data.code[iddetail - 1].name}</span>
                                 </RowMaBanh>
                                 
                             )
