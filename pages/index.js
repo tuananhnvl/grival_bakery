@@ -17,25 +17,14 @@ import { LenisContext } from "@/components/LenisProvider";
 import Box from "@/components/bakery/Box";
 import Slogan from "@/components/asset/Slogan";
 import Logo from "@/components/asset/Logo";
+import Gallery from "@/components/Gallery/Gallery";
 const imagesc = require.context('@/public/asset-trungthu', true);
 const imageList = imagesc.keys().map(image => imagesc(image));
 
 export default function HomePage() {
-  const router = useRouter()
-  const refD = useRef(null)
   const lenisVal = useContext(LenisContext);
-  useEffect(() => {
-    if (lenisVal && lenisVal.scroll) {
-
-    }
-  }, [refD])
   function scrollToTarget(target) {
-
     lenisVal.scrollTo(`#${target}`, 1000)
-
-
-  
-  
   }
   return (
     <main style={{backgroundColor:'#d5e4dd'}}>
@@ -64,70 +53,24 @@ export default function HomePage() {
           <div className={styles.bgbanner}>
             <Image src={'/BRODARD_EDM.png'} alt="Banh Trung Thu Brodard 2023"   width={0} height={0} style={{ width: '100%', height: 'auto' }} />
           </div>
-       {/*    <h2>Bánh trung thu </h2> */}
-         {/*  <div className={styles.logoonbanner}>
-            <Image
-              src={LogoBrodrad}
-              alt="Logo Brodrad"
-              priority={true}
-              width={0} height={0} style={{ width: '100%', height: 'auto' }}
-              quality={100}
-            />
-          </div> */}
-       {/*    <p>Bánh trung thu Brodard, nơi hội tụ của sự tinh tế , Thay bạn thể hiện sự quan tâm tận tình </p> */}
+
 <br></br>
-          <div className={styles.btngr}>
-            <button onClick={() => scrollToTarget('combo')} >Combo</button>
-            <button onClick={() => scrollToTarget('banhle')}>Bánh lẻ</button>
-            <button onClick={() => scrollToTarget('hop')}>Hộp</button>
-          </div>
+      
         </div>
 
-
-        
-{/* 
-        <div className={styles.gallery} >
-          <div className={styles.sampleImg}>
-            <Image
-              src={imageList[1]}
-              alt="Gallery Brodrad"
-              priority={true}
-              width={0} height={0} style={{ width: '100%', height: 'auto' }}
-            />
-          </div>
-          <div className={styles.sampleImg}>
-            <Image
-              src={imageList[4]}
-              priority={true}
-              alt="Gallery Brodrad"
-              width={0} height={0} style={{ width: '100%', height: 'auto' }}
-            />
-          </div>
-          <div className={styles.sampleImg}>
-            <Image
-              src={imageList[2]}
-              priority={true}
-              alt="Gallery Brodrad"
-              width={0} height={0} style={{ width: '100%', height: 'auto' }}
-            />
-          </div>
-          <div className={styles.sampleImg}>
-            <Image
-              src={imageList[3]}
-              priority={true}
-              alt="Gallery Brodrad"
-              width={0} height={0} style={{ width: '100%', height: 'auto' }}
-            />
-          </div>
-        </div>
-       */}
-        <Combo />
-    
-        <div className={`maxWidth ${styles.listsp}`}>
+    <section className={`maxWidth`} >
+      <Combo />
+    </section>
+          
+      
+        <section className={`maxWidth ${styles.listsp}`}  id="banhle">
           <BanhLe/>
           <Box/>
-        </div>
-        <div className={styles.infobrodard} ref={refD}>
+        </section>
+        <section style={{padding: "0 2rem !important"}}>
+        <Gallery/>
+        </section>
+        <div className={styles.infobrodard}>
           <Image
             src={LogoBrodrad}
 
@@ -169,13 +112,10 @@ export default function HomePage() {
             <div>
               <div className={stylesf.menutreo}>
                 <h4>Menu</h4>
-                <ul>
+                <ul style={{justifyContent:"center"}}>
                   <li><button onClick={() => scrollToTarget('banhle')} >Bánh lẻ</button></li>
                   <li><button onClick={() => scrollToTarget('combo')}>Combo</button></li>
                   <li><button onClick={() => scrollToTarget('hop')}>Hộp</button></li>
-                {/*   <li><button type="button" onClick={() => router.push('/chinhsach-thanhtoan')}>Chính sách và Thanh toán</button></li> */}
-                 {/*  <li><button type="button" onClick={() => router.push('/cart')}>Giỏ hàng</button></li> */}
-                  {/* <li><button type="button" onClick={() => router.push('/contact')}>Liên hệ</button></li> */}
                 </ul>
               </div>
             </div>

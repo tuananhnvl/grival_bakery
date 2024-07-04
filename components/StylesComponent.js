@@ -1,8 +1,8 @@
 import styled from "styled-components";
 /* modal */
 export const WarrperModal = styled.div`
-z-index: 100;
-position: fixed;
+    z-index: 100;
+    position: fixed;
     top:0;
     left:0;
     width:100vw;
@@ -14,7 +14,7 @@ export const ModalView = styled.div`
     z-index: 100;
     position:absolute;
     background:var(--color-primary);
-    width: 42vw;
+    width: 50vw;
     min-width:fit-content;
     height: 42vh;
     top:50%;
@@ -22,7 +22,7 @@ export const ModalView = styled.div`
     transform:translate(-50%,-50%);
     display:flex;
     padding:2rem;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     button {
         position: absolute;
@@ -55,11 +55,11 @@ export const ModalView = styled.div`
         height: 42vh !important;
         top:0;
         left:0;
-        filter: blur(1px);
+        filter: brightness(0.5) blur(3px);
         }
         & > div:nth-child(2) {
             position:  absolute !important;
-            width: 93.42% !important;
+            width:100% !important;
             padding: 2rem 1rem 0 2rem !important;
             z-index:9;
             box-sizing: border-box;
@@ -68,6 +68,7 @@ export const ModalView = styled.div`
             padding-left: 0 !important;
             font-size: 1.5rem!important;
             margin-top: 0!important;
+            max-width:72% !important;
         }
 
         & > button {
@@ -77,8 +78,13 @@ export const ModalView = styled.div`
     }
 `
 export const ImgView = styled.div`
-    width: fit-content;
+    width: 40%;
     height:100%;
+    overflow:hidden;
+    img {
+        width:100% !important;
+        height:auto !important;
+    }
 `
 export const DetailView = styled.div`
     width: 50%;

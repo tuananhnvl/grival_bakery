@@ -3,14 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-
-Host: https://brodardbakery1948.com
+Host: http://localhost:3000
 
 # Sitemaps
-
-Sitemap: https://brodardbakery1948.com/sitemap.xml
-
-
-
-Disallow:  https://brodardbakery1948.com/Login
-Disallow: https://brodardbakery1948.com/Profile
+Sitemap: http://localhost:3000/sitemap.xml
