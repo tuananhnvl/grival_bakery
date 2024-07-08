@@ -519,7 +519,15 @@ button {
 
   @media (max-width:568px) {
     .customoverflow {
-        display:none !important;
+       
+    }
+    .customoverflow > h2 {
+        font-size:7vw !important;
+        margin-top:0 !important;
+    }
+    .customoverflow p:nth-child(1), .customoverflow p:nth-child(2), .customoverflow p:nth-child(3), .customoverflow p:nth-child(4) {
+        max-width:90% !important;
+        font-size:1rem !important;
     }
     #modal-checkout {
         width: 95% !important;
@@ -556,14 +564,21 @@ button {
 .customoverflow {
 
 }
-.customoverflow p:nth-child(1) {
+.customoverflow > h2 {
+    text-align:center;
+    font-size:3rem;
+}
+.customoverflow p:nth-child(1),
+.customoverflow p:nth-child(2),
+.customoverflow p:nth-child(3),
+.customoverflow p:nth-child(4) {
     max-width:64%;
     text-align: center;
     font-weight: normal;
     margin: 0 auto;
     font-size:1.3rem;
 }
-.customoverflow p:nth-child(2) {
+.customoverflow p:nth-child(5) {
     margin: 1rem auto;
     width:fit-content;
     font-size:1.3rem;

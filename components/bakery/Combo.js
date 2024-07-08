@@ -25,7 +25,27 @@ export default function Combo() {
             <RockLine rotate={'rotate(0deg)'} left={'0px'}/> */}
           
             <div className="customoverflow">
-              <p>Một mùa trăng nữa lại về. Mùa trăng có lẽ là mùa ngọt ngào nhất trong năm, bởi trăng về là gọi tuổi thơ về, cùng với lồng đèn, truyện cổ tích, cùng bánh trung thu trên mâm cỗ tròn đầy. Mỗi năm trăng về vào rằm tháng Tám, cũng là lúc đất trời rực rỡ với hoa tam giác mạch ở Hà Giang, cúc hoạ mi ở Hà Nội, hoa dã quỳ ở Đà Lạt và cả hoa súng Đồng Tháp. Vậy nên Brodard chọn Mùa Hoa Thu làm chủ đề chính cho BST bánh Trung Thu 2024 với mong muốn khi trăng về sẽ đúng mùa hoa nở ngọt ngào, cho một tết Đoàn Viên trọn vẹn nhất.</p>
+
+            <h2>“Thưởng Nguyệt An Nhiên"</h2>
+
+
+
+
+            <p>
+            “Thưởng Nguyệt An Nhiên" là chủ đề của Bộ sưu tập Bánh trung thu 2024
+được Brodard lấy cảm hứng từ những điều đẹp đẽ củo thiên nhiên như
+chim chóc, cỏ cây, hoa lá cùng những ngọn núi hùng vĩ”
+            </p>
+            <p>
+
+            Bộ sưu tập ra mắt trong tháng 8 năm nay, hứa hẹn mang đến sự hòa
+quyện tinh tế giữa nghệ thuật ẩm thực và thiên nhiên, tạo nên trải
+nghiệm độc đáo cho thực khách.
+            </p>
+              <p>Với 3 bộ hộp bánh được thiết kế tinh xảo gồm: Hương Sắc Bốn Mùa,
+Dạ Nguyệt Đoàn Viên và Non Sông Gấm Vóc cùng 18 hương vị bánh
+được Brodard tuyển chọn từ những nguyên liệu hảo hạng, kết hợp
+hài háo giữa truyền thống và hiện đại.</p>
               <p><strong>Danh sách sản phẩm</strong></p>
             </div>
             <div className={styles.btngr}>

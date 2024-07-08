@@ -4,13 +4,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+    width:100%;
+    overflow:hidden;
 }
 .bgbanner {
     position:relative;
     top:0;
     left:0;
-    max-width:100%;
+    width:100%;
     height:100%;
    /*  background: url(/BRODARD_EDM.png);
     background-size: cover;
@@ -44,6 +45,15 @@
     }
     .banner h2 {
        color: var(--color-brodard);
+    }
+ 
+    .bgbanner img {
+        height:100% !important;
+        width:auto !important;
+        
+   
+        right:0 !important;
+        position:absolute!important;
     }
     .logoonbanner img {
         width: 72% !important;
