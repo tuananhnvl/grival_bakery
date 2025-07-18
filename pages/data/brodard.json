@@ -786,46 +786,46 @@
             "idb": 41,
             "type" : "daumua",
             "stt" : 0,
-            "name" : "Set Hương Sắc Đầu Mùa 1",
-            "namee" : "Four Seasons Beautcousness 1",
-            "price" : 860000,
+            "name" : "Set Thu Thanh Tân 1",
+            "namee" : "Pure Tranquility of Autumn 1",
+            "price" : 900000,
             "value" : [2, 4, 16, 36],
             "image" : "./asset_2024/combo/combo-daumua_thumb.jpg",
-            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Đầu Mùa khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
+            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
         },
         {
             "idb": 42,
             "type" : "daumua",
             "stt" : 1,
-            "name" : "Set Hương Sắc Đầu Mùa 2",
-            "namee" : "Four Seasons Beautcousness 2",
-            "price" : 940000,
+            "name" : "Set Thu Thanh Tân 2",
+            "namee" : "Pure Tranquility of Autumn 2",
+            "price" : 980000,
             "value" : [2, 4, 32, 18],
             "image" : "./asset_2024/combo/combo-daumua_thumb.jpg",
-            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Đầu Mùa khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
+            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
         },
         {
             "idb": 43,
             "type" : "daumua",
             "stt" : 2,
             "idc" : 3,
-            "name" : "Set Hương Sắc Đầu Mùa 3",
-            "namee" : "Four Seasons Beautcousness 3",
-            "price" : 970000,
+            "name" : "Set Thu Thanh Tân 3",
+            "namee" : "Pure Tranquility of Autumn 3",
+            "price" : 1070000,
             "value" : [4, 6, 22, 24],
             "image" : "./asset_2024/combo/combo-daumua_thumb.jpg",
-            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Đầu Mùa khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
+            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
         },
         {
             "idb": 44,
             "type" : "daumua",
             "stt" : 3,
-            "name" : "Set Hương Sắc Đầu Mùa 4",
-            "namee" : "Four Seasons Beautcousness 4",
+            "name" : "Set Thu Thanh Tân 4",
+            "namee" : "Pure Tranquility of Autumn 4",
             "price" : 1210000,
             "value" :[4, 14, 28, 30],
             "image" : "./asset_2024/combo/combo-daumua_thumb.jpg",
-            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Đầu Mùa khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
+            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
         },
         {
             "idb": 45,
@@ -936,34 +936,34 @@
     ],
     "combo":{
         "daumua" : {
-            "name" : "Combo Hương Sắc Bốn Mùa",
-            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Đầu Mùa khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!",
+            "name" : "Combo Thu Thanh Tân",
+            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!",
             "value" : [
                 {
                     "idc" : 41,
-                    "name" : "Hương Sắc Bốn Mùa 1",
-                    "namee" : "Four Seasons Beautcousness 1",
+                    "name" : "Thu Thanh Tân 1",
+                    "namee" : "Pure Tranquility of Autumn 1",
                     "price" : 890000,
                     "value" : [2, 4, 22, 34]
                 },
                 {
                     "idc" : 42,
-                    "name" : "Hương Sắc Bốn Mùa 2",
-                    "namee" : "Four Seasons Beautcousness 2",
+                    "name" : "Thu Thanh Tân 2",
+                    "namee" : "Pure Tranquility of Autumn 2",
                     "price" : 950000,
                     "value" : [2, 4, 32, 18]
                 },
                 {
                     "idc" : 43,
-                    "name" : "Hương Sắc Bốn Mùa 3",
-                    "namee" : "Four Seasons Beautcousness 3",
+                    "name" : "Thu Thanh Tân 3",
+                    "namee" : "Pure Tranquility of Autumn 3",
                     "price" : 1070000,
                     "value" : [4, 14, 16, 18]
                 },
                 {
                     "idc" : 44,
-                    "name" : "Hương Sắc Bốn Mùa 4",
-                    "namee" : "Four Seasons Beautcousness 4",
+                    "name" : "Thu Thanh Tân 4",
+                    "namee" : "Pure Tranquility of Autumn 4",
                     "price" : 1210000,
                     "value" :[12, 14, 28, 20]
                 }
