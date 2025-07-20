@@ -27,6 +27,7 @@ const Modal = ({ onClose, children, id }) => {
                         <TitleBanh>{data.code[id - 1].name}</TitleBanh>
                         <ContentBanh>{data.code[id - 1].content}</ContentBanh>
                         <MaBanh>
+                            
                         {(data.code[id - 1].value).map((iddetail, index) => {
                            
                             return (
@@ -73,11 +74,11 @@ const Modal = ({ onClose, children, id }) => {
                         <ContentBanh>{data.code[id - 1].content}</ContentBanh>
                         <MaBanh>
                         {(data.code[id - 1].value).map((iddetail, index) => {
-                           
+                            console.log(iddetail)
                             return (
                                 <RowMaBanh  key={index}>
-                                    <span>{data.code[iddetail - 1].info[0]}</span>
-                                    <span >{data.code[iddetail - 1].name}</span>
+                               {/*      <span>{data.code[iddetail - 1].info[0]}</span>
+                                    <span >{data.code[iddetail - 1].name}</span> */}
                                 </RowMaBanh>
                                 
                             )

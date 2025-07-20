@@ -42,27 +42,27 @@
                         "200": [
                             5,
                             "9B",
-                            300000
+                            270000
                         ],
                         "250": [
                             6,
                             "9A",
-                            340000
+                            320000
                         ]
                     },
                     {
                         "idb": 4,
-                        "name": "Gà Quay Vi Cá 2 Trứng",
-                        "namee": "Roasted Chicken & Shark Fin 2 Yolks",
+                        "name": "Gà Quay Jambon Bát Bửu 1 Trứng",
+                        "namee": "Roasted Chicken & Eight Treasures Ham 1 Yolks",
                         "200": [
                             7,
-                            "13B",
-                            330000
+                            "7B",
+                            260000
                         ],
                         "250": [
                             8,
-                            "13A",
-                            400000
+                            "7A",
+                            300000
                         ]
                     },
                     {
@@ -77,7 +77,7 @@
                         "250": [
                             10,
                             "17A",
-                            310000
+                            300000
                         ]
                     },
                     {
@@ -87,27 +87,27 @@
                         "200": [
                             11,
                             "19B",
-                            350000
+                            330000
                         ],
                         "250": [
                             12,
                             "19A",
-                            410000
+                            390000
                         ]
                     },
                     {
                         "idb": 7,
-                        "name": "Sò Điệp Sốt XO 2 Trứng",
+                        "name": "Sò Điệp Xốt Bào Ngư Thượng Hạng 2 Trứng",
                         "namee": "Scallops with XO Sauce 2 Yolks",
                         "200": [
                             13,
-                            "21B",
-                            340000
+                            "23B",
+                            330000
                         ],
                         "250": [
                             14,
-                            "21A",
-                            400000
+                            "23A",
+                            390000
                         ]
                     }
                 ]
@@ -125,7 +125,7 @@
                         "200": [
                             15,
                             "42B",
-                            190000
+                            180000
                         ],
                         "250": [
                             16,
@@ -140,7 +140,7 @@
                         "200": [
                             17,
                             "48B",
-                            190000
+                            180000
                         ],
                         "250": [
                             18,
@@ -155,7 +155,7 @@
                         "200": [
                             19,
                             "52B",
-                            180000
+                            170000
                         ],
                         "250": [
                             20,
@@ -165,47 +165,62 @@
                     },
                     {
                         "idb": 11,
-                        "name": "Mè Đen 2 Trứng",
-                        "namee": "Black Sesame Seed 2 Yolks",
+                        "name": "Hạt Sen Lá Dứa Hạnh Nhân 2 Trứng",
+                        "namee": "Lotus Seed, Almond width Pandan Juice 2 Yolks",
                         "200": [
                             21,
-                            "54B",
-                            200000
-                        ],
-                        "250": [
-                            22,
-                            "54A",
-                            240000
-                        ]
-                    },
-                    {
-                        "idb": 12,
-                        "name": "Hạt Sen Lá Dứa Hạnh Nhân 2 Trứng",
-                        "namee": "Lotus Seed, Almond with Panda Juice 2 Yolks",
-                        "200": [
-                            23,
                             "64B",
                             210000
                         ],
                         "250": [
-                            24,
+                            22,
                             "64A",
                             240000
                         ]
                     },
                     {
-                        "idb": 13,
+                        "idb": 12,
                         "name": "Espresso Kim Sa Lava",
                         "namee": "Golden Laua Espresso",
                         "200": [
-                            25,
+                            23,
                             "68B",
                             220000
                         ],
                         "250": [
-                            26,
+                            24,
                             "68A",
                             260000
+                        ]
+                    },
+                    {
+                        "idb": 13,
+                        "name": "Long Nhãn Rượu Vang 2 Trứng",
+                        "namee": "Longan and Wine 2 Yolks",
+                        "200": [
+                            25,
+                            "70B",
+                            210000
+                        ],
+                        "250": [
+                            26,
+                            "70A",
+                            240000
+                        ]
+                    },
+                    {
+                        "idb": 14,
+                        "name": "Đậu Xanh Kim Sa Lava",
+                        "namee": "Golden Lava Mungbean",
+                        "200": [
+                            27,
+                            "72B",
+                            190000
+                        ],
+                        "250": [
+                            28,
+                            "72A",
+                            220000
                         ]
                     }
                 ]
@@ -217,46 +232,46 @@
                 "namee": "Sweet Mooncake without Egg Yolk",
                 "value": [
                     {
-                        "idb": 14,
+                        "idb": 15,
                         "name": "Tiramisu",
                         "namee": "Tiramisu",
                         "200": [
-                            27,
+                            29,
                             "12B",
-                            230000
+                            240000
                         ],
                         "250": [
-                            28,
+                            30,
                             "12A",
                             280000
                         ]
                     },
                     {
-                        "idb": 15,
+                        "idb": 16,
                         "name": "Hạnh Nhân Phô Mai Việt Quất Hoa Kỳ",
                         "namee": "Almond Cheese US Blueberry",
                         "200": [
-                            29,
+                            31,
                             "24B",
-                            230000
+                            240000
                         ],
                         "250": [
-                            30,
+                            32,
                             "24A",
                             280000
                         ]
                     },
                     {
-                        "idb": 16,
+                        "idb": 17,
                         "name": "Ô Long Hạt Sen",
                         "namee": "Lotus Seed with Oolong",
                         "200": [
-                            31,
+                            33,
                             "26B",
                             210000
                         ],
                         "250": [
-                            32,
+                            34,
                             "26A",
                             250000
                         ]
@@ -270,33 +285,48 @@
                 "namee": "Chay Mooncake with Egg Yolk",
                 "value": [
                     {
-                        "idb": 17,
+                        "idb": 18,
                         "name": "Hạt Sen Trà Xanh Chay",
                         "namee": "Vegetarian Green Tea & Lotus Seed",
                         "200": [
-                            33,
+                            35,
                             "4B",
-                            190000
+                            180000
                         ],
                         "250": [
-                            34,
+                            36,
                             "4A",
                             210000
                         ]
                     },
                     {
-                        "idb": 18,
+                        "idb": 19,
                         "name": "Đậu Xanh Chay",
                         "namee": "Vegetarian Mung Bean",
                         "200": [
-                            35,
+                            37,
                             "8B",
-                            170000
+                            160000
                         ],
                         "250": [
-                            36,
+                            38,
                             "8A",
                             190000
+                        ]
+                    },
+                    {
+                        "idb": 20,
+                        "name": "Thập Cẩm Chay",
+                        "namee": "Vegetarian Assorted Delights",
+                        "200": [
+                            39,
+                            "28B",
+                            180000
+                        ],
+                        "250": [
+                            40,
+                            "28A",
+                            210000
                         ]
                     }
                 ]
@@ -351,6 +381,9 @@
             }
         }
     ],
+
+
+    
     "code": [
         {
             "idb": 1,
@@ -429,14 +462,15 @@
             "type": "Nhân Mặn, Có Trứng",
             "typee": "....."
         },
+       
         {
             "idb": 8,
             "info": [
-                "13A",
-                400000
+                "7A",
+                300000
             ],
-            "name": "Gà Quay Vi Cá 2 Trứng",
-            "namee": "Roasted Chicken & Shark Fin 2 Yolks",
+            "name": "Gà Quay Jambon Bát Bửu 1 Trứng",
+            "namee": "Roasted Chicken & Eight Treasures Ham 1 Yolks",
             "type": "Nhân Mặn, Có Trứng",
             "typee": "....."
         },
@@ -804,10 +838,10 @@
             "namee": "Pure Tranquility of Autumn 1",
             "price": 900000,
             "value": [
-                2,
-                4,
-                16,
-                36
+                "single_type1_1_1",
+                "single_type1_2_1",
+                "single_type2_10_1",
+                "single_type4_18_1"
             ],
             "image": "./asset_2025/combo/thu-thanh-tan.jpg",
             "content": "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
@@ -821,9 +855,9 @@
             "price": 980000,
             "value": [
                 2,
-                4,
-                32,
-                18
+                6,
+                18,
+                16
             ],
             "image": "./asset_2025/combo/thu-thanh-tan.jpg",
             "content": "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
@@ -838,9 +872,9 @@
             "price": 1070000,
             "value": [
                 4,
-                6,
-                22,
-                24
+                8,
+                15,
+                22
             ],
             "image": "./asset_2025/combo/thu-thanh-tan.jpg",
             "content": "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
