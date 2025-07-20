@@ -6,7 +6,7 @@
                 "namee": "Savory Mooncake with Egg Yolk",
                 "value": [
                     {
-                        "idb":1,
+                        "idb": 1,
                         "name": "Thập Cẩm 2 Trứng",
                         "namee": "Assorted Delights 2 Yolks",
                         "200": [
@@ -21,7 +21,7 @@
                         ]
                     },
                     {
-                        "idb":2,
+                        "idb": 2,
                         "name": "Thập Cẩm Gà Quay 2 Trứng",
                         "namee": "Roasted Chicken 2 Yolks",
                         "200": [
@@ -36,7 +36,7 @@
                         ]
                     },
                     {
-                        "idb":3,
+                        "idb": 3,
                         "name": "Tom Yum Hải Sản 2 Trứng",
                         "namee": "Tom Yum Seafood 2 Yolks",
                         "200": [
@@ -51,7 +51,7 @@
                         ]
                     },
                     {
-                        "idb":4,
+                        "idb": 4,
                         "name": "Gà Quay Vi Cá 2 Trứng",
                         "namee": "Roasted Chicken & Shark Fin 2 Yolks",
                         "200": [
@@ -65,7 +65,8 @@
                             400000
                         ]
                     },
-                    {"idb":5,
+                    {
+                        "idb": 5,
                         "name": "Hải Sản Sốt Bào Ngư 2 Trứng",
                         "namee": "Seafood with Abalone Sauce 2 Yolks",
                         "200": [
@@ -79,7 +80,8 @@
                             310000
                         ]
                     },
-                    {"idb":6,
+                    {
+                        "idb": 6,
                         "name": "Yến Sào Táo Đỏ Ngũ Hạt 2 Trứng",
                         "namee": "Bird's Nest, Dried Red Jujube & Flue Grains 2 Yolks",
                         "200": [
@@ -93,7 +95,8 @@
                             410000
                         ]
                     },
-                    {"idb":7,
+                    {
+                        "idb": 7,
                         "name": "Sò Điệp Sốt XO 2 Trứng",
                         "namee": "Scallops with XO Sauce 2 Yolks",
                         "200": [
@@ -116,7 +119,7 @@
                 "namee": "Sweet Mooncake with Egg Yolk",
                 "value": [
                     {
-                        "idb":8,
+                        "idb": 8,
                         "name": "Khoai Môn 2 Trứng",
                         "namee": "Taro 2 Yolks",
                         "200": [
@@ -131,7 +134,7 @@
                         ]
                     },
                     {
-                        "idb":9,
+                        "idb": 9,
                         "name": "Sầu Riêng 6 Ri 2 Trứng",
                         "namee": "6 Ri Durian 2 Yolks",
                         "200": [
@@ -146,7 +149,7 @@
                         ]
                     },
                     {
-                        "idb":10,
+                        "idb": 10,
                         "name": "Đậu Xanh 2 Trứng",
                         "namee": "Mung Bean 2 Yolks",
                         "200": [
@@ -160,7 +163,8 @@
                             200000
                         ]
                     },
-                    {"idb":11,
+                    {
+                        "idb": 11,
                         "name": "Mè Đen 2 Trứng",
                         "namee": "Black Sesame Seed 2 Yolks",
                         "200": [
@@ -174,7 +178,8 @@
                             240000
                         ]
                     },
-                    {"idb":12,
+                    {
+                        "idb": 12,
                         "name": "Hạt Sen Lá Dứa Hạnh Nhân 2 Trứng",
                         "namee": "Lotus Seed, Almond with Panda Juice 2 Yolks",
                         "200": [
@@ -188,7 +193,8 @@
                             240000
                         ]
                     },
-                    {"idb":13,
+                    {
+                        "idb": 13,
                         "name": "Espresso Kim Sa Lava",
                         "namee": "Golden Laua Espresso",
                         "200": [
@@ -210,7 +216,8 @@
                 "name": "Nhân Ngọt Không Trứng",
                 "namee": "Sweet Mooncake without Egg Yolk",
                 "value": [
-                    {"idb":14,
+                    {
+                        "idb": 14,
                         "name": "Tiramisu",
                         "namee": "Tiramisu",
                         "200": [
@@ -224,7 +231,8 @@
                             280000
                         ]
                     },
-                    {"idb":15,
+                    {
+                        "idb": 15,
                         "name": "Hạnh Nhân Phô Mai Việt Quất Hoa Kỳ",
                         "namee": "Almond Cheese US Blueberry",
                         "200": [
@@ -238,7 +246,8 @@
                             280000
                         ]
                     },
-                    {"idb":16,
+                    {
+                        "idb": 16,
                         "name": "Ô Long Hạt Sen",
                         "namee": "Lotus Seed with Oolong",
                         "200": [
@@ -260,7 +269,8 @@
                 "name": "Bánh Chay",
                 "namee": "Chay Mooncake with Egg Yolk",
                 "value": [
-                    {"idb":17,
+                    {
+                        "idb": 17,
                         "name": "Hạt Sen Trà Xanh Chay",
                         "namee": "Vegetarian Green Tea & Lotus Seed",
                         "200": [
@@ -274,7 +284,8 @@
                             210000
                         ]
                     },
-                    {"idb":18,
+                    {
+                        "idb": 18,
                         "name": "Đậu Xanh Chay",
                         "namee": "Vegetarian Mung Bean",
                         "200": [
@@ -296,7 +307,8 @@
                 "name": "Bánh Mini",
                 "namee": "Mini Mooncake with Egg Yolk",
                 "value": [
-                    {"idb":37,
+                    {
+                        "idb": 37,
                         "name": "Bánh Lava Trứng Muối Tan Chảy",
                         "namee": "Salted Egg Yolk Lava Cake",
                         "40": [
@@ -305,7 +317,8 @@
                             130000
                         ]
                     },
-                    {"idb":20,
+                    {
+                        "idb": 20,
                         "name": "Đậu Xanh Chay - Hình Gấu",
                         "namee": "Vegetarian Mung Bean - Bear Shape",
                         "100": [
@@ -314,7 +327,8 @@
                             60000
                         ]
                     },
-                    {"idb":21,
+                    {
+                        "idb": 21,
                         "name": "Đậu Xanh Chay - Hình Heo",
                         "namee": "Vegetarian Mung Bean - Pig Shape",
                         "100": [
@@ -323,7 +337,8 @@
                             60000
                         ]
                     },
-                    {"idb":22,
+                    {
+                        "idb": 22,
                         "name": "Đậu Xanh Chay - Hình Mèo",
                         "namee": "Vegetarian Mung Bean - Cat Shape",
                         "100": [
@@ -358,7 +373,8 @@
             "namee": "Assorted Delights 2 Yolks",
             "type": "Nhân Mặn, Có Trứng",
             "typee": "Savory Mooncake with Egg Yolk"
-        }, {
+        },
+        {
             "idb": 3,
             "info": [
                 "3B",
@@ -609,7 +625,7 @@
             "name": "Espresso Kim Sa Lava",
             "namee": ".....",
             "type": "Nhân Ngọt Không Trứng",
-           "typee": "....."
+            "typee": "....."
         },
         {
             "idb": 26,
@@ -620,7 +636,7 @@
             "name": "Espresso Kim Sa Lava",
             "namee": ".....",
             "type": "Nhân Ngọt Không Trứng",
-           "typee": "....."
+            "typee": "....."
         },
         {
             "idb": 27,
@@ -742,7 +758,7 @@
             "namee": "Salted Egg Yolk Lava Cake",
             "type": "Bánh Mini",
             "typee": "Mini Mooncake with Egg Yolk",
-            "image" : "./asset-trungthu/banh/banh-lava-tan-chay.jpg"
+            "image": "./asset-trungthu/banh/banh-lava-tan-chay.jpg"
         },
         {
             "idb": 38,
@@ -754,7 +770,7 @@
             "namee": "Vegetarian Mung Bean - Bear Shape",
             "type": "Bánh Mini",
             "typee": "Mini Mooncake with Egg Yolk",
-            "image" : "./asset-trungthu/banh/banh-trung-thu-hinh-gau.png"
+            "image": "./asset-trungthu/banh/banh-trung-thu-hinh-gau.png"
         },
         {
             "idb": 39,
@@ -766,7 +782,7 @@
             "namee": "Vegetarian Mung Bean - Pig Shape",
             "type": "Bánh Mini",
             "typee": "Mini Mooncake with Egg Yolk",
-            "image" : "./asset-trungthu/banh/banh-trung-thu-hinh-heo.png"
+            "image": "./asset-trungthu/banh/banh-trung-thu-hinh-heo.png"
         },
         {
             "idb": 40,
@@ -778,273 +794,384 @@
             "namee": "Vegetarian Mung Bean - Cat Shape",
             "type": "Bánh Mini",
             "typee": "Mini Mooncake with Egg Yolk",
-            "image" : "./asset-trungthu/banh/banh-trung-thu-hinh-meo.png"
+            "image": "./asset-trungthu/banh/banh-trung-thu-hinh-meo.png"
         },
-
-        
         {
             "idb": 41,
-            "type" : "daumua",
-            "stt" : 0,
-            "name" : "Set Thu Thanh Tân 1",
-            "namee" : "Pure Tranquility of Autumn 1",
-            "price" : 900000,
-            "value" : [2, 4, 16, 36],
-            "image" : "./asset_2024/combo/combo-daumua_thumb.jpg",
-            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
+            "type": "daumua",
+            "stt": 0,
+            "name": "Set Thu Thanh Tân 1",
+            "namee": "Pure Tranquility of Autumn 1",
+            "price": 900000,
+            "value": [
+                2,
+                4,
+                16,
+                36
+            ],
+            "image": "./asset_2025/combo/thu-thanh-tan.jpg",
+            "content": "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
         },
         {
             "idb": 42,
-            "type" : "daumua",
-            "stt" : 1,
-            "name" : "Set Thu Thanh Tân 2",
-            "namee" : "Pure Tranquility of Autumn 2",
-            "price" : 980000,
-            "value" : [2, 4, 32, 18],
-            "image" : "./asset_2024/combo/combo-daumua_thumb.jpg",
-            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
+            "type": "daumua",
+            "stt": 1,
+            "name": "Set Thu Thanh Tân 2",
+            "namee": "Pure Tranquility of Autumn 2",
+            "price": 980000,
+            "value": [
+                2,
+                4,
+                32,
+                18
+            ],
+            "image": "./asset_2025/combo/thu-thanh-tan.jpg",
+            "content": "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
         },
         {
             "idb": 43,
-            "type" : "daumua",
-            "stt" : 2,
-            "idc" : 3,
-            "name" : "Set Thu Thanh Tân 3",
-            "namee" : "Pure Tranquility of Autumn 3",
-            "price" : 1070000,
-            "value" : [4, 6, 22, 24],
-            "image" : "./asset_2024/combo/combo-daumua_thumb.jpg",
-            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
+            "type": "daumua",
+            "stt": 2,
+            "idc": 3,
+            "name": "Set Thu Thanh Tân 3",
+            "namee": "Pure Tranquility of Autumn 3",
+            "price": 1070000,
+            "value": [
+                4,
+                6,
+                22,
+                24
+            ],
+            "image": "./asset_2025/combo/thu-thanh-tan.jpg",
+            "content": "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
         },
         {
             "idb": 44,
-            "type" : "daumua",
-            "stt" : 3,
-            "name" : "Set Thu Thanh Tân 4",
-            "namee" : "Pure Tranquility of Autumn 4",
-            "price" : 1210000,
-            "value" :[4, 14, 28, 30],
-            "image" : "./asset_2024/combo/combo-daumua_thumb.jpg",
-            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
+            "type": "daumua",
+            "stt": 3,
+            "name": "Set Thu Thanh Tân 4",
+            "namee": "Pure Tranquility of Autumn 4",
+            "price": 1210000,
+            "value": [
+                4,
+                14,
+                28,
+                30
+            ],
+            "image": "./asset_2025/combo/thu-thanh-tan.jpg",
+            "content": "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
         },
         {
             "idb": 45,
-            "type" : "dasac",
-            "stt" : 0,
-            "name" : "Set LAVA Tan Chảy",
-            "namee" : "Combo Lava",
-            "price" : 780000,
-            "value" : [37,37,37,37,37,37],
-            "image" : "./asset-trungthu/combo/combo-dasac.png",
-            "content" : "Được thiết kế trong hình dáng của của tấm bưu thiếp từ nunowsc Pháp xinh đẹp nhưng mang đậm “Dấu ấn Sài Gòn” đong đầy cảm xúc, gửi gắm trọn vẹn yêu thương tới người thân."
+            "type": "dasac",
+            "stt": 0,
+            "name": "Set LAVA Tan Chảy",
+            "namee": "Combo Lava",
+            "price": 780000,
+            "value": [
+                37,
+                37,
+                37,
+                37,
+                37,
+                37
+            ],
+            "image": "./asset-trungthu/combo/combo-dasac.png",
+            "content": "Được thiết kế trong hình dáng của của tấm bưu thiếp từ nunowsc Pháp xinh đẹp nhưng mang đậm “Dấu ấn Sài Gòn” đong đầy cảm xúc, gửi gắm trọn vẹn yêu thương tới người thân."
         },
         {
             "idb": 46,
-            "type" : "thuongtrang",
-            "stt" : 0,
-            "name" : "Set Dạ Nguyệt Đoàn Viên 1",
-            "namee" : "Moonlight Reunion 1",
-            "price" : 1530000,
-            "value" : [2, 4, 6, 32, 18, 24],
-            "image" : "./asset_2024/combo/combo-thuongtrang_thumb.jpg",
-            "content" : "Rằm tháng Tám, khi trăng treo đỉnh trời cũng là lúc những ánh trăng chiếu xen vào tán lá xanh trong vườn nhà, Thưởng Trăng gợi ra một đêm trung thu Đoàn Viên ấm áp bên bạn bè và gia đình"
+            "type": "thuongtrang",
+            "stt": 0,
+            "name": "Set Hội Hoa Thu 1",
+            "namee": "Moonlight Reunion 1",
+            "price": 1530000,
+            "value": [
+                2,
+                4,
+                6,
+                32,
+                18,
+                24
+            ],
+            "image": "./asset_2025/combo/hoi-hoa-thu.jpg",
+            "content": "Rằm tháng Tám, khi trăng treo đỉnh trời cũng là lúc những ánh trăng chiếu xen vào tán lá xanh trong vườn nhà, Thưởng Trăng gợi ra một đêm trung thu Đoàn Viên ấm áp bên bạn bè và gia đình"
         },
         {
             "idb": 47,
-            "type" : "thuongtrang",
-            "stt" : 1,
-            "name" : "Set Dạ Nguyệt Đoàn Viên 2",
-            "namee" : "Moonlight Reunion 2",
-            "price" : 1650000,
-            "value" : [4, 6, 10, 16, 26, 30],
-            "image" : "./asset_2024/combo/combo-thuongtrang_thumb.jpg",
-            "content" : "Rằm tháng Tám, khi trăng treo đỉnh trời cũng là lúc những ánh trăng chiếu xen vào tán lá xanh trong vườn nhà, Thưởng Trăng gợi ra một đêm trung thu Đoàn Viên ấm áp bên bạn bè và gia đình"
+            "type": "thuongtrang",
+            "stt": 1,
+            "name": "Set Hội Hoa Thu 2",
+            "namee": "Moonlight Reunion 2",
+            "price": 1650000,
+            "value": [
+                4,
+                6,
+                10,
+                16,
+                26,
+                30
+            ],
+            "image": "./asset_2025/combo/hoi-hoa-thu.jpg",
+            "content": "Rằm tháng Tám, khi trăng treo đỉnh trời cũng là lúc những ánh trăng chiếu xen vào tán lá xanh trong vườn nhà, Thưởng Trăng gợi ra một đêm trung thu Đoàn Viên ấm áp bên bạn bè và gia đình"
         },
         {
             "idb": 48,
-            "type" : "dongday",
-            "stt" : 0,
-            "name" : "Set Non Sông Gấm Vóc – Nhân Sâm",
-            "namee" : "Mountains And Rivers Brocade (Ginseng Edition)",
-            "price" : 3500000,
-            "value" : [10, 12, 30, 32],
-            "bonus" : ["2 Gói Trà Ô Long 100g","Nhân Sâm Cắt Lát Hộp 50g"],
-            "image" : "./asset_2024/combo/combo-dongday_thumb.jpg",
-            "content" : "Màu đỏ tượng trưng cho niềm vui và hạnh phúc, gửi tới gia đình, bạn bè và đối tác. Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Đong Đầy là một món quà vẹn tròn cho tết Đoàn Viên."
-            
+            "type": "dongday",
+            "stt": 0,
+            "name": "Set Thu Phú Ca – Nhân Sâm",
+            "namee": "Mountains And Rivers Brocade (Ginseng Edition)",
+            "price": 3500000,
+            "value": [
+                10,
+                12,
+                30,
+                32
+            ],
+            "bonus": [
+                "2 Gói Trà Ô Long 100g",
+                "Nhân Sâm Cắt Lát Hộp 50g"
+            ],
+            "image": "./asset_2024/combo/combo-dongday_thumb.jpg",
+            "content": "Màu đỏ tượng trưng cho niềm vui và hạnh phúc, gửi tới gia đình, bạn bè và đối tác. Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Đong Đầy là một món quà vẹn tròn cho tết Đoàn Viên."
         },
         {
             "idb": 49,
-            "type" : "dongday",
-            "stt" : 1,
-            "name" : "Set Non Sông Gấm Vóc – Yến Sào",
-            "namee" : "Mountains And Rivers Brocade (Bird's Nest Edition)",
-            "price" : 6600000,
-            "value" : [10, 12, 30, 32],
-            "bonus" : ["Tổ Yến SGAP TCL1 50g" , "2 Gói Trà Ô Lông 100g"],
-            "image" : "./asset_2024/combo/combo-dongday_thumb.jpg",
-            "content" : "Màu đỏ tượng trưng cho niềm vui và hạnh phúc, gửi tới gia đình, bạn bè và đối tác. Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Đong Đầy là một món quà vẹn tròn cho tết Đoàn Viên."
+            "type": "dongday",
+            "stt": 1,
+            "name": "Set Thu Phú Ca – Yến Sào",
+            "namee": "Mountains And Rivers Brocade (Bird's Nest Edition)",
+            "price": 6600000,
+            "value": [
+                10,
+                12,
+                30,
+                32
+            ],
+            "bonus": [
+                "Tổ Yến SGAP TCL1 50g",
+                "2 Gói Trà Ô Lông 100g"
+            ],
+            "image": "./asset_2024/combo/combo-dongday_thumb.jpg",
+            "content": "Màu đỏ tượng trưng cho niềm vui và hạnh phúc, gửi tới gia đình, bạn bè và đối tác. Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Đong Đầy là một món quà vẹn tròn cho tết Đoàn Viên."
         },
         {
             "idb": 50,
-            "type" : "dongday",
-            "stt" : 2,
-            "name" : "Set Non Sông Gấm Vóc – Mật Ong",
-            "namee" : "Mountains And Rivers Brocade (Honney Edition)",
-            "price" : 3100000,
-            "value" : [10, 12, 30, 32],
-            "bonus" : ["Lọ Mật Ong Hoa Cà Phê 189ml", "Lọ Mật Ong Hoa Chôm Chôm 189ml" ,"2 Gói trà Ô Long 100g"],
-            "image" : "./asset_2024/combo/combo-dongday_thumb.jpg",
-            "content" : "Màu đỏ tượng trưng cho niềm vui và hạnh phúc, gửi tới gia đình, bạn bè và đối tác. Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Đong Đầy là một món quà vẹn tròn cho tết Đoàn Viên."
+            "type": "dongday",
+            "stt": 2,
+            "name": "Set Thu Phú Ca – Mật Ong",
+            "namee": "Mountains And Rivers Brocade (Honney Edition)",
+            "price": 3100000,
+            "value": [
+                10,
+                12,
+                30,
+                32
+            ],
+            "bonus": [
+                "Lọ Mật Ong Hoa Cà Phê 189ml",
+                "Lọ Mật Ong Hoa Chôm Chôm 189ml",
+                "2 Gói trà Ô Long 100g"
+            ],
+            "image": "./asset_2024/combo/combo-dongday_thumb.jpg",
+            "content": "Màu đỏ tượng trưng cho niềm vui và hạnh phúc, gửi tới gia đình, bạn bè và đối tác. Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Đong Đầy là một món quà vẹn tròn cho tết Đoàn Viên."
         },
         {
             "idb": 51,
-            "type" : "hop",
-            "stt" : 1,
-            "name" : "Mẫu Hộp 4 Bánh Đầu Mùa",
-            "namee" : "",
-            "price" : 111111,
-            "value" : ["H4B"],
-            "bonus" : [],
-            "image" : "./asset-trungthu/loaihop/41-rbg.png",
-            "content" : ""
+            "type": "hop",
+            "stt": 1,
+            "name": "Mẫu Hộp 4 Bánh Đầu Mùa",
+            "namee": "",
+            "price": 111111,
+            "value": [
+                "H4B"
+            ],
+            "bonus": [],
+            "image": "./asset-trungthu/loaihop/41-rbg.png",
+            "content": ""
         },
         {
             "idb": 52,
-            "type" : "hop",
-            "stt" : 1,
-            "name" : "Mẫu Hộp 6 Bánh Đầu Mùa",
-            "namee" : "",
-            "price" : 111111,
-            "value" : ["H6B"],
-            "bonus" : [],
-            "image" : "./asset-trungthu/loaihop/61-rbg.png",
-            "content" : ""
+            "type": "hop",
+            "stt": 1,
+            "name": "Mẫu Hộp 6 Bánh Đầu Mùa",
+            "namee": "",
+            "price": 111111,
+            "value": [
+                "H6B"
+            ],
+            "bonus": [],
+            "image": "./asset-trungthu/loaihop/61-rbg.png",
+            "content": ""
         },
         {
             "idb": 53,
-            "type" : "hop",
-            "stt" : 1,
-            "name" : "Mẫu Hộp VIP",
-            "namee" : "",
-            "price" : 111111,
-            "value" : ["HVIP"],
-            "bonus" : [],
-            "image" : "./asset-trungthu/loaihop/v1-rbg.png",
-            "content" : ""
+            "type": "hop",
+            "stt": 1,
+            "name": "Mẫu Hộp VIP",
+            "namee": "",
+            "price": 111111,
+            "value": [
+                "HVIP"
+            ],
+            "bonus": [],
+            "image": "./asset-trungthu/loaihop/v1-rbg.png",
+            "content": ""
         }
     ],
-    "combo":{
-        "daumua" : {
-            "name" : "Combo Thu Thanh Tân",
-            "content" : "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!",
-            "value" : [
+    "combo": {
+        "daumua": {
+            "name": "Combo Thu Thanh Tân",
+            "content": "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!",
+            "value": [
                 {
-                    "idc" : 41,
-                    "name" : "Thu Thanh Tân 1",
-                    "namee" : "Pure Tranquility of Autumn 1",
-                    "price" : 890000,
-                    "value" : [2, 4, 22, 34]
+                    "idc": 41,
+                    "name": "Thu Thanh Tân 1",
+                    "namee": "Pure Tranquility of Autumn 1",
+                    "price": 900000,
+                    "value": [
+                        2,
+                        4,
+                        22,
+                        34
+                    ]
                 },
                 {
-                    "idc" : 42,
-                    "name" : "Thu Thanh Tân 2",
-                    "namee" : "Pure Tranquility of Autumn 2",
-                    "price" : 950000,
-                    "value" : [2, 4, 32, 18]
+                    "idc": 42,
+                    "name": "Thu Thanh Tân 2",
+                    "namee": "Pure Tranquility of Autumn 2",
+                    "price": 980000,
+                    "value": [
+                        2,
+                        4,
+                        32,
+                        18
+                    ]
                 },
                 {
-                    "idc" : 43,
-                    "name" : "Thu Thanh Tân 3",
-                    "namee" : "Pure Tranquility of Autumn 3",
-                    "price" : 1070000,
-                    "value" : [4, 14, 16, 18]
+                    "idc": 43,
+                    "name": "Thu Thanh Tân 3",
+                    "namee": "Pure Tranquility of Autumn 3",
+                    "price": 1070000,
+                    "value": [
+                        4,
+                        14,
+                        16,
+                        18
+                    ]
                 },
                 {
-                    "idc" : 44,
-                    "name" : "Thu Thanh Tân 4",
-                    "namee" : "Pure Tranquility of Autumn 4",
-                    "price" : 1210000,
-                    "value" :[12, 14, 28, 20]
+                    "idc": 44,
+                    "name": "Thu Thanh Tân 4",
+                    "namee": "Pure Tranquility of Autumn 4",
+                    "price": 1210000,
+                    "value": [
+                        12,
+                        14,
+                        28,
+                        20
+                    ]
                 }
             ]
         },
-     
-        "thuongtrang" : {
-            "name" : "Combo Dạ Nguyệt Đoàn Viên",
-            "content" : "Rằm tháng Tám, khi trăng treo đỉnh trời cũng là lúc những ánh trăng chiếu xen vào tán lá xanh trong vườn nhà, Thưởng Trăng gợi ra một đêm trung thu Đoàn Viên ấm áp bên bạn bè và gia đình",
-            "value" : [
+        "thuongtrang": {
+            "name": "Combo Hội Hoa Thu",
+            "content": "Rằm tháng Tám, khi trăng treo đỉnh trời cũng là lúc những ánh trăng chiếu xen vào tán lá xanh trong vườn nhà, Thưởng Trăng gợi ra một đêm trung thu Đoàn Viên ấm áp bên bạn bè và gia đình",
+            "value": [
                 {
-                    "idc" : 46,
-                    "name" : "Dạ Nguyệt Đoàn Viên 1",
-                    "namee" : "Moonlight Reunion 1",
-                    "price" : 1530000,
-                    "value" : [2, 4, 6, 32, 18, 24]
+                    "idc": 46,
+                    "name": "Hội Hoa Thu 1",
+                    "namee": "Autumn Floral Symphony 1",
+                    "price": 1510000,
+                    "value": [
+                        2,
+                        4,
+                        6,
+                        32,
+                        18,
+                        24
+                    ]
                 },
                 {
-                    "idc" : 47,
-                    "name" : "Dạ Nguyệt Đoàn Viên 2",
-                    "namee" : "Moonlight Reunion 2",
-                    "price" : 1650000,
-                    "value" : [4, 6, 10, 16, 26, 30]
+                    "idc": 47,
+                    "name": "Hội Hoa Thu 2",
+                    "namee": "Autumn Floral Symphony 2",
+                    "price": 1600000,
+                    "value": [
+                        4,
+                        6,
+                        10,
+                        16,
+                        26,
+                        30
+                    ]
                 }
             ]
         },
-        "dongday" : {
-            "type" : "Combo Non Sông Gấm Vóc",
-            "content" : "Màu đỏ tượng trưng cho niềm vui và hạnh phúc, gửi tới gia đình, bạn bè và đối tác. Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Đong Đầy là một món quà vẹn tròn cho tết Đoàn Viên.",
-            "name" : "Combo Non Sông Gấm Vóc",
-            "value" : [
+        "dongday": {
+            "type": "Combo Thu Phú Ca",
+            "content": "Màu đỏ tượng trưng cho niềm vui và hạnh phúc, gửi tới gia đình, bạn bè và đối tác. Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Đong Đầy là một món quà vẹn tròn cho tết Đoàn Viên.",
+            "name": "Combo Thu Phú Ca",
+            "value": [
                 {
-                    "idc" : 48,
-                    "name" : "Non Sông Gấm Vóc – Nhân Sâm",
-                    "namee" : "Wholesomeness (Dried Japan Red Reishi Mushroom Edition)",
-                    "price" : 3500000,
-                    "value" : [10, 12, 30, 32],
-                    "bonus" : ["2 Gói Trà Ô Long 100g","Nấm Linh Chi Nhật Cắt Lát 100g"]
+                    "idc": 48,
+                    "name": "Thu Phú Ca – Mật Ong",
+                    "namee": "Autumn Song of Abundance (Bird's Nest Edition)",
+                    "price": 3000000,
+                    "value": [
+                        10,
+                        12,
+                        30,
+                        32
+                    ],
+                    "bonus": [
+                        "2 Gói Trà Ô Long 100g",
+                        "Mật Ong Hoa Chôm Chôm 189ML",
+                        "Mật Ong Hoa Cà Phê 189ML"
+                    ]
                 },
                 {
-                    "idc" : 49,
-                    "name" : "Non Sông Gấm Vóc – Yến Sào",
-                    "namee" : "Wholesomeness (Pure Bird's Nest Edition)",
-                    "price" : 6600000,
-                    "value" : [10, 12, 30, 32],
-                    "bonus" : ["Yến Sào 50g" , "2 Gói Trà Ô Lông 100g"]
-                },
-                {
-                    "idc" : 50,
-                    "name" : "Non Sông Gấm Vóc – Mật Ong",
-                    "namee" : "Wholesomeness (Honney Edition)",
-                    "price" : 3100000,
-                    "value" : [10, 12, 30, 32],
-                    "bonus" : ["Lọ Mật Ong Hoa Cà Phê 189ml", "Lọ Mật Ong Hoa Chôm Chôm 189ml" ,"2 Gói trà Ô Long"]
+                    "idc": 49,
+                    "name": "Thu Phú Ca – Yến Sào",
+                    "namee": "Autumn Song of Abundance (Bird's Nest Edition)",
+                    "price": 6500000,
+                    "value": [
+                        10,
+                        12,
+                        30,
+                        32
+                    ],
+                    "bonus": [
+                        "Yến Sào Khánh Hoà 50g",
+                        "2 Gói Trà Ô Long 100g"
+                    ]
                 }
             ]
         }
     },
-    "box" : {
-        "daumua" : {
-            "name" : "Mẫu Hộp 4 Bánh Đầu Mùa",
-            "des" : "Quý khách hàng có thể lựa chọn 4 bánh tuỳ thích hoặc lựa chọn 4 combo bánh trung thu `Đầu Mùa` để vào hộp này."
+    "box": {
+        "daumua": {
+            "name": "Mẫu Hộp 4 Bánh Đầu Mùa",
+            "des": "Quý khách hàng có thể lựa chọn 4 bánh tuỳ thích hoặc lựa chọn 4 combo bánh trung thu `Đầu Mùa` để vào hộp này."
         },
-        "dongday" : {
-            "name" : "Mẫu Hộp Bánh Đong Đầy",
-            "des" : "Hộp vuông sang trọng, hộp dành riêng cho combo VIP Mật ong, Yến Sào và Nấm xích linh chi."
+        "dongday": {
+            "name": "Mẫu Hộp Bánh Đong Đầy",
+            "des": "Hộp vuông sang trọng, hộp dành riêng cho combo VIP Mật ong, Yến Sào và Nấm xích linh chi."
         },
-        "thuongtrang" : {
-            "name" : "Hộp Brodard 6 bánh THƯỞNG TRĂNG",
-            "des" : "Quý khách hàng có thể lựa chọn 6 bánh tuỳ thích hoặc lựa chọn 2 combo Thưởng Trăng."
+        "thuongtrang": {
+            "name": "Hộp Brodard 6 bánh THƯỞNG TRĂNG",
+            "des": "Quý khách hàng có thể lựa chọn 6 bánh tuỳ thích hoặc lựa chọn 2 combo Thưởng Trăng."
         },
-        "dasac" : {
-            "name" : "Mẫu hộp LAVA ĐA SẮC",
-            "des" : "Hộp dành riêng cho Combo Lava tan chảy. Hộp chứa 6 bánh nhỏ Lava"
+        "dasac": {
+            "name": "Mẫu hộp LAVA ĐA SẮC",
+            "des": "Hộp dành riêng cho Combo Lava tan chảy. Hộp chứa 6 bánh nhỏ Lava"
         },
-        "rucro" : {
-            "name" : "Mẫu hộp Rực Rỡ",
-            "des" : "Quý khách hàng có thể lựa chọn n bánh tuỳ thích."
+        "rucro": {
+            "name": "Mẫu hộp Rực Rỡ",
+            "des": "Quý khách hàng có thể lựa chọn n bánh tuỳ thích."
         }
     },
-    "content" : [
+    "content": [
         "Một mùa trăng nữa lại về. Mùa trăng có lẽ là mùa ngọt ngào nhất trong năm,bởi trăng về là kêu gọi tuổi thơ về cùng với lồng đèn. truyện cổ tích ,cùng bánh trung thu trên mâm cô tròn đầy",
         "Mỗi năm trăng về vào rằm tháng Tám, tức tháng Ghín Dương Lịch, cũng là lúc đất trời rực rỡ với hoa tam giác mạch ở Hà Giang,cúc hoạ mỉ ở Hà Nội. hoa dã quỳ ở Đà Lạt và về đến cä hoa súng Đồng Tháp. Vậy nên Brodard chọn Mùa Hoa Thu làm chủ đề chính cho BST bánh Trung Thu 2023. mong muốn khi trăng về đúng mùa hoa nở ngọt ngào nhất sẽ cho một tết Đoàn Viên trọn vẹn nhất.",
         "The arrival ofyet another moon season is here, once again, and itis perhaps the most delighful time of the year. The return of the moon brings backcherished childhood memories filled with lanterns, fairy tales. family get-togethers. and the delectable moon cakes.",

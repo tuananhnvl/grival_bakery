@@ -61,7 +61,7 @@ hài háo giữa truyền thống và hiện đại.</p>
                         <div className={styles.itemcombo} key={key}>
                          
                             <div className="img">
-                                <Image src={`/asset_2024/combo/combo-${key}.jpg`} alt="" width={0} height={0} style={{ width: '100%', height: 'auto' }} />
+                                <Image src={`/asset_2025/combo/combo-${key}.jpg`} alt="" width={0} height={0} style={{ width: '100%', height: 'auto' }} />
                             </div>
                             <div>
                             <div className={styles.info}>

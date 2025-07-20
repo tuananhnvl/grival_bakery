@@ -51,7 +51,7 @@ export default function HomePage() {
      {/*  <button id="btn-scrollTo" onClick={() => scrollToTarget('toppage')} >^</button> */}
       <div className={styles.banner} id="toppage">
           <div className={styles.bgbanner}>
-            <Image src={'/asset_2024/list_box.jpg'} alt="Banh Trung Thu Brodard 2023"   width={0} height={0} style={{ width: '100%', height: 'auto' }} />
+            <Image src={'/asset_2025/banner.jpg'} alt="Banh Trung Thu Brodard 2023"   width={0} height={0} style={{ width: '100%', height: 'auto' }} />
           </div>
 
 <br></br>

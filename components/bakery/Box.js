@@ -24,7 +24,7 @@ export default function Box() {
 
         <div className={ske.infobanhle} style={{width:'100% !important',height:'fit-content !important'}}>
           <Image
-            src={'/asset_2024/list_box.jpg'}
+            src={'/asset_2025/banner.jpg'}
             alt="Singla Cake Brodrad"
             width={0} height={0} style={{ width: '100%', height: 'auto' }}
           />
