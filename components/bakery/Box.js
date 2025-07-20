@@ -18,7 +18,9 @@ export default function Box() {
         <div className={ske.contentbanhle} id="fixtam001" style={{width:'100% !important',margin: '0 auto !important'}}>
 
           <h2 >HỘP QUÀ TẶNG TRUNG THU</h2>
-          <p>Lấy ý tưởng kết nối yêu thương trong mùa đoàn viên, bộ mẫu hộp trung thu Brodard 2024 được thiết kế giống những tấm bưu thiếp mang “Dấu ấn Sài Gòn” đong đầy cảm xúc, giúp truyền tải tâm tình mà người gửi dành tặng cho người được trao hộp bánh. Mỗi chiếc hộp bánh trung thu 2024 cao cấp Brodard còn được ví như sợi dây kết nối nghĩa tình, bày tỏ sự quan tâm, sẻ chia, thắt chặt tình thâm, nối gần “giãn cách”. Để ta cảm nhận được sự hiện diện của nhau dù đang ở bất cứ nơi đâu trong mùa đoàn viên này.</p>
+          <p>Lấy cảm hứng từ vẻ đẹp vĩnh cửu của đất trời, từng hộp bánh trung thu Brodard 2025 như một khu vườn hoa nên sự yên bình - nơi cánh chim sải rộng, hoa lá khẽ nở, đường nét uyển chuyển trên nền màu pastel dịu ngọt hay sắc vàng tỏa sáng.
+
+Mỗi họa tiết là một lời chúc an lành, mỗi thiết kế là một tấm lòng gửi gắm qua bàn tay thủ công tinh xảo.</p>
 
         </div>
 

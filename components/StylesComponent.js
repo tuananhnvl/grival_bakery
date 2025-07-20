@@ -23,7 +23,7 @@ export const ModalView = styled.div`
     display:flex;
     padding:2rem;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     button {
         position: absolute;
         right: 14px;

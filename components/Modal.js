@@ -29,11 +29,14 @@ const Modal = ({ onClose, children, id }) => {
                         <MaBanh>
                             
                         {(data.code[id - 1].value).map((iddetail, index) => {
-                           
+                                     
+                            const [pr1, pr2, pr3, pr4] = iddetail.split('_');
+                            const found = data[pr1].find(obj => obj.hasOwnProperty(pr2));
+                            const item = found[pr2].value.find(i => i.idb == pr3);
                             return (
                                 <RowMaBanh  key={index}>
-                                    <span>{data.code[iddetail - 1].info[0]}</span>
-                                    <span >{data.code[iddetail - 1].name}</span>
+                                              <span>{item[pr4][1]}</span>
+                                    <span >{item.name}</span>
                                 </RowMaBanh>
                                 
                             )
@@ -74,11 +77,16 @@ const Modal = ({ onClose, children, id }) => {
                         <ContentBanh>{data.code[id - 1].content}</ContentBanh>
                         <MaBanh>
                         {(data.code[id - 1].value).map((iddetail, index) => {
-                            console.log(iddetail)
+                           
+                            const [pr1, pr2, pr3, pr4] = iddetail.split('_');
+                            const found = data[pr1].find(obj => obj.hasOwnProperty(pr2));
+                            const item = found[pr2].value.find(i => i.idb == pr3);
+                         
+
                             return (
                                 <RowMaBanh  key={index}>
-                               {/*      <span>{data.code[iddetail - 1].info[0]}</span>
-                                    <span >{data.code[iddetail - 1].name}</span> */}
+                                    <span>{item[pr4][1]}</span>
+                                    <span >{item.name}</span>
                                 </RowMaBanh>
                                 
                             )

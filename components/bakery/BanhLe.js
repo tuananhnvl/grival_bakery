@@ -27,7 +27,7 @@ export default function BanhLe() {
 
         <div className={styles.infobanhle}>
           <Image
-            src={'/asset-trungthu/banner3.png'}
+            src={'/asset_2025/6.jpg'}
             alt="Singla Cake Brodrad"
             width={0} height={0} style={{ width: 'auto', height: '100%' }}
           />

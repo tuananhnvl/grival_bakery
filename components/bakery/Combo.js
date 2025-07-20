@@ -26,26 +26,21 @@ export default function Combo() {
           
             <div className="customoverflow">
 
-            <h2>“Thưởng Nguyệt An Nhiên"</h2>
+            <h2>“Sắc Thiên Nhiên<br></br>Hương Đoàn Viên"</h2>
 
 
 
 
             <p>
-            “Thưởng Nguyệt An Nhiên" là chủ đề của Bộ sưu tập Bánh trung thu 2024
-được Brodard lấy cảm hứng từ những điều đẹp đẽ củo thiên nhiên như
-chim chóc, cỏ cây, hoa lá cùng những ngọn núi hùng vĩ”
+           Lấy cảm hứng từ vẻ đẹp vĩnh cửu của đất trời, từng hộp bánh trung thu Brodard 2025 như một khu vườn hoa nên sự yên bình - nơi cánh chim sải rộng, hoa lá khẽ nở, đường nét uyển chuyển trên nền màu pastel dịu ngọt hay sắc vàng tỏa sáng.
             </p>
             <p>
 
-            Bộ sưu tập ra mắt trong tháng 8 năm nay, hứa hẹn mang đến sự hòa
-quyện tinh tế giữa nghệ thuật ẩm thực và thiên nhiên, tạo nên trải
-nghiệm độc đáo cho thực khách.
+            Mỗi họa tiết là một lời chúc an lành, mỗi thiết kế là một tấm lòng gửi gắm qua bàn tay thủ công tinh xảo.
             </p>
-              <p>Với 3 bộ hộp bánh được thiết kế tinh xảo gồm: Hương Sắc Bốn Mùa,
-Dạ Nguyệt Đoàn Viên và Non Sông Gấm Vóc cùng 18 hương vị bánh
-được Brodard tuyển chọn từ những nguyên liệu hảo hạng, kết hợp
-hài háo giữa truyền thống và hiện đại.</p>
+              <p>Toả hương trong ánh thu thanh tân, Brodard mang đến một mùa Tết đoàn viên mộc mạc mà sâu lắng - nơi sắc lá lên tiếng, hoa cỏ mỉm cười, và yêu thương được trao đi bằng sự dịu dàng thuần khiết.
+
+</p>
               <p><strong>Danh sách sản phẩm</strong></p>
             </div>
             <div className={styles.btngr}>

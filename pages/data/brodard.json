@@ -381,8 +381,6 @@
             }
         }
     ],
-
-
     
     "code": [
         {
@@ -838,12 +836,12 @@
             "namee": "Pure Tranquility of Autumn 1",
             "price": 900000,
             "value": [
-                "single_type1_1_1",
-                "single_type1_2_1",
-                "single_type2_10_1",
-                "single_type4_18_1"
+                "single_type1_1_250",
+                "single_type1_2_250",
+                "single_type2_10_250",
+                "single_type4_18_250"
             ],
-            "image": "./asset_2025/combo/thu-thanh-tan.jpg",
+            "image": "./asset_2025/combo/combo-daumua.jpg",
             "content": "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
         },
         {
@@ -854,12 +852,12 @@
             "namee": "Pure Tranquility of Autumn 2",
             "price": 980000,
             "value": [
-                2,
-                6,
-                18,
-                16
+               "single_type1_1_250",
+                "single_type1_3_250",
+                "single_type2_9_250",
+                "single_type2_8_250"
             ],
-            "image": "./asset_2025/combo/thu-thanh-tan.jpg",
+            "image": "./asset_2025/combo/combo-daumua.jpg",
             "content": "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
         },
         {
@@ -871,12 +869,12 @@
             "namee": "Pure Tranquility of Autumn 3",
             "price": 1070000,
             "value": [
-                4,
-                8,
-                15,
-                22
+                  "single_type1_2_250",
+                "single_type1_4_250",
+                "single_type3_15_250",
+                "single_type2_11_250"
             ],
-            "image": "./asset_2025/combo/thu-thanh-tan.jpg",
+            "image": "./asset_2025/combo/combo-daumua.jpg",
             "content": "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
         },
         {
@@ -887,12 +885,12 @@
             "namee": "Pure Tranquility of Autumn 4",
             "price": 1210000,
             "value": [
-                4,
-                14,
-                28,
-                30
+                   "single_type1_3_250",
+                "single_type1_7_250",
+                "single_type2_13_250",
+                "single_type2_12_250"
             ],
-            "image": "./asset_2025/combo/thu-thanh-tan.jpg",
+            "image": "./asset_2025/combo/combo-daumua.jpg",
             "content": "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
         },
         {
@@ -921,15 +919,15 @@
             "namee": "Moonlight Reunion 1",
             "price": 1530000,
             "value": [
-                2,
-                4,
-                6,
-                32,
-                18,
-                24
+                 "single_type1_1_250",
+                "single_type1_2_250",
+                "single_type1_4_250",
+                "single_type3_15_250",
+                "single_type2_10_250",
+                "single_type2_11_250"
             ],
-            "image": "./asset_2025/combo/hoi-hoa-thu.jpg",
-            "content": "Rằm tháng Tám, khi trăng treo đỉnh trời cũng là lúc những ánh trăng chiếu xen vào tán lá xanh trong vườn nhà, Thưởng Trăng gợi ra một đêm trung thu Đoàn Viên ấm áp bên bạn bè và gia đình"
+            "image": "./asset_2025/combo/combo-thuongtrang.jpg",
+            "content": "Rằm tháng Tám, khi trăng treo đỉnh trời cũng là lúc những ánh trăng chiếu xen vào tán lá xanh trong vườn nhà, Hội Hoa Thu gợi ra một đêm trung thu Đoàn Viên ấm áp bên bạn bè và gia đình"
         },
         {
             "idb": 47,
@@ -939,35 +937,36 @@
             "namee": "Moonlight Reunion 2",
             "price": 1650000,
             "value": [
-                4,
-                6,
-                10,
-                16,
-                26,
-                30
+                "single_type1_2_250",
+                "single_type1_4_250",
+                "single_type1_5_250",
+                "single_type3_17_250",
+                "single_type2_12_250",
+                "single_type2_13_250"
             ],
-            "image": "./asset_2025/combo/hoi-hoa-thu.jpg",
-            "content": "Rằm tháng Tám, khi trăng treo đỉnh trời cũng là lúc những ánh trăng chiếu xen vào tán lá xanh trong vườn nhà, Thưởng Trăng gợi ra một đêm trung thu Đoàn Viên ấm áp bên bạn bè và gia đình"
+            "image": "./asset_2025/combo/combo-thuongtrang.jpg",
+            "content": "Rằm tháng Tám, khi trăng treo đỉnh trời cũng là lúc những ánh trăng chiếu xen vào tán lá xanh trong vườn nhà, Hội Hoa Thu gợi ra một đêm trung thu Đoàn Viên ấm áp bên bạn bè và gia đình"
         },
         {
             "idb": 48,
             "type": "dongday",
             "stt": 0,
-            "name": "Set Thu Phú Ca – Nhân Sâm",
+            "name": "Set Thu Phú Ca – Mật Ong",
             "namee": "Mountains And Rivers Brocade (Ginseng Edition)",
             "price": 3500000,
             "value": [
-                10,
-                12,
-                30,
-                32
+                "single_type1_6_250",
+                "single_type1_7_250",
+                "single_type2_12_250",
+                "single_type2_13_250"
             ],
             "bonus": [
                 "2 Gói Trà Ô Long 100g",
-                "Nhân Sâm Cắt Lát Hộp 50g"
+                "Mật Ong Hoa Chôm Chôm 189ML",
+                "Mật Ong Hoa Cà Phê 189ML"
             ],
-            "image": "./asset_2024/combo/combo-dongday_thumb.jpg",
-            "content": "Màu đỏ tượng trưng cho niềm vui và hạnh phúc, gửi tới gia đình, bạn bè và đối tác. Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Đong Đầy là một món quà vẹn tròn cho tết Đoàn Viên."
+            "image": "./asset_2025/combo/combo-dongday.jpg",
+            "content": "Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Thu Phú Ca là một món quà vẹn tròn cho tết Đoàn Viên."
         },
         {
             "idb": 49,
@@ -975,19 +974,19 @@
             "stt": 1,
             "name": "Set Thu Phú Ca – Yến Sào",
             "namee": "Mountains And Rivers Brocade (Bird's Nest Edition)",
-            "price": 6600000,
+            "price": 6500000,
             "value": [
-                10,
-                12,
-                30,
-                32
+                 "single_type1_6_250",
+                "single_type1_7_250",
+                "single_type2_12_250",
+                "single_type2_13_250"
             ],
             "bonus": [
-                "Tổ Yến SGAP TCL1 50g",
-                "2 Gói Trà Ô Lông 100g"
+                "2 Gói Trà Ô Long 100g",
+                "Yến Sào Khánh Hoà 50g"
             ],
-            "image": "./asset_2024/combo/combo-dongday_thumb.jpg",
-            "content": "Màu đỏ tượng trưng cho niềm vui và hạnh phúc, gửi tới gia đình, bạn bè và đối tác. Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Đong Đầy là một món quà vẹn tròn cho tết Đoàn Viên."
+            "image": "./asset_2025/combo/combo-dongday.jpg",
+            "content": "Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Thu Phú Ca là một món quà vẹn tròn cho tết Đoàn Viên."
         },
         {
             "idb": 50,
@@ -1007,7 +1006,7 @@
                 "Lọ Mật Ong Hoa Chôm Chôm 189ml",
                 "2 Gói trà Ô Long 100g"
             ],
-            "image": "./asset_2024/combo/combo-dongday_thumb.jpg",
+            "image": "./asset_2025/combo/combo-dongday.jpg",
             "content": "Màu đỏ tượng trưng cho niềm vui và hạnh phúc, gửi tới gia đình, bạn bè và đối tác. Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Đong Đầy là một món quà vẹn tròn cho tết Đoàn Viên."
         },
         {
@@ -1053,6 +1052,7 @@
             "content": ""
         }
     ],
+
     "combo": {
         "daumua": {
             "name": "Combo Thu Thanh Tân",
@@ -1110,7 +1110,7 @@
         },
         "thuongtrang": {
             "name": "Combo Hội Hoa Thu",
-            "content": "Rằm tháng Tám, khi trăng treo đỉnh trời cũng là lúc những ánh trăng chiếu xen vào tán lá xanh trong vườn nhà, Thưởng Trăng gợi ra một đêm trung thu Đoàn Viên ấm áp bên bạn bè và gia đình",
+            "content": "Rằm tháng Tám, khi trăng treo đỉnh trời cũng là lúc những ánh trăng chiếu xen vào tán lá xanh trong vườn nhà, Hội Hoa Thu gợi ra một đêm trung thu Đoàn Viên ấm áp bên bạn bè và gia đình",
             "value": [
                 {
                     "idc": 46,
@@ -1144,7 +1144,7 @@
         },
         "dongday": {
             "type": "Combo Thu Phú Ca",
-            "content": "Màu đỏ tượng trưng cho niềm vui và hạnh phúc, gửi tới gia đình, bạn bè và đối tác. Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Đong Đầy là một món quà vẹn tròn cho tết Đoàn Viên.",
+            "content": "Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Thu Phú Ca là một món quà vẹn tròn cho tết Đoàn Viên.",
             "name": "Combo Thu Phú Ca",
             "value": [
                 {
@@ -1183,6 +1183,7 @@
             ]
         }
     },
+
     "box": {
         "daumua": {
             "name": "Mẫu Hộp 4 Bánh Đầu Mùa",
@@ -1205,6 +1206,7 @@
             "des": "Quý khách hàng có thể lựa chọn n bánh tuỳ thích."
         }
     },
+
     "content": [
         "Một mùa trăng nữa lại về. Mùa trăng có lẽ là mùa ngọt ngào nhất trong năm,bởi trăng về là kêu gọi tuổi thơ về cùng với lồng đèn. truyện cổ tích ,cùng bánh trung thu trên mâm cô tròn đầy",
         "Mỗi năm trăng về vào rằm tháng Tám, tức tháng Ghín Dương Lịch, cũng là lúc đất trời rực rỡ với hoa tam giác mạch ở Hà Giang,cúc hoạ mỉ ở Hà Nội. hoa dã quỳ ở Đà Lạt và về đến cä hoa súng Đồng Tháp. Vậy nên Brodard chọn Mùa Hoa Thu làm chủ đề chính cho BST bánh Trung Thu 2023. mong muốn khi trăng về đúng mùa hoa nở ngọt ngào nhất sẽ cho một tết Đoàn Viên trọn vẹn nhất.",
