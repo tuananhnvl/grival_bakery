@@ -32,7 +32,7 @@ export default function BanhNhanNgotKo({data}) {    const {cartProducts, stateCu
                 <tr>
                     <ThBanhLe colSpan='8'>
                         <TypeBanhLe>
-                            <span>Bánh Trung Thu</span>
+                            
                             <h4>{data.name}</h4>
                             <p>{data.namee}</p>
                         </TypeBanhLe>

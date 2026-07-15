@@ -30,7 +30,7 @@ export default function Banh150({ data }) {
                     <tr>
                         <ThBanhLe colSpan='3'>
                             <TypeBanhLe>
-                                <span>Bánh Trung Thu</span>
+                          
                                 <h4>{data.name}</h4>
                                 <p>{data.namee}</p>
                             </TypeBanhLe>
