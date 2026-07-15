@@ -51,7 +51,7 @@ export default function Banh150({ data }) {
                                 <RowBanhLe width="40.843%">
                                     <DivTd style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
                                         <p style={{ margin: 0 }}>
-                                            <strong>{item["150"][1]}</strong> (150g) - {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(item["150"][2]))}
+                                            <strong>{item["150"][1]}</strong> - {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Number(item["150"][2]))}
                                         </p>
                                         <button id="customBtn1" onClick={() => addToCart(item["150"][0])}>
                                             <span className="v1xx">Thêm vào giỏ hàng</span>
