@@ -5,6 +5,7 @@ import BanhNhanMan from '@/components/bakery/BanhNhanMan'
 import BanhNhanNgotKo from '@/components/bakery/BanhNhanNgotKo'
 import BanhNhanNgot from '@/components/bakery/BanhNhanNgot'
 import BanhChay from '@/components/bakery/BanhChay'
+import Banh150 from '@/components/bakery/Banh150'
 import BanhMini from '@/components/bakery/BanhMini'
 import data from '@/pages/data/brodard.json'
 import Image from 'next/image'
@@ -27,7 +28,7 @@ export default function BanhLe() {
 
         <div className={styles.infobanhle}>
           <Image
-            src={'/asset_2025/6.jpg'}
+            src={'/asset_2026/ok.png'}
             alt="Singla Cake Brodrad"
             width={0} height={0} style={{ width: 'auto', height: '100%' }}
           />
@@ -39,7 +40,8 @@ export default function BanhLe() {
         <BanhNhanNgot data={data.single[1].type2} />
         <BanhNhanNgotKo data={data.single[2].type3} />
         <BanhChay data={data.single[3].type4} />
-        {/*  <BanhMini data={data.single[4].type5} /> */}
+        <Banh150 data={data.single[4].type6} />
+        {/*  <BanhMini data={data.single[5].type5} /> */}
       </div>
     </>
   )

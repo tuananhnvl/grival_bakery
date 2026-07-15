@@ -18,18 +18,10 @@ export default function Box() {
         <div className={ske.contentbanhle} id="fixtam001" style={{width:'100% !important',margin: '0 auto !important'}}>
 
           <h2 >HỘP QUÀ TẶNG TRUNG THU</h2>
-          <p>Lấy cảm hứng từ vẻ đẹp vĩnh cửu của đất trời, từng hộp bánh trung thu Brodard 2025 như một khu vườn hoa nên sự yên bình - nơi cánh chim sải rộng, hoa lá khẽ nở, đường nét uyển chuyển trên nền màu pastel dịu ngọt hay sắc vàng tỏa sáng.
+          <p>Lấy cảm hứng từ vẻ đẹp vĩnh cửu của đất trời, từng hộp bánh trung thu Brodard 2026 như một khu vườn hoa nên sự yên bình - nơi cánh chim sải rộng, hoa lá khẽ nở, đường nét uyển chuyển trên nền màu pastel dịu ngọt hay sắc vàng tỏa sáng.
 
-Mỗi họa tiết là một lời chúc an lành, mỗi thiết kế là một tấm lòng gửi gắm qua bàn tay thủ công tinh xảo.</p>
+Each pattern is a wish of peace, each design is a heart sent through exquisite craftsmanship.</p>
 
-        </div>
-
-        <div className={ske.infobanhle} style={{width:'100% !important',height:'fit-content !important'}}>
-          <Image
-            src={'/asset_2025/banner.jpg'}
-            alt="Singla Cake Brodrad"
-            width={0} height={0} style={{ width: '100%', height: 'auto' }}
-          />
         </div>
       </div>
   

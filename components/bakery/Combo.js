@@ -26,21 +26,20 @@ export default function Combo() {
           
             <div className="customoverflow">
 
-            <h2>“Sắc Thiên Nhiên<br></br>Hương Đoàn Viên"</h2>
+            <h2>“Trao Vị Trăng, <br></br>Gửi Tâm Tình"</h2>
 
 
 
 
             <p>
-           Lấy cảm hứng từ vẻ đẹp vĩnh cửu của đất trời, từng hộp bánh trung thu Brodard 2025 như một khu vườn hoa nên sự yên bình - nơi cánh chim sải rộng, hoa lá khẽ nở, đường nét uyển chuyển trên nền màu pastel dịu ngọt hay sắc vàng tỏa sáng.
+           Từ nghệ thuật chế tác tinh tế đến hương vị thanh nhã, mỗi hộp quà Brodard là nhịp cầu nối những yêu thương. Mỗi chiếc bánh là sự hòa quyện của nguyên liệu tuyển chọn, kỹ nghệ làm bánh lâu năm và tâm huyết gửi trao,để mỗi lần thưởng thức đều lưu giữ một dư vị khó quên.
             </p>
             <p>
 
-            Mỗi họa tiết là một lời chúc an lành, mỗi thiết kế là một tấm lòng gửi gắm qua bàn tay thủ công tinh xảo.
+           Dưới ánh trăng đoàn viên, món quà Brodard không chỉ mang theo vị ngọt thanh tao mà còn chuyên chở những lời chúc an lành, tri ân và gắn kết;
+để mỗi mùa Trung Thu là một dịp sẻ chia trọn vẹn, nơi vị trăng được nâng niu trong từng chiếc bánh và tâm tình được gửi trao bằng tất cả sự chân thành.
             </p>
-              <p>Toả hương trong ánh thu thanh tân, Brodard mang đến một mùa Tết đoàn viên mộc mạc mà sâu lắng - nơi sắc lá lên tiếng, hoa cỏ mỉm cười, và yêu thương được trao đi bằng sự dịu dàng thuần khiết.
-
-</p>
+            
               <p><strong>Danh sách sản phẩm</strong></p>
             </div>
             <div className={styles.btngr}>
@@ -56,12 +55,18 @@ export default function Combo() {
                         <div className={styles.itemcombo} key={key}>
                          
                             <div className="img">
-                                <Image src={`/asset_2025/combo/combo-${key}.jpg`} alt="" width={0} height={0} style={{ width: '100%', height: 'auto' }} />
+                                {(() => {
+                                  const comboItem = data.code.find(c => c.type === key);
+                                  const imgSrc = comboItem ? comboItem.image.replace(/^\.\//, '/') : `/asset_2025/combo/combo-${key}.jpg`;
+                                  return (
+                                    <Image src={imgSrc} alt="" width={0} height={0} style={{ width: '100%', height: 'auto' }} />
+                                  );
+                                })()}
                             </div>
                             <div>
                             <div className={styles.info}>
                                 <h2 className="title_product">{value.name}</h2>
-                                <p className="subtitle_product">{value.content}</p>
+                                {/* <p className="subtitle_product">{value.content}</p> */}
                             </div>
                             <div className="detail">
                                 <TableCombo style={{width:'100%'}}>

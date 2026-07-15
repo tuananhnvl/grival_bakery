@@ -6,109 +6,109 @@
                 "namee": "Savory Mooncake with Egg Yolk",
                 "value": [
                     {
-                        "idb": 1,
-                        "name": "Thập Cẩm 2 Trứng",
-                        "namee": "Assorted Delights 2 Yolks",
                         "200": [
                             1,
                             "1B",
-                            210000
+                            220000
                         ],
                         "250": [
                             2,
                             "1A",
-                            240000
-                        ]
+                            250000
+                        ],
+                        "idb": 1,
+                        "name": "Thập Cẩm 2 Trứng",
+                        "namee": "Assorted Delights 2 Yolks"
                     },
                     {
-                        "idb": 2,
-                        "name": "Thập Cẩm Gà Quay 2 Trứng",
-                        "namee": "Roasted Chicken 2 Yolks",
                         "200": [
                             3,
                             "3B",
-                            220000
+                            230000
                         ],
                         "250": [
                             4,
                             "3A",
-                            250000
-                        ]
+                            260000
+                        ],
+                        "idb": 2,
+                        "name": "Thập Cẩm Gà Quay 2 Trứng",
+                        "namee": "Roasted Chicken 2 Yolks"
                     },
                     {
-                        "idb": 3,
-                        "name": "Tom Yum Hải Sản 2 Trứng",
-                        "namee": "Tom Yum Seafood 2 Yolks",
                         "200": [
                             5,
                             "9B",
-                            270000
+                            280000
                         ],
                         "250": [
                             6,
                             "9A",
-                            320000
-                        ]
+                            330000
+                        ],
+                        "idb": 3,
+                        "name": "Tom Yum Hải Sản 2 Trứng",
+                        "namee": "Tom Yum Seafood 2 Yolks"
                     },
                     {
-                        "idb": 4,
-                        "name": "Gà Quay Jambon Bát Bửu 1 Trứng",
-                        "namee": "Roasted Chicken & Eight Treasures Ham 1 Yolks",
                         "200": [
                             7,
-                            "7B",
-                            260000
+                            "5B",
+                            270000
                         ],
                         "250": [
                             8,
-                            "7A",
-                            300000
-                        ]
+                            "5A",
+                            310000
+                        ],
+                        "idb": 4,
+                        "name": "Thập Cẩm Ngũ Nhân 2 Trứng",
+                        "namee": "Mixed Five Kernels 2 Yolks"
                     },
                     {
-                        "idb": 5,
-                        "name": "Hải Sản Sốt Bào Ngư 2 Trứng",
-                        "namee": "Seafood with Abalone Sauce 2 Yolks",
                         "200": [
                             9,
-                            "17B",
-                            260000
+                            "25B",
+                            290000
                         ],
                         "250": [
                             10,
-                            "17A",
-                            300000
-                        ]
+                            "25A",
+                            340000
+                        ],
+                        "idb": 5,
+                        "name": "Ngũ Cốc Yến Mạch Nho 2 Trứng",
+                        "namee": "Oatmeal with Raisin 2 Yolks"
                     },
                     {
-                        "idb": 6,
-                        "name": "Yến Sào Táo Đỏ Ngũ Hạt 2 Trứng",
-                        "namee": "Bird's Nest, Dried Red Jujube & Flue Grains 2 Yolks",
                         "200": [
                             11,
                             "19B",
-                            330000
+                            340000
                         ],
                         "250": [
                             12,
                             "19A",
-                            390000
-                        ]
+                            400000
+                        ],
+                        "idb": 6,
+                        "name": "Yến Sào Táo Đỏ Ngũ Hạt 2 Trứng",
+                        "namee": "Bird's Nest, Dried Red Jujube & Five Grains 2 Yolks"
                     },
                     {
-                        "idb": 7,
-                        "name": "Sò Điệp Xốt Bào Ngư Thượng Hạng 2 Trứng",
-                        "namee": "Scallops with XO Sauce 2 Yolks",
                         "200": [
                             13,
                             "23B",
-                            330000
+                            340000
                         ],
                         "250": [
                             14,
                             "23A",
-                            390000
-                        ]
+                            400000
+                        ],
+                        "idb": 7,
+                        "name": "Sò Điệp Xốt Bào Ngư Thượng Hạng 2 Trứng",
+                        "namee": "Scallop with Premium Abalone Sauce 2 Yolks"
                     }
                 ]
             }
@@ -119,69 +119,66 @@
                 "namee": "Sweet Mooncake with Egg Yolk",
                 "value": [
                     {
-                        "idb": 8,
-                        "name": "Khoai Môn 2 Trứng",
-                        "namee": "Taro 2 Yolks",
                         "200": [
                             15,
                             "42B",
-                            180000
+                            190000
                         ],
                         "250": [
                             16,
                             "42A",
                             210000
-                        ]
+                        ],
+                        "idb": 8,
+                        "name": "Khoai Môn 2 Trứng",
+                        "namee": "Taro 2 Yolks"
                     },
                     {
-                        "idb": 9,
-                        "name": "Sầu Riêng 6 Ri 2 Trứng",
-                        "namee": "6 Ri Durian 2 Yolks",
                         "200": [
                             17,
                             "48B",
-                            180000
+                            190000
                         ],
                         "250": [
                             18,
                             "48A",
-                            210000
-                        ]
+                            220000
+                        ],
+                        "idb": 9,
+                        "name": "Sầu Riêng 6 Ri 2 Trứng",
+                        "namee": "6 Ri Durian 2 Yolks"
                     },
                     {
-                        "idb": 10,
-                        "name": "Đậu Xanh 2 Trứng",
-                        "namee": "Mung Bean 2 Yolks",
                         "200": [
                             19,
                             "52B",
-                            170000
+                            180000
                         ],
                         "250": [
                             20,
                             "52A",
                             200000
-                        ]
+                        ],
+                        "idb": 10,
+                        "name": "Đậu Xanh 2 Trứng",
+                        "namee": "Mung Bean 2 Yolks"
                     },
                     {
-                        "idb": 11,
-                        "name": "Hạt Sen Lá Dứa Hạnh Nhân 2 Trứng",
-                        "namee": "Lotus Seed, Almond width Pandan Juice 2 Yolks",
                         "200": [
                             21,
                             "64B",
-                            210000
+                            220000
                         ],
                         "250": [
                             22,
                             "64A",
-                            240000
-                        ]
+                            260000
+                        ],
+                        "idb": 11,
+                        "name": "Hạt Sen Lá Dứa Hạnh Nhân 2 Trứng",
+                        "namee": "Lotus Seed, Almond with Pandan Juice 2 Yolks"
                     },
                     {
-                        "idb": 12,
-                        "name": "Espresso Kim Sa Lava",
-                        "namee": "Golden Laua Espresso",
                         "200": [
                             23,
                             "68B",
@@ -191,37 +188,40 @@
                             24,
                             "68A",
                             260000
-                        ]
+                        ],
+                        "idb": 12,
+                        "name": "Espresso Kim Sa Lava",
+                        "namee": "Golden Lava Espresso"
                     },
                     {
-                        "idb": 13,
-                        "name": "Long Nhãn Rượu Vang 2 Trứng",
-                        "namee": "Longan and Wine 2 Yolks",
                         "200": [
                             25,
                             "70B",
-                            210000
+                            220000
                         ],
                         "250": [
                             26,
                             "70A",
-                            240000
-                        ]
+                            250000
+                        ],
+                        "idb": 13,
+                        "name": "Long Nhãn Rượu Vang 2 Trứng",
+                        "namee": "Longan and Wine 2 Yolks"
                     },
                     {
-                        "idb": 14,
-                        "name": "Đậu Xanh Kim Sa Lava",
-                        "namee": "Golden Lava Mungbean",
                         "200": [
                             27,
-                            "72B",
-                            190000
+                            "74B",
+                            220000
                         ],
                         "250": [
                             28,
-                            "72A",
-                            220000
-                        ]
+                            "74A",
+                            260000
+                        ],
+                        "idb": 14,
+                        "name": "Mocha Hazelnut 2 Trứng",
+                        "namee": "Mocha Hazelnut 2 Yolks"
                     }
                 ]
             }
@@ -232,49 +232,49 @@
                 "namee": "Sweet Mooncake without Egg Yolk",
                 "value": [
                     {
-                        "idb": 15,
-                        "name": "Tiramisu",
-                        "namee": "Tiramisu",
                         "200": [
                             29,
                             "12B",
-                            240000
+                            250000
                         ],
                         "250": [
                             30,
                             "12A",
-                            280000
-                        ]
+                            290000
+                        ],
+                        "idb": 15,
+                        "name": "Tiramisu",
+                        "namee": "Tiramisu"
                     },
                     {
-                        "idb": 16,
-                        "name": "Hạnh Nhân Phô Mai Việt Quất Hoa Kỳ",
-                        "namee": "Almond Cheese US Blueberry",
                         "200": [
                             31,
-                            "24B",
-                            240000
+                            "30B",
+                            220000
                         ],
                         "250": [
                             32,
-                            "24A",
-                            280000
-                        ]
+                            "30A",
+                            260000
+                        ],
+                        "idb": 16,
+                        "name": "Hạt Sen Trà Xanh Hạt Chia",
+                        "namee": "Lotus Seed, Green Tea and Chia Seed"
                     },
                     {
-                        "idb": 17,
-                        "name": "Ô Long Hạt Sen",
-                        "namee": "Lotus Seed with Oolong",
                         "200": [
                             33,
                             "26B",
-                            210000
+                            220000
                         ],
                         "250": [
                             34,
                             "26A",
-                            250000
-                        ]
+                            260000
+                        ],
+                        "idb": 17,
+                        "name": "Ô Long Hạt Sen",
+                        "namee": "Lotus Seed with Oolong"
                     }
                 ]
             }
@@ -285,49 +285,187 @@
                 "namee": "Chay Mooncake with Egg Yolk",
                 "value": [
                     {
-                        "idb": 18,
-                        "name": "Hạt Sen Trà Xanh Chay",
-                        "namee": "Vegetarian Green Tea & Lotus Seed",
                         "200": [
                             35,
-                            "4B",
-                            180000
+                            "2B",
+                            170000
                         ],
                         "250": [
                             36,
-                            "4A",
-                            210000
-                        ]
+                            "2A",
+                            190000
+                        ],
+                        "idb": 18,
+                        "name": "Khoai Môn Chay",
+                        "namee": "Vegetarian Taro Mooncake"
                     },
                     {
-                        "idb": 19,
-                        "name": "Đậu Xanh Chay",
-                        "namee": "Vegetarian Mung Bean",
                         "200": [
                             37,
                             "8B",
-                            160000
+                            170000
                         ],
                         "250": [
                             38,
                             "8A",
-                            190000
-                        ]
+                            200000
+                        ],
+                        "idb": 19,
+                        "name": "Đậu Xanh Chay",
+                        "namee": "Vegetarian Mung Bean"
                     },
                     {
-                        "idb": 20,
-                        "name": "Thập Cẩm Chay",
-                        "namee": "Vegetarian Assorted Delights",
                         "200": [
                             39,
                             "28B",
-                            180000
+                            190000
                         ],
                         "250": [
                             40,
                             "28A",
-                            210000
-                        ]
+                            220000
+                        ],
+                        "idb": 20,
+                        "name": "Thập Cẩm Chay",
+                        "namee": "Vegetarian Assorted Delights"
+                    }
+                ]
+            }
+        },
+        {
+            "type6": {
+                "name": "Dòng Bánh 150g (1 Trứng)",
+                "namee": "150g Mooncakes (1 Yolk)",
+                "value": [
+                    {
+                        "150": [
+                            54,
+                            "1C",
+                            150000
+                        ],
+                        "idb": 21,
+                        "name": "Thập Cẩm 2 Trứng",
+                        "namee": "Assorted Delights"
+                    },
+                    {
+                        "150": [
+                            55,
+                            "2C",
+                            120000
+                        ],
+                        "idb": 22,
+                        "name": "Khoai Môn Chay",
+                        "namee": "Vegetarian Taro Mooncake"
+                    },
+                    {
+                        "150": [
+                            56,
+                            "3C",
+                            160000
+                        ],
+                        "idb": 23,
+                        "name": "Thập Cẩm Gà Quay 2 Trứng",
+                        "namee": "Roasted Chicken"
+                    },
+                    {
+                        "150": [
+                            57,
+                            "5C",
+                            180000
+                        ],
+                        "idb": 24,
+                        "name": "Thập Cẩm Ngũ Nhân 2 Trứng",
+                        "namee": "Mixed Five Kernels"
+                    },
+                    {
+                        "150": [
+                            58,
+                            "9C",
+                            190000
+                        ],
+                        "idb": 25,
+                        "name": "Tom Yum Hải Sản 2 Trứng",
+                        "namee": "Tom Yum Seafood"
+                    },
+                    {
+                        "150": [
+                            59,
+                            "12C",
+                            170000
+                        ],
+                        "idb": 26,
+                        "name": "Tiramisu",
+                        "namee": "Tiramisu"
+                    },
+                    {
+                        "150": [
+                            60,
+                            "30C",
+                            160000
+                        ],
+                        "idb": 27,
+                        "name": "Hạt Sen Trà Xanh Hạt Chia",
+                        "namee": "Lotus Seed, Green Tea and Chia Seed"
+                    },
+                    {
+                        "150": [
+                            61,
+                            "42C",
+                            130000
+                        ],
+                        "idb": 28,
+                        "name": "Khoai Môn 2 Trứng",
+                        "namee": "Taro"
+                    },
+                    {
+                        "150": [
+                            62,
+                            "48C",
+                            140000
+                        ],
+                        "idb": 29,
+                        "name": "Sầu Riêng 6 Ri 2 Trứng",
+                        "namee": "6 Ri Durian"
+                    },
+                    {
+                        "150": [
+                            63,
+                            "52C",
+                            120000
+                        ],
+                        "idb": 30,
+                        "name": "Đậu Xanh 2 Trứng",
+                        "namee": "Mung Bean"
+                    },
+                    {
+                        "150": [
+                            64,
+                            "68C",
+                            160000
+                        ],
+                        "idb": 31,
+                        "name": "Espresso Kim Sa Lava",
+                        "namee": "Golden Lava Espresso"
+                    },
+                    {
+                        "150": [
+                            65,
+                            "70C",
+                            160000
+                        ],
+                        "idb": 32,
+                        "name": "Long Nhãn Rượu Vang 2 Trứng",
+                        "namee": "Longan and Wine"
+                    },
+                    {
+                        "150": [
+                            66,
+                            "74C",
+                            160000
+                        ],
+                        "idb": 33,
+                        "name": "Mocha Hazelnut 2 Trứng",
+                        "namee": "Mocha Hazelnut"
                     }
                 ]
             }
@@ -338,56 +476,55 @@
                 "namee": "Mini Mooncake with Egg Yolk",
                 "value": [
                     {
-                        "idb": 37,
-                        "name": "Bánh Lava Trứng Muối Tan Chảy",
-                        "namee": "Salted Egg Yolk Lava Cake",
                         "40": [
                             37,
                             "LV",
                             130000
-                        ]
+                        ],
+                        "idb": 37,
+                        "name": "Bánh Lava Trứng Muối Tan Chảy",
+                        "namee": "Salted Egg Yolk Lava Cake"
                     },
                     {
-                        "idb": 20,
-                        "name": "Đậu Xanh Chay - Hình Gấu",
-                        "namee": "Vegetarian Mung Bean - Bear Shape",
                         "100": [
                             38,
                             "TN1",
                             60000
-                        ]
+                        ],
+                        "idb": 20,
+                        "name": "Đậu Xanh Chay - Hình Gấu",
+                        "namee": "Vegetarian Mung Bean - Bear Shape"
                     },
                     {
-                        "idb": 21,
-                        "name": "Đậu Xanh Chay - Hình Heo",
-                        "namee": "Vegetarian Mung Bean - Pig Shape",
                         "100": [
                             39,
                             "TN2",
                             60000
-                        ]
+                        ],
+                        "idb": 21,
+                        "name": "Đậu Xanh Chay - Hình Heo",
+                        "namee": "Vegetarian Mung Bean - Pig Shape"
                     },
                     {
-                        "idb": 22,
-                        "name": "Đậu Xanh Chay - Hình Mèo",
-                        "namee": "Vegetarian Mung Bean - Cat Shape",
                         "100": [
                             40,
                             "TN3",
                             60000
-                        ]
+                        ],
+                        "idb": 22,
+                        "name": "Đậu Xanh Chay - Hình Mèo",
+                        "namee": "Vegetarian Mung Bean - Cat Shape"
                     }
                 ]
             }
         }
     ],
-    
     "code": [
         {
             "idb": 1,
             "info": [
                 "1B",
-                210000
+                220000
             ],
             "name": "Thập Cẩm 2 Trứng",
             "namee": "Assorted Delights 2 Yolks",
@@ -398,7 +535,7 @@
             "idb": 2,
             "info": [
                 "1A",
-                240000
+                250000
             ],
             "name": "Thập Cẩm 2 Trứng",
             "namee": "Assorted Delights 2 Yolks",
@@ -409,134 +546,133 @@
             "idb": 3,
             "info": [
                 "3B",
-                220000
+                230000
             ],
             "name": "Thập Cẩm Gà Quay 2 Trứng",
             "namee": "Roasted Chicken 2 Yolks",
             "type": "Nhân Mặn, Có Trứng",
-            "typee": "Roasted Chicken 2 Yolks"
+            "typee": "Savory Mooncake with Egg Yolk"
         },
         {
             "idb": 4,
             "info": [
                 "3A",
-                250000
+                260000
             ],
             "name": "Thập Cẩm Gà Quay 2 Trứng",
             "namee": "Roasted Chicken 2 Yolks",
             "type": "Nhân Mặn, Có Trứng",
-            "typee": "Roasted Chicken 2 Yolks"
+            "typee": "Savory Mooncake with Egg Yolk"
         },
         {
             "idb": 5,
             "info": [
                 "9B",
-                300000
+                280000
             ],
             "name": "Tom Yum Hải Sản 2 Trứng",
-            "namee": ".....",
+            "namee": "Tom Yum Seafood 2 Yolks",
             "type": "Nhân Mặn, Có Trứng",
-            "typee": "....."
+            "typee": "Savory Mooncake with Egg Yolk"
         },
         {
             "idb": 6,
             "info": [
                 "9A",
-                340000
+                330000
             ],
             "name": "Tom Yum Hải Sản 2 Trứng",
-            "namee": ".....",
+            "namee": "Tom Yum Seafood 2 Yolks",
             "type": "Nhân Mặn, Có Trứng",
-            "typee": "....."
+            "typee": "Savory Mooncake with Egg Yolk"
         },
         {
             "idb": 7,
             "info": [
-                "13B",
-                330000
+                "5B",
+                270000
             ],
-            "name": "Gà Quay Vi Cá 2 Trứng",
-            "namee": "Roasted Chicken & Shark Fin 2 Yolks",
+            "name": "Thập Cẩm Ngũ Nhân 2 Trứng",
+            "namee": "Mixed Five Kernels 2 Yolks",
             "type": "Nhân Mặn, Có Trứng",
-            "typee": "....."
+            "typee": "Savory Mooncake with Egg Yolk"
         },
-       
         {
             "idb": 8,
             "info": [
-                "7A",
-                300000
+                "5A",
+                310000
             ],
-            "name": "Gà Quay Jambon Bát Bửu 1 Trứng",
-            "namee": "Roasted Chicken & Eight Treasures Ham 1 Yolks",
+            "name": "Thập Cẩm Ngũ Nhân 2 Trứng",
+            "namee": "Mixed Five Kernels 2 Yolks",
             "type": "Nhân Mặn, Có Trứng",
-            "typee": "....."
+            "typee": "Savory Mooncake with Egg Yolk"
         },
         {
             "idb": 9,
             "info": [
-                "17B",
-                260000
+                "25B",
+                290000
             ],
-            "name": "Hải Sản Sốt Bào Ngư 2 Trứng",
-            "namee": ".....",
+            "name": "Ngũ Cốc Yến Mạch Nho 2 Trứng",
+            "namee": "Oatmeal with Raisin 2 Yolks",
             "type": "Nhân Mặn, Có Trứng",
-            "typee": "....."
+            "typee": "Savory Mooncake with Egg Yolk"
         },
         {
             "idb": 10,
             "info": [
-                "17A",
-                310000
+                "25A",
+                340000
             ],
-            "name": "Hải Sản Sốt Bào Ngư 2 Trứng",
-            "namee": ".....",
+            "name": "Ngũ Cốc Yến Mạch Nho 2 Trứng",
+            "namee": "Oatmeal with Raisin 2 Yolks",
             "type": "Nhân Mặn, Có Trứng",
-            "typee": "....."
+            "typee": "Savory Mooncake with Egg Yolk"
         },
         {
             "idb": 11,
             "info": [
                 "19B",
-                350000
+                340000
             ],
             "name": "Yến Sào Táo Đỏ Ngũ Hạt 2 Trứng",
-            "namee": ".....",
+            "namee": "Bird's Nest, Dried Red Jujube & Five Grains 2 Yolks",
             "type": "Nhân Mặn, Có Trứng",
-            "typee": "....."
+            "typee": "Savory Mooncake with Egg Yolk"
         },
         {
             "idb": 12,
             "info": [
                 "19A",
-                410000
+                400000
             ],
             "name": "Yến Sào Táo Đỏ Ngũ Hạt 2 Trứng",
-            "namee": ".....",
+            "namee": "Bird's Nest, Dried Red Jujube & Five Grains 2 Yolks",
             "type": "Nhân Mặn, Có Trứng",
-            "typee": "....."
+            "typee": "Savory Mooncake with Egg Yolk"
         },
         {
             "idb": 13,
             "info": [
-                "21B",
+                "23B",
                 340000
             ],
-            "name": "Sò Điệp Sốt XO 2 Trứng",
-            "namee": "......",
+            "name": "Sò Điệp Xốt Bào Ngư Thượng Hạng 2 Trứng",
+            "namee": "Scallop with Premium Abalone Sauce 2 Yolks",
             "type": "Nhân Mặn, Có Trứng",
-            "typee": "......"
+            "typee": "Savory Mooncake with Egg Yolk"
         },
         {
             "idb": 14,
             "info": [
-                "21A",
+                "23A",
                 400000
             ],
-            "name": "Sò Điệp Sốt XO 2 Trứng",
-            "namee": "......",
+            "name": "Sò Điệp Xốt Bào Ngư Thượng Hạng 2 Trứng",
+            "namee": "Scallop with Premium Abalone Sauce 2 Yolks",
             "type": "Nhân Mặn, Có Trứng",
-            "typee": "......"
+            "typee": "Savory Mooncake with Egg Yolk"
         },
         {
             "idb": 15,
@@ -575,7 +711,7 @@
             "idb": 18,
             "info": [
                 "48A",
-                210000
+                220000
             ],
             "name": "Sầu Riêng 6 Ri 2 Trứng",
             "namee": "6 Ri Durian 2 Yolks",
@@ -591,7 +727,7 @@
             "name": "Đậu Xanh 2 Trứng",
             "namee": "Mung Bean 2 Yolks",
             "type": "Nhân Ngọt, Có Trứng",
-            "typee": "Mung Bean 2 Yolks"
+            "typee": "Sweet Mooncake with Egg Yolk"
         },
         {
             "idb": 20,
@@ -602,90 +738,101 @@
             "name": "Đậu Xanh 2 Trứng",
             "namee": "Mung Bean 2 Yolks",
             "type": "Nhân Ngọt, Có Trứng",
-            "typee": "Mung Bean 2 Yolks"
+            "typee": "Sweet Mooncake with Egg Yolk"
         },
         {
             "idb": 21,
             "info": [
-                "54B",
-                200000
+                "64B",
+                220000
             ],
-            "name": "Mè Đen 2 Trứng",
-            "namee": ".....",
+            "name": "Hạt Sen Lá Dứa Hạnh Nhân 2 Trứng",
+            "namee": "Lotus Seed, Almond with Pandan Juice 2 Yolks",
             "type": "Nhân Ngọt, Có Trứng",
-            "typee": "....."
+            "typee": "Sweet Mooncake with Egg Yolk"
         },
         {
             "idb": 22,
             "info": [
-                "54A",
-                240000
+                "64A",
+                260000
             ],
-            "name": "Mè Đen 2 Trứng",
-            "namee": ".....",
+            "name": "Hạt Sen Lá Dứa Hạnh Nhân 2 Trứng",
+            "namee": "Lotus Seed, Almond with Pandan Juice 2 Yolks",
             "type": "Nhân Ngọt, Có Trứng",
-            "typee": "....."
+            "typee": "Sweet Mooncake with Egg Yolk"
         },
         {
             "idb": 23,
-            "info": [
-                "64B",
-                210000
-            ],
-            "name": "Hạt Sen Lá Dứa Hạnh Nhân 2 Trứng",
-            "namee": ".....",
-            "type": "Nhân Ngọt, Có Trứng",
-            "typee": "....."
-        },
-        {
-            "idb": 24,
-            "info": [
-                "64A",
-                240000
-            ],
-            "name": "Hạt Sen Lá Dứa Hạnh Nhân 2 Trứng",
-            "namee": ".....",
-            "type": "Nhân Ngọt, Có Trứng",
-            "typee": "....."
-        },
-        {
-            "idb": 25,
             "info": [
                 "68B",
                 220000
             ],
             "name": "Espresso Kim Sa Lava",
-            "namee": ".....",
-            "type": "Nhân Ngọt Không Trứng",
-            "typee": "....."
+            "namee": "Golden Lava Espresso",
+            "type": "Nhân Ngọt, Có Trứng",
+            "typee": "Sweet Mooncake with Egg Yolk"
         },
         {
-            "idb": 26,
+            "idb": 24,
             "info": [
                 "68A",
                 260000
             ],
             "name": "Espresso Kim Sa Lava",
-            "namee": ".....",
-            "type": "Nhân Ngọt Không Trứng",
-            "typee": "....."
+            "namee": "Golden Lava Espresso",
+            "type": "Nhân Ngọt, Có Trứng",
+            "typee": "Sweet Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 25,
+            "info": [
+                "70B",
+                220000
+            ],
+            "name": "Long Nhãn Rượu Vang 2 Trứng",
+            "namee": "Longan and Wine 2 Yolks",
+            "type": "Nhân Ngọt, Có Trứng",
+            "typee": "Sweet Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 26,
+            "info": [
+                "70A",
+                250000
+            ],
+            "name": "Long Nhãn Rượu Vang 2 Trứng",
+            "namee": "Longan and Wine 2 Yolks",
+            "type": "Nhân Ngọt, Có Trứng",
+            "typee": "Sweet Mooncake with Egg Yolk"
         },
         {
             "idb": 27,
             "info": [
-                "12B",
-                230000
+                "74B",
+                220000
             ],
-            "name": "Tiramisu",
-            "namee": "Tiramisu",
-            "type": "Nhân Ngọt Không Trứng",
-            "typee": "Sweet Mooncake without Egg Yolk"
+            "name": "Mocha Hazelnut 2 Trứng",
+            "namee": "Mocha Hazelnut 2 Yolks",
+            "type": "Nhân Ngọt, Có Trứng",
+            "typee": "Sweet Mooncake with Egg Yolk"
         },
         {
             "idb": 28,
             "info": [
-                "12A",
-                280000
+                "74A",
+                260000
+            ],
+            "name": "Mocha Hazelnut 2 Trứng",
+            "namee": "Mocha Hazelnut 2 Yolks",
+            "type": "Nhân Ngọt, Có Trứng",
+            "typee": "Sweet Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 29,
+            "info": [
+                "12B",
+                250000
             ],
             "name": "Tiramisu",
             "namee": "Tiramisu",
@@ -693,73 +840,84 @@
             "typee": "Sweet Mooncake without Egg Yolk"
         },
         {
-            "idb": 29,
-            "info": [
-                "24B",
-                230000
-            ],
-            "name": "Hạnh Nhân Phô Mai Việt Quất Hoa Kỳ",
-            "namee": "......",
-            "type": "Nhân Ngọt Không Trứng",
-            "typee": "......"
-        },
-        {
             "idb": 30,
             "info": [
-                "24A",
-                280000
+                "12A",
+                290000
             ],
-            "name": "Hạnh Nhân Phô Mai Việt Quất Hoa Kỳ",
-            "namee": "......",
+            "name": "Tiramisu",
+            "namee": "Tiramisu",
             "type": "Nhân Ngọt Không Trứng",
-            "typee": "......"
+            "typee": "Sweet Mooncake without Egg Yolk"
         },
         {
             "idb": 31,
             "info": [
-                "26B",
-                210000
+                "30B",
+                220000
             ],
-            "name": "Ô Long Hạt Sen",
-            "namee": "......",
+            "name": "Hạt Sen Trà Xanh Hạt Chia",
+            "namee": "Lotus Seed, Green Tea and Chia Seed",
             "type": "Nhân Ngọt Không Trứng",
-            "typee": "......"
+            "typee": "Sweet Mooncake without Egg Yolk"
         },
         {
             "idb": 32,
             "info": [
-                "26A",
-                250000
+                "30A",
+                260000
             ],
-            "name": "Ô Long Hạt Sen",
-            "namee": "......",
+            "name": "Hạt Sen Trà Xanh Hạt Chia",
+            "namee": "Lotus Seed, Green Tea and Chia Seed",
             "type": "Nhân Ngọt Không Trứng",
-            "typee": "......"
+            "typee": "Sweet Mooncake without Egg Yolk"
         },
         {
             "idb": 33,
             "info": [
-                "4B",
-                190000
+                "26B",
+                220000
             ],
-            "name": "Hạt Sen Trà Xanh Chay",
-            "namee": "Vegetarian Green Tea & Lotus Seed",
-            "type": "Bánh Chay",
-            "typee": "Chay Mooncake with Egg Yolk"
+            "name": "Ô Long Hạt Sen",
+            "namee": "Lotus Seed with Oolong",
+            "type": "Nhân Ngọt Không Trứng",
+            "typee": "Sweet Mooncake without Egg Yolk"
         },
         {
             "idb": 34,
             "info": [
-                "4A",
-                210000
+                "26A",
+                260000
             ],
-            "name": "Hạt Sen Trà Xanh Chay",
-            "namee": "Vegetarian Green Tea & Lotus Seed",
+            "name": "Ô Long Hạt Sen",
+            "namee": "Lotus Seed with Oolong",
+            "type": "Nhân Ngọt Không Trứng",
+            "typee": "Sweet Mooncake without Egg Yolk"
+        },
+        {
+            "idb": 35,
+            "info": [
+                "2B",
+                170000
+            ],
+            "name": "Khoai Môn Chay",
+            "namee": "Vegetarian Taro Mooncake",
             "type": "Bánh Chay",
             "typee": "Chay Mooncake with Egg Yolk"
         },
         {
-            "idb": 35,
+            "idb": 36,
+            "info": [
+                "2A",
+                190000
+            ],
+            "name": "Khoai Môn Chay",
+            "namee": "Vegetarian Taro Mooncake",
+            "type": "Bánh Chay",
+            "typee": "Chay Mooncake with Egg Yolk"
+        },
+        {
+            "idb": 37,
             "info": [
                 "8B",
                 170000
@@ -770,10 +928,10 @@
             "typee": "Chay Mooncake with Egg Yolk"
         },
         {
-            "idb": 36,
+            "idb": 38,
             "info": [
                 "8A",
-                190000
+                200000
             ],
             "name": "Đậu Xanh Chay",
             "namee": "Vegetarian Mung Bean",
@@ -781,117 +939,94 @@
             "typee": "Chay Mooncake with Egg Yolk"
         },
         {
-            "idb": 37,
-            "info": [
-                "LV",
-                130000
-            ],
-            "name": "Bánh Lava Trứng Muối Tan Chảy",
-            "namee": "Salted Egg Yolk Lava Cake",
-            "type": "Bánh Mini",
-            "typee": "Mini Mooncake with Egg Yolk",
-            "image": "./asset-trungthu/banh/banh-lava-tan-chay.jpg"
-        },
-        {
-            "idb": 38,
-            "info": [
-                "TN1",
-                60000
-            ],
-            "name": "Đậu Xanh Chay - Hình Gấu",
-            "namee": "Vegetarian Mung Bean - Bear Shape",
-            "type": "Bánh Mini",
-            "typee": "Mini Mooncake with Egg Yolk",
-            "image": "./asset-trungthu/banh/banh-trung-thu-hinh-gau.png"
-        },
-        {
             "idb": 39,
             "info": [
-                "TN2",
-                60000
+                "28B",
+                190000
             ],
-            "name": "Đậu Xanh Chay - Hình Heo",
-            "namee": "Vegetarian Mung Bean - Pig Shape",
-            "type": "Bánh Mini",
-            "typee": "Mini Mooncake with Egg Yolk",
-            "image": "./asset-trungthu/banh/banh-trung-thu-hinh-heo.png"
+            "name": "Thập Cẩm Chay",
+            "namee": "Vegetarian Assorted Delights",
+            "type": "Bánh Chay",
+            "typee": "Chay Mooncake with Egg Yolk"
         },
         {
             "idb": 40,
             "info": [
-                "TN3",
-                60000
+                "28A",
+                220000
             ],
-            "name": "Đậu Xanh Chay - Hình Mèo",
-            "namee": "Vegetarian Mung Bean - Cat Shape",
-            "type": "Bánh Mini",
-            "typee": "Mini Mooncake with Egg Yolk",
-            "image": "./asset-trungthu/banh/banh-trung-thu-hinh-meo.png"
+            "name": "Thập Cẩm Chay",
+            "namee": "Vegetarian Assorted Delights",
+            "type": "Bánh Chay",
+            "typee": "Chay Mooncake with Egg Yolk"
         },
         {
             "idb": 41,
             "type": "daumua",
             "stt": 0,
-            "name": "Set Thu Thanh Tân 1",
+            "name": "Set Như Ý 1",
             "namee": "Pure Tranquility of Autumn 1",
             "price": 900000,
             "value": [
                 "single_type1_1_250",
                 "single_type1_2_250",
-                "single_type2_10_250",
-                "single_type4_18_250"
+                "single_type4_18_250",
+                "single_type2_10_250"
             ],
-            "image": "./asset_2025/combo/combo-daumua.jpg",
-            "content": "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
+            "bonus": [],
+            "image": "./asset_2026/hop_nhu_y.png",
+            "content": "Đong đầy phúc lộc, trọn vẹn tình thân. Hộp quà Như Ý thay lời chúc vạn sự cát tường, gửi gắm yêu thương qua hương vị tinh tế."
         },
         {
             "idb": 42,
             "type": "daumua",
             "stt": 1,
-            "name": "Set Thu Thanh Tân 2",
+            "name": "Set Như Ý 2",
             "namee": "Pure Tranquility of Autumn 2",
-            "price": 980000,
+            "price": 990000,
             "value": [
-               "single_type1_1_250",
-                "single_type1_3_250",
+                "single_type1_1_250",
+                "single_type1_4_250",
                 "single_type2_9_250",
                 "single_type2_8_250"
             ],
-            "image": "./asset_2025/combo/combo-daumua.jpg",
-            "content": "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
+            "bonus": [],
+            "image": "./asset_2026/hop_nhu_y.png",
+            "content": "Đong đầy phúc lộc, trọn vẹn tình thân. Hộp quà Như Ý thay lời chúc vạn sự cát tường, gửi gắm yêu thương qua hương vị tinh tế."
         },
         {
             "idb": 43,
             "type": "daumua",
             "stt": 2,
-            "idc": 3,
-            "name": "Set Thu Thanh Tân 3",
+            "name": "Set Như Ý 3",
             "namee": "Pure Tranquility of Autumn 3",
-            "price": 1070000,
+            "price": 1110000,
             "value": [
-                  "single_type1_2_250",
-                "single_type1_4_250",
-                "single_type3_15_250",
-                "single_type2_11_250"
+                "single_type1_2_250",
+                "single_type1_3_250",
+                "single_type3_16_250",
+                "single_type2_12_250"
             ],
-            "image": "./asset_2025/combo/combo-daumua.jpg",
-            "content": "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
+            "bonus": [],
+            "image": "./asset_2026/hop_nhu_y.png",
+            "content": "Đong đầy phúc lộc, trọn vẹn tình thân. Hộp quà Như Ý thay lời chúc vạn sự cát tường, gửi gắm yêu thương qua hương vị tinh tế."
         },
         {
             "idb": 44,
             "type": "daumua",
             "stt": 3,
-            "name": "Set Thu Thanh Tân 4",
+            "name": "Set Như Ý 4",
             "namee": "Pure Tranquility of Autumn 4",
-            "price": 1210000,
+            "price": 1200000,
             "value": [
-                   "single_type1_3_250",
-                "single_type1_7_250",
-                "single_type2_13_250",
-                "single_type2_12_250"
+                "single_type1_4_250",
+                "single_type1_5_250",
+                "single_type3_15_250",
+                "single_type2_14_250"
             ],
-            "image": "./asset_2025/combo/combo-daumua.jpg",
-            "content": "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!"
+            "bonus": [],
+            "image": "./asset_2026/hop_nhu_y.png",
+            "content": "Đong đầy phúc lộc, trọn vẹn tình thân. Hộp quà Như Ý thay lời chúc vạn sự cát tường, gửi gắm yêu thương qua hương vị tinh tế."
         },
         {
             "idb": 45,
@@ -915,45 +1050,69 @@
             "idb": 46,
             "type": "thuongtrang",
             "stt": 0,
-            "name": "Set Hội Hoa Thu 1",
-            "namee": "Moonlight Reunion 1",
-            "price": 1530000,
+            "name": "Set Cát Tường 1",
+            "namee": "Autumn Floral Symphony 1",
+            "price": 1490000,
             "value": [
-                 "single_type1_1_250",
+                "single_type1_1_250",
                 "single_type1_2_250",
                 "single_type1_4_250",
-                "single_type3_15_250",
-                "single_type2_10_250",
-                "single_type2_11_250"
+                "single_type3_16_250",
+                "single_type2_8_250",
+                "single_type2_10_250"
             ],
-            "image": "./asset_2025/combo/combo-thuongtrang.jpg",
-            "content": "Rằm tháng Tám, khi trăng treo đỉnh trời cũng là lúc những ánh trăng chiếu xen vào tán lá xanh trong vườn nhà, Hội Hoa Thu gợi ra một đêm trung thu Đoàn Viên ấm áp bên bạn bè và gia đình"
+            "bonus": [],
+            "image": "./asset_2026/hop_cat_tuong.png",
+            "content": "Ánh trăng rạng ngời mang theo điều may mắn. Hộp quà Cát Tường là lời chúc vạn sự cát tường, hạnh phúc an khang đến mọi nhà."
         },
         {
             "idb": 47,
             "type": "thuongtrang",
             "stt": 1,
-            "name": "Set Hội Hoa Thu 2",
-            "namee": "Moonlight Reunion 2",
-            "price": 1650000,
+            "name": "Set Cát Tường 2",
+            "namee": "Autumn Floral Symphony 2",
+            "price": 1640000,
             "value": [
                 "single_type1_2_250",
                 "single_type1_4_250",
-                "single_type1_5_250",
-                "single_type3_17_250",
+                "single_type1_3_250",
+                "single_type2_9_250",
                 "single_type2_12_250",
-                "single_type2_13_250"
+                "single_type2_14_250"
             ],
-            "image": "./asset_2025/combo/combo-thuongtrang.jpg",
-            "content": "Rằm tháng Tám, khi trăng treo đỉnh trời cũng là lúc những ánh trăng chiếu xen vào tán lá xanh trong vườn nhà, Hội Hoa Thu gợi ra một đêm trung thu Đoàn Viên ấm áp bên bạn bè và gia đình"
+            "bonus": [],
+            "image": "./asset_2026/hop_cat_tuong.png",
+            "content": "Ánh trăng rạng ngời mang theo điều may mắn. Hộp quà Cát Tường là lời chúc vạn sự cát tường, hạnh phúc an khang đến mọi nhà."
         },
         {
             "idb": 48,
             "type": "dongday",
             "stt": 0,
-            "name": "Set Thu Phú Ca – Mật Ong",
-            "namee": "Mountains And Rivers Brocade (Ginseng Edition)",
-            "price": 3500000,
+            "name": "Set Viên Mãn – Mật Ong",
+            "namee": "Mountains And Rivers Brocade (Honey Edition)",
+            "price": 3030000,
+            "value": [
+                "single_type1_6_250",
+                "single_type1_7_250",
+                "single_type2_14_250",
+                "single_type2_13_250"
+            ],
+            "bonus": [
+                "Mật Ong Hoa Chôm Chôm 260g",
+                "Mật Ong Hoa Cà Phê 260g",
+                "Tắc Mật Ong Đường Phèn Hũ Thuỷ Tinh 230g",
+                "Gừng Viên Mật Ong Hũ Thuỷ Tinh 100g"
+            ],
+            "image": "./asset_2026/hop_vien_man.png",
+            "content": "Thưởng nguyệt thưởng hoa, tròn đầy hạnh phúc. Combo Viên Mãn mang đến những dòng bánh thượng hạng cùng bộ quà tặng bổ dưỡng, cho tết Đoàn Viên thêm trọn vẹn."
+        },
+        {
+            "idb": 49,
+            "type": "dongday",
+            "stt": 2,
+            "name": "Set Viên Mãn – Yến Sào",
+            "namee": "Mountains And Rivers Brocade (Bird's Nest Edition)",
+            "price": 6600000,
             "value": [
                 "single_type1_6_250",
                 "single_type1_7_250",
@@ -961,240 +1120,382 @@
                 "single_type2_13_250"
             ],
             "bonus": [
-                "2 Gói Trà Ô Long 100g",
-                "Mật Ong Hoa Chôm Chôm 189ML",
-                "Mật Ong Hoa Cà Phê 189ML"
+                "Bộ Trà Ô Long Gói 10g * 10 gói",
+                "Gừng Viên Mật Ong Hũ Thuỷ Tinh 100g",
+                "Yến Sào Khánh Hoà Hộp 50 g"
             ],
-            "image": "./asset_2025/combo/combo-dongday.jpg",
-            "content": "Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Thu Phú Ca là một món quà vẹn tròn cho tết Đoàn Viên."
+            "image": "./asset_2026/hop_vien_man.png",
+            "content": "Thưởng nguyệt thưởng hoa, tròn đầy hạnh phúc. Combo Viên Mãn mang đến những dòng bánh thượng hạng cùng bộ quà tặng bổ dưỡng, cho tết Đoàn Viên thêm trọn vẹn."
         },
         {
-            "idb": 49,
+            "idb": 50,
             "type": "dongday",
             "stt": 1,
-            "name": "Set Thu Phú Ca – Yến Sào",
-            "namee": "Mountains And Rivers Brocade (Bird's Nest Edition)",
-            "price": 6500000,
+            "name": "Set Viên Mãn – Hồng Sâm",
+            "namee": "Mountains And Rivers Brocade (Ginseng Edition)",
+            "price": 4200000,
             "value": [
-                 "single_type1_6_250",
+                "single_type1_6_250",
                 "single_type1_7_250",
                 "single_type2_12_250",
                 "single_type2_13_250"
             ],
             "bonus": [
-                "2 Gói Trà Ô Long 100g",
-                "Yến Sào Khánh Hoà 50g"
+                "Bộ Trà Ô Long Gói 10g * 10 gói",
+                "Tắc Mật Ong Đường Phèn Hũ Thuỷ Tinh 230g",
+                "Gừng Viên Mật Ong Hũ Thuỷ Tinh 100g",
+                "Hồng Sâm Củ Khô Daedong Korea Premium (3 củ) Hộp 37,5g"
             ],
-            "image": "./asset_2025/combo/combo-dongday.jpg",
-            "content": "Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Thu Phú Ca là một món quà vẹn tròn cho tết Đoàn Viên."
-        },
-        {
-            "idb": 50,
-            "type": "dongday",
-            "stt": 2,
-            "name": "Set Thu Phú Ca – Mật Ong",
-            "namee": "Mountains And Rivers Brocade (Honney Edition)",
-            "price": 3100000,
-            "value": [
-                10,
-                12,
-                30,
-                32
-            ],
-            "bonus": [
-                "Lọ Mật Ong Hoa Cà Phê 189ml",
-                "Lọ Mật Ong Hoa Chôm Chôm 189ml",
-                "2 Gói trà Ô Long 100g"
-            ],
-            "image": "./asset_2025/combo/combo-dongday.jpg",
-            "content": "Màu đỏ tượng trưng cho niềm vui và hạnh phúc, gửi tới gia đình, bạn bè và đối tác. Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Đong Đầy là một món quà vẹn tròn cho tết Đoàn Viên."
+            "image": "./asset_2026/hop_vien_man.png",
+            "content": "Thưởng nguyệt thưởng hoa, tròn đầy hạnh phúc. Combo Viên Mãn mang đến những dòng bánh thượng hạng cùng bộ quà tặng bổ dưỡng, cho tết Đoàn Viên thêm trọn vẹn."
         },
         {
             "idb": 51,
             "type": "hop",
             "stt": 1,
-            "name": "Mẫu Hộp 4 Bánh Đầu Mùa",
+            "name": "Mẫu Hộp 4 Bánh Như Ý",
             "namee": "",
             "price": 111111,
             "value": [
                 "H4B"
             ],
             "bonus": [],
-            "image": "./asset-trungthu/loaihop/41-rbg.png",
+            "image": "./asset_2026/hop_nhu_y.png",
             "content": ""
         },
         {
             "idb": 52,
             "type": "hop",
             "stt": 1,
-            "name": "Mẫu Hộp 6 Bánh Đầu Mùa",
+            "name": "Mẫu Hộp 6 Bánh Cát Tường",
             "namee": "",
             "price": 111111,
             "value": [
                 "H6B"
             ],
             "bonus": [],
-            "image": "./asset-trungthu/loaihop/61-rbg.png",
+            "image": "./asset_2026/hop_cat_tuong.png",
             "content": ""
         },
         {
             "idb": 53,
             "type": "hop",
             "stt": 1,
-            "name": "Mẫu Hộp VIP",
+            "name": "Mẫu Hộp Bánh Viên Mãn",
             "namee": "",
             "price": 111111,
             "value": [
                 "HVIP"
             ],
             "bonus": [],
-            "image": "./asset-trungthu/loaihop/v1-rbg.png",
+            "image": "./asset_2026/hop_vien_man.png",
             "content": ""
+        },
+        {
+            "idb": 54,
+            "info": [
+                "1C",
+                150000
+            ],
+            "name": "Thập Cẩm 2 Trứng",
+            "namee": "Assorted Delights",
+            "type": "Bánh 150g",
+            "typee": "150g Mooncakes"
+        },
+        {
+            "idb": 55,
+            "info": [
+                "2C",
+                120000
+            ],
+            "name": "Khoai Môn Chay",
+            "namee": "Vegetarian Taro Mooncake",
+            "type": "Bánh 150g",
+            "typee": "150g Mooncakes"
+        },
+        {
+            "idb": 56,
+            "info": [
+                "3C",
+                160000
+            ],
+            "name": "Thập Cẩm Gà Quay 2 Trứng",
+            "namee": "Roasted Chicken",
+            "type": "Bánh 150g",
+            "typee": "150g Mooncakes"
+        },
+        {
+            "idb": 57,
+            "info": [
+                "5C",
+                180000
+            ],
+            "name": "Thập Cẩm Ngũ Nhân 2 Trứng",
+            "namee": "Mixed Five Kernels",
+            "type": "Bánh 150g",
+            "typee": "150g Mooncakes"
+        },
+        {
+            "idb": 58,
+            "info": [
+                "9C",
+                190000
+            ],
+            "name": "Tom Yum Hải Sản 2 Trứng",
+            "namee": "Tom Yum Seafood",
+            "type": "Bánh 150g",
+            "typee": "150g Mooncakes"
+        },
+        {
+            "idb": 59,
+            "info": [
+                "12C",
+                170000
+            ],
+            "name": "Tiramisu",
+            "namee": "Tiramisu",
+            "type": "Bánh 150g",
+            "typee": "150g Mooncakes"
+        },
+        {
+            "idb": 60,
+            "info": [
+                "30C",
+                160000
+            ],
+            "name": "Hạt Sen Trà Xanh Hạt Chia",
+            "namee": "Lotus Seed, Green Tea and Chia Seed",
+            "type": "Bánh 150g",
+            "typee": "150g Mooncakes"
+        },
+        {
+            "idb": 61,
+            "info": [
+                "42C",
+                130000
+            ],
+            "name": "Khoai Môn 2 Trứng",
+            "namee": "Taro",
+            "type": "Bánh 150g",
+            "typee": "150g Mooncakes"
+        },
+        {
+            "idb": 62,
+            "info": [
+                "48C",
+                140000
+            ],
+            "name": "Sầu Riêng 6 Ri 2 Trứng",
+            "namee": "6 Ri Durian",
+            "type": "Bánh 150g",
+            "typee": "150g Mooncakes"
+        },
+        {
+            "idb": 63,
+            "info": [
+                "52C",
+                120000
+            ],
+            "name": "Đậu Xanh 2 Trứng",
+            "namee": "Mung Bean",
+            "type": "Bánh 150g",
+            "typee": "150g Mooncakes"
+        },
+        {
+            "idb": 64,
+            "info": [
+                "68C",
+                160000
+            ],
+            "name": "Espresso Kim Sa Lava",
+            "namee": "Golden Lava Espresso",
+            "type": "Bánh 150g",
+            "typee": "150g Mooncakes"
+        },
+        {
+            "idb": 65,
+            "info": [
+                "70C",
+                160000
+            ],
+            "name": "Long Nhãn Rượu Vang 2 Trứng",
+            "namee": "Longan and Wine",
+            "type": "Bánh 150g",
+            "typee": "150g Mooncakes"
+        },
+        {
+            "idb": 66,
+            "info": [
+                "74C",
+                160000
+            ],
+            "name": "Mocha Hazelnut 2 Trứng",
+            "namee": "Mocha Hazelnut",
+            "type": "Bánh 150g",
+            "typee": "150g Mooncakes"
         }
     ],
-
     "combo": {
         "daumua": {
-            "name": "Combo Thu Thanh Tân",
-            "content": "Lấy hình ảnh trăng non làm nguồn cảm hứng, hộp Thu Thanh Tân khắc họa màu vàng mềm mại của ánh trăng, như một lời nhắc nhở nhẹ nhàng: Một mùa trăng nữa sắp về!",
+            "name": "Combo Như Ý",
+            "content": "Đong đầy phúc lộc, trọn vẹn tình thân. Hộp quà Như Ý thay lời chúc vạn sự cát tường, gửi gắm yêu thương qua hương vị tinh tế.",
             "value": [
                 {
                     "idc": 41,
-                    "name": "Thu Thanh Tân 1",
+                    "name": "Set Như Ý 1",
                     "namee": "Pure Tranquility of Autumn 1",
                     "price": 900000,
                     "value": [
                         2,
                         4,
-                        22,
-                        34
+                        36,
+                        20
                     ]
                 },
                 {
                     "idc": 42,
-                    "name": "Thu Thanh Tân 2",
+                    "name": "Set Như Ý 2",
                     "namee": "Pure Tranquility of Autumn 2",
-                    "price": 980000,
+                    "price": 990000,
                     "value": [
                         2,
-                        4,
-                        32,
-                        18
+                        8,
+                        18,
+                        16
                     ]
                 },
                 {
                     "idc": 43,
-                    "name": "Thu Thanh Tân 3",
+                    "name": "Set Như Ý 3",
                     "namee": "Pure Tranquility of Autumn 3",
-                    "price": 1070000,
+                    "price": 1110000,
                     "value": [
                         4,
-                        14,
-                        16,
-                        18
+                        6,
+                        32,
+                        24
                     ]
                 },
                 {
                     "idc": 44,
-                    "name": "Thu Thanh Tân 4",
+                    "name": "Set Như Ý 4",
                     "namee": "Pure Tranquility of Autumn 4",
-                    "price": 1210000,
+                    "price": 1200000,
                     "value": [
-                        12,
-                        14,
-                        28,
-                        20
+                        8,
+                        10,
+                        30,
+                        28
                     ]
                 }
             ]
         },
         "thuongtrang": {
-            "name": "Combo Hội Hoa Thu",
-            "content": "Rằm tháng Tám, khi trăng treo đỉnh trời cũng là lúc những ánh trăng chiếu xen vào tán lá xanh trong vườn nhà, Hội Hoa Thu gợi ra một đêm trung thu Đoàn Viên ấm áp bên bạn bè và gia đình",
+            "name": "Combo Cát Tường",
+            "content": "Ánh trăng rạng ngời mang theo điều may mắn. Hộp quà Cát Tường là lời chúc vạn sự cát tường, hạnh phúc an khang đến mọi nhà.",
             "value": [
                 {
                     "idc": 46,
-                    "name": "Hội Hoa Thu 1",
+                    "name": "Set Cát Tường 1",
                     "namee": "Autumn Floral Symphony 1",
-                    "price": 1510000,
+                    "price": 1490000,
                     "value": [
                         2,
                         4,
-                        6,
+                        8,
                         32,
-                        18,
-                        24
+                        16,
+                        20
                     ]
                 },
                 {
                     "idc": 47,
-                    "name": "Hội Hoa Thu 2",
+                    "name": "Set Cát Tường 2",
                     "namee": "Autumn Floral Symphony 2",
-                    "price": 1600000,
+                    "price": 1640000,
                     "value": [
                         4,
+                        8,
                         6,
-                        10,
-                        16,
-                        26,
-                        30
+                        18,
+                        24,
+                        28
                     ]
                 }
             ]
         },
         "dongday": {
-            "type": "Combo Thu Phú Ca",
-            "content": "Với 4 bánh thượng hạng, kết hợp cùng đặc sản trà Ô Long với những món quà tốt cho sức khỏe, Thu Phú Ca là một món quà vẹn tròn cho tết Đoàn Viên.",
-            "name": "Combo Thu Phú Ca",
+            "type": "Combo Viên Mãn",
+            "name": "Combo Viên Mãn",
+            "content": "Thưởng nguyệt thưởng hoa, tròn đầy hạnh phúc. Combo Viên Mãn mang đến những dòng bánh thượng hạng cùng bộ quà tặng bổ dưỡng, cho tết Đoàn Viên thêm trọn vẹn.",
             "value": [
                 {
                     "idc": 48,
-                    "name": "Thu Phú Ca – Mật Ong",
-                    "namee": "Autumn Song of Abundance (Bird's Nest Edition)",
-                    "price": 3000000,
+                    "name": "Set Viên Mãn – Mật Ong",
+                    "namee": "Mountains And Rivers Brocade (Honey Edition)",
+                    "price": 3030000,
                     "value": [
-                        10,
                         12,
-                        30,
-                        32
+                        14,
+                        28,
+                        26
                     ],
                     "bonus": [
-                        "2 Gói Trà Ô Long 100g",
-                        "Mật Ong Hoa Chôm Chôm 189ML",
-                        "Mật Ong Hoa Cà Phê 189ML"
+                        "Mật Ong Hoa Chôm Chôm 260g",
+                        "Mật Ong Hoa Cà Phê 260g",
+                        "Tắc Mật Ong Đường Phèn Hũ Thuỷ Tinh 230g",
+                        "Gừng Viên Mật Ong Hũ Thuỷ Tinh 100g"
                     ]
                 },
                 {
                     "idc": 49,
-                    "name": "Thu Phú Ca – Yến Sào",
-                    "namee": "Autumn Song of Abundance (Bird's Nest Edition)",
-                    "price": 6500000,
+                    "name": "Set Viên Mãn – Yến Sào",
+                    "namee": "Mountains And Rivers Brocade (Bird's Nest Edition)",
+                    "price": 6600000,
                     "value": [
-                        10,
                         12,
-                        30,
-                        32
+                        14,
+                        24,
+                        26
                     ],
                     "bonus": [
-                        "Yến Sào Khánh Hoà 50g",
-                        "2 Gói Trà Ô Long 100g"
+                        "Bộ Trà Ô Long Gói 10g * 10 gói",
+                        "Gừng Viên Mật Ong Hũ Thuỷ Tinh 100g",
+                        "Yến Sào Khánh Hoà Hộp 50 g"
+                    ]
+                },
+                {
+                    "idc": 50,
+                    "name": "Set Viên Mãn – Hồng Sâm",
+                    "namee": "Mountains And Rivers Brocade (Ginseng Edition)",
+                    "price": 4200000,
+                    "value": [
+                        12,
+                        14,
+                        24,
+                        26
+                    ],
+                    "bonus": [
+                        "Bộ Trà Ô Long Gói 10g * 10 gói",
+                        "Tắc Mật Ong Đường Phèn Hũ Thuỷ Tinh 230g",
+                        "Gừng Viên Mật Ong Hũ Thuỷ Tinh 100g",
+                        "Hồng Sâm Củ Khô Daedong Korea Premium (3 củ) Hộp 37,5g"
                     ]
                 }
             ]
         }
     },
-
     "box": {
         "daumua": {
-            "name": "Mẫu Hộp 4 Bánh Đầu Mùa",
+            "name": "Mẫu Hộp 4 Bánh Như Ý",
             "des": "Quý khách hàng có thể lựa chọn 4 bánh tuỳ thích hoặc lựa chọn 4 combo bánh trung thu `Đầu Mùa` để vào hộp này."
         },
         "dongday": {
-            "name": "Mẫu Hộp Bánh Đong Đầy",
+            "name": "Mẫu Hộp Bánh Viên Mãn",
             "des": "Hộp vuông sang trọng, hộp dành riêng cho combo VIP Mật ong, Yến Sào và Nấm xích linh chi."
         },
         "thuongtrang": {
-            "name": "Hộp Brodard 6 bánh THƯỞNG TRĂNG",
+            "name": "Mẫu Hộp 6 Bánh Cát Tường",
             "des": "Quý khách hàng có thể lựa chọn 6 bánh tuỳ thích hoặc lựa chọn 2 combo Thưởng Trăng."
         },
         "dasac": {
@@ -1206,7 +1507,6 @@
             "des": "Quý khách hàng có thể lựa chọn n bánh tuỳ thích."
         }
     },
-
     "content": [
         "Một mùa trăng nữa lại về. Mùa trăng có lẽ là mùa ngọt ngào nhất trong năm,bởi trăng về là kêu gọi tuổi thơ về cùng với lồng đèn. truyện cổ tích ,cùng bánh trung thu trên mâm cô tròn đầy",
         "Mỗi năm trăng về vào rằm tháng Tám, tức tháng Ghín Dương Lịch, cũng là lúc đất trời rực rỡ với hoa tam giác mạch ở Hà Giang,cúc hoạ mỉ ở Hà Nội. hoa dã quỳ ở Đà Lạt và về đến cä hoa súng Đồng Tháp. Vậy nên Brodard chọn Mùa Hoa Thu làm chủ đề chính cho BST bánh Trung Thu 2023. mong muốn khi trăng về đúng mùa hoa nở ngọt ngào nhất sẽ cho một tết Đoàn Viên trọn vẹn nhất.",

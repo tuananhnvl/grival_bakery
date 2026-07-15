@@ -48,11 +48,11 @@ export default function CartPage() {
       const updatedProducts = { "banhle": [], "combo": [], "hop" : [] };
 
       uniqueProducts.forEach((num) => {
-        if (num < 41) {
+        if (num < 41 || (num >= 54 && num <= 66)) {
           updatedProducts.banhle.push(num);
-        } else if(num > 41 && num < 50){
+        } else if (num >= 41 && num < 51) {
           updatedProducts.combo.push(num);
-        } else if(num > 50){
+        } else if (num >= 51 && num < 54) {
           updatedProducts.hop.push(num);
         }
       });
@@ -89,7 +89,7 @@ export default function CartPage() {
   let total = 0;
   let setPrice = 0
   for (const productId of cartProducts) {
-    if (productId > 40) {
+    if (productId >= 41 && productId < 54) {
       setPrice = data.code.find(p => (p.idb) === productId)?.price || 0;
     } else {
       setPrice = data.code.find(p => (p.idb) === productId)?.info[1] || 0;

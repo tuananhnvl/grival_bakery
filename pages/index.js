@@ -30,7 +30,7 @@ export default function HomePage() {
     <main style={{backgroundColor:'#d5e4dd'}}>
       <Head>
         
-        <title>Trang chủ - Bánh trung thu Brodard 2023</title>
+        <title>Trang chủ - Bánh trung thu Brodard 2026</title>
         <meta
           name="description"
           content="Nhà phân phối bánh trung thu Brodard tại Sài Gòn || Since 1991"
@@ -51,7 +51,7 @@ export default function HomePage() {
      {/*  <button id="btn-scrollTo" onClick={() => scrollToTarget('toppage')} >^</button> */}
       <div className={styles.banner} id="toppage">
           <div className={styles.bgbanner}>
-            <Image src={'/asset_2025/banner.jpg'} alt="Banh Trung Thu Brodard 2023"   width={0} height={0} style={{ width: '100%', height: 'auto' }} />
+            <Image src={'/asset_2026/banner.png'} alt="Banh Trung Thu Brodard 2023"   width={0} height={0} style={{ width: '100%', height: 'auto' }} />
           </div>
 
 <br></br>
