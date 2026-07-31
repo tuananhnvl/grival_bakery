@@ -40,7 +40,7 @@ export default function BanhLe() {
         <BanhNhanNgot data={data.single[1].type2} />
         <BanhNhanNgotKo data={data.single[2].type3} />
         <BanhChay data={data.single[3].type4} />
-        <Banh150 data={data.single[4].type6} />
+
         {/*  <BanhMini data={data.single[5].type5} /> */}
       </div>
     </>
